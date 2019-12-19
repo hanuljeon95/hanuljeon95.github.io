@@ -65,8 +65,6 @@ $$G(a) = \begin{cases} F(a) & \text{if $a\in X$,} \\ \varnothing & \text{otherwi
 
 $$\forall X (\forall x\in X\exists y \phi(x,y) \to \forall x\in X\exists y\in Y \phi(x,y)).$$
 
-Collection이란 이름에서 알 수 있듯, 
-
 
 Collection을 이용하면 치환공리를 증명할 수 있다. 증명 자체도 어렵지 않다. 놀랍게도, 역도 성립한다. 치환공리만 가지고도 Collection을 증명할 수 있다. 이 증명에는 정칙성 공리를 사용하며, 정칙성 공리를 사용하지 않는 증명이 있는 지는 잘 모르겠다.
 
