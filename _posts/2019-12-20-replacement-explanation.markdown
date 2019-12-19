@@ -65,6 +65,8 @@ $$G(a) = \begin{cases} F(a) & \text{if $a\in X$,} \\ \varnothing & \text{otherwi
 
 $$\forall X (\forall x\in X\exists y \phi(x,y) \to \forall x\in X\exists y\in Y \phi(x,y)).$$
 
+조금 informal한 용어를 빌려서 Collection을 다시 서술하자면 이렇다: $\langle \Phi_x \mid x\in X\rangle$를 class들의 족이라 하자. (즉, 각 $\Phi_x$가 class이다.) 이 때 집합족 $\langle \tilde{\Phi}_x \mid x\in X\rangle$이 존재해서 임의의 $x$에 대해 $\tilde{\Phi}_x\subset \Phi_x$을 만족한다.
+작은 크기의 class족이 있을 때 이를 집합 크기 정도로 줄일 수 있다는 주장이라 해도 큰 무리는 없을 것이다.
 
 Collection을 이용하면 치환공리를 증명할 수 있다. 증명 자체도 어렵지 않다. 놀랍게도, 역도 성립한다. 치환공리만 가지고도 Collection을 증명할 수 있다. 이 증명에는 정칙성 공리를 사용하며, 정칙성 공리를 사용하지 않는 증명이 있는 지는 잘 모르겠다.
 
