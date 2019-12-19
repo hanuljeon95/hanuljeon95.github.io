@@ -4,7 +4,7 @@ mathjax: true
 comments: true
 title:  "Test for MathJax"
 date:   2019-12-20 01:16:00 +0900
-categories: mathematics
+categories: test
 ---
 
 This post is for testing MathJax formulas.
