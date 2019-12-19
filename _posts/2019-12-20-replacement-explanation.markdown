@@ -81,7 +81,7 @@ Collection을 이용하면 치환공리를 증명할 수 있다. 증명 자체�
 
 증명. 만약 그렇다고 가정하자. $\phi_1$, $\cdots$, $\phi_n$가 ZF를 공리화한다고 가정하자. 반영 원리에 의해, 어떤 $\alpha$가 있어 $V_\alpha\models \phi_1\land \cdots \phi_n$이다. 
 
-이제 $\alpha$를 $V_\alpha\models \phi_1\land \cdots \phi_n$를 만족하는 제일 작은 서수라 하자. 그러면 $V_\alpha$ 위에서의 반영 원리에 의해, 어떤 서수 $\beta\in V_\alpha$가 있어 $V_\beta\models \phi_1\land\cdots\land \phi_n$이다. 특히, 이 때 $\beta<\alpha$여야 한다. 이는 $\alpha$가 제일 작다는 가정에 모순된다.
+이제 $\alpha$를 $V_\alpha\models \phi_1\land \cdots\land  \phi_n$를 만족하는 제일 작은 서수라 하자. 그러면 $V_\alpha$ 위에서의 반영 원리에 의해, 어떤 서수 $\beta\in V_\alpha$가 있어 $V_\beta\models \phi_1\land\cdots\land \phi_n$이다. 특히, 이 때 $\beta<\alpha$여야 한다. 이는 $\alpha$가 제일 작다는 가정에 모순된다.
 
 Reference
 ---
