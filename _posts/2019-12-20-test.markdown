@@ -9,5 +9,6 @@ categories: mathematics
 
 This post is for testing MathJax formulas.
 $\mathbb{B}$ \\(\mathbb{P}\\)
-$$\mathsf{ZFC} \nvdash \mathsf{CH}$$
+
+$$ \mathsf{ZFC} \nvdash \mathsf{CH} $$
 \\[ 2^{\aleph_\omega} \le \aleph_{\omega_4} \\]
