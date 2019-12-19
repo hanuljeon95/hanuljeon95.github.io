@@ -20,8 +20,8 @@
 
 title: Hanul Jeon
 email: hanuljeon95@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome! I am Hanul Jeon. I am currently a master's student of Seoul National University.
+# description: >- # this means to ignore newlines until "baseurl:"
+#   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hanuljeon95
