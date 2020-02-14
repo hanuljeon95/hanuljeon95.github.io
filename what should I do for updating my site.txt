@@ -1,0 +1,10 @@
+# STEP 1 (github 내용을 덮어씌움)
+# git pull https://github.com/hanuljeon95/hanuljeon95.github.io.git master
+
+# STEP 2 (로컬 저장소의 내용을 github에 올림)
+# git add -A
+# git commit -m '커밋 메세지'
+# git push origin master
+
+# Markdown language
+# https://guides.github.com/features/mastering-markdown/
