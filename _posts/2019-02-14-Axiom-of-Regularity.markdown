@@ -5,6 +5,7 @@ comments: true
 title:  "Axiom of Regularity ― an introduction"
 date:   2020-02-14 23:00:00 +0900
 categories: Set theory, 집합론
+hidden: true
 ---
 
 Beginners of axiomatic set theory encounter a list of ten axioms of Zermelo-Fraenkel set theory (in fact, infinitely many axioms: Separation and Replacement are in fact not merely a single axiom, but a schema of axioms depending on a formula parameter, but it does not matter in this post.) Most of the axioms have a clear meaning: for example, Axiom of Pairing states we can find an unordered pair $\{a,b\}$ of $a$ and $b$, and Axiom of Union states we can find a union $\bigcup A$ of a set of sets $A$.
