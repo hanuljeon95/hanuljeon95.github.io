@@ -92,10 +92,11 @@ Since $\prec$ is well-founded, the set $\\{x\in X \mid \lnot\phi(x)\\}$ has a $\
 We sometimes define a function on natural numbers and ordinals *recursively*. The nature of recursion of them heavily relies on the induction principle over $\mathbb{N}$ and ordinals.
 Since well-founded relations allows its own induction, we might expect it allows recursion, and this is true. I will state it without any proof:
 
-> **Theorem.** (Well-founded recursion) Let $G:V\to V$ be a class function and $(X,\prec)$ be a well-founded class such that $ \operatorname{ext}_\prec(x)=\\{y\in X : y\prec x\\}$ is always a set for $x\in X$.
-> Then there is a function $F:X\to V$ such that $F(x) := G(F\upharpoonright \operatorname{ext}_\prec(x))$.
+> **Theorem.** (Well-founded recursion) Let $G:V\to V$ be a class function and $(X,\prec)$ be a well-founded class such that
+$\operatorname{ext}\_\prec(x)=\\{y\in X : y\prec x\\}$ is always a set for $x\in X$.
+Then there is a function $F:X\to V$ such that $F(x) := G(F\upharpoonright \operatorname{ext}\_\prec(x))$.
 
-Some readers might wonder the meaning of $F\upharpoonright \operatorname{ext}_\prec(x))$. Reminding set-theoretic definition of function might be helpful to get its meaning: $F\upharpoonright \operatorname{ext}_\prec(x))$ is a set of all pairings $\langle y, F(y)\rangle$ for all predessors $y$ of $x$. Therefore, we can say $F(x)$ is defined from the value of predecessors of $x$ under $F$.
+Some readers might wonder the meaning of $F\upharpoonright \operatorname{ext}\_\prec(x))$. Reminding set-theoretic definition of function might be helpful to get its meaning: $F\upharpoonright \operatorname{ext}\_\prec(x))$ is a set of all pairings $\langle y, F(y)\rangle$ for all predessors $y$ of $x$. Therefore, we can say $F(x)$ is defined from the value of predecessors of $x$ under $F$.
 
 <!-- Set-theoretic hierarchy -->
 One of important consequence of the axiom of regularity is it provides a hierarchical structure of $V$:
@@ -137,10 +138,10 @@ The technique used in the theorem -- collecting elements of $C(x)$ of least avai
 Unfortunately, $V/\sim$ is ill-formed: each "member" of $V/\sim$ is a proper class, so we cannot collect all of them into a single class. 
 
 Hopefully, we can resolve the problem by applying Scott's trick. Collect the following sets for each $x\in V$ instead of collecting the full equivalence classes:
-\\[ [x]_\sim := \\{y \mid x\sim y \text{ and if $x\sim z$ then $\operatorname{rank} z\le \operatorname{rank} y$ }\\}.\\] $$
+\\[[x]_\sim := \\{y \mid x\sim y \text{ and if $x\sim z$ then $\operatorname{rank} z\le \operatorname{rank} y$ }\\}.\\]
 
-By the same argument used in the previous proof, we can see that $[x]_\sim$ is a set for each set $x$.
-Moreover, every member of $[x]_\sim$ has the same size with $x$, so we can say $[x]_\sim$ "represents" the cardinal of $x$.
+By the same argument used in the previous proof, we can see that $[x]\_\sim$ is a set for each set $x$.
+Moreover, every member of $[x]\_\sim$ has the same size with $x$, so we can say $[x]\_\sim$ "represents" the cardinal of $x$.
 
 Russellian definition of cardinals is useful in choiceless set theory: the usual definition of cardinals -- defining it as initial ordinals -- breaks down if we do not have the axiom of choice. We do not know every set is equipotent with an initial ordinal, so there might be sets whose cardinal is not represented by initial ordinals.
 The Russellian definition does not involve initial ordinals and the axiom of choice, and it forms cardinals from sets directly. Thus this definition works even if we do not have the axiom of choice.
@@ -169,8 +170,5 @@ Von Neumann introduced an axiom in 1925 to exclude some ill-founded sets, but th
 
 [3] Adam Rieger, *Paradox, ZF, and the Axiom of Foundation.*
 
-
-<!-- [4] Asaf's answer -->
-
-
-<!-- Jech, set theory? -->
+[4] Harry Altman, *How can one prove the axiom of collection in ZFC without using the axiom of foundation?*
+(retrived: 2020-03-12 02:56 +0900)
