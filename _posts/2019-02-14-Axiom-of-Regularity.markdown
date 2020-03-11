@@ -46,14 +46,14 @@ Most of the readers ― especially those who have not learned axiomatic set theo
  Fortunately, our axiom of regularity is sufficient to prove this:
 > **Theorem** (ZF) Every non-empty class $C$ has a $\in$-minimal element.
 
-*Proof.* Take any $x\in C$ and consider $y=\{z\in x\mid z\in C\}$. If $y$ is empty, then $x$ is $\in$-minimal element of $C$. If not, then $y$ is not empty and $y$ has a $\in$-minimal element, namely $w$. We can see be definition that $w$ is $\in$-minimal element of $C$.
+*Proof.* Take any $x\in C$ and consider $y=\\{z\in x\mid z\in C\\}$. If $y$ is empty, then $x$ is $\in$-minimal element of $C$. If not, then $y$ is not empty and $y$ has a $\in$-minimal element, namely $w$. We can see be definition that $w$ is $\in$-minimal element of $C$.
 
 ----
 <!-- Consequence : set induction and rank of sets -->
  We formulated well-foundedness by mimicing well-orderedness. Therefore, we could expect well-foundedness resembles well-orderedness. For example, no well-ordered set allows infinitely decreasing chains. We can say the same thing for well-founded sets:
 > **Theorem** Let $\prec$ be a well-founded relation over a set $X$. Then there is no infinite $\prec$-decreasing sequence over $X$; that is, no sequence $\langle x_n\mid n\in\omega\rangle$ over $X$ satisfies $x_0\succ x_1\succ x_2\succ\cdots$.
 
-*Proof.* Let $\langle x_n\mid n\in\omega\rangle$ be an infinite $\prec$-decreasing sequence over $X$. Let $y$ be a $\prec$-minimal element of $\{x_n\mid n\in\omega\}$. Since $y=x_m$ for some $m$ and $x_m\succ x_{m+1}$, we have a contradiction.
+*Proof.* Let $\langle x_n\mid n\in\omega\rangle$ be an infinite $\prec$-decreasing sequence over $X$. Let $y$ be a $\prec$-minimal element of $\\{x_n\mid n\in\omega\\}$. Since $y=x_m$ for some $m$ and $x_m\succ x_{m+1}$, we have a contradiction.
 
  Especially, we have
 > **Corollary** (ZF) There is no $\in$-decreasing sequence; that is, no $\langle x_n\mid n\in\omega\rangle$ satisfies $x_0\ni x_1\ni x_2\ni\cdots$.
@@ -73,7 +73,7 @@ Most of the readers ― especially those who have not learned axiomatic set theo
 (Remark: $X$ need not be a set; hence $X$ can be a proper class. We need to modify the proof slightly, however, to not to assume $X$ be a set. I will leave this modification to the readers.)
 
 *Proof.* Assume the contrary that $\lnot\phi(x)$ holds for some $x\in X$.
-Since $\prec$ is well-founded, the set $\{x\in X \mid \lnot\phi(x)\}$ has a $\prec$-minimal element, say it $a$. We can see that no $b\prec a$ satisfy $\lnot\phi(x)$, so $b\prec a$ implies $\phi(b)$. By the assumption, however, it implies $\phi(a)$, a contradiction.
+Since $\prec$ is well-founded, the set $\\{x\in X \mid \lnot\phi(x)\\}$ has a $\prec$-minimal element, say it $a$. We can see that no $b\prec a$ satisfy $\lnot\phi(x)$, so $b\prec a$ implies $\phi(b)$. By the assumption, however, it implies $\phi(a)$, a contradiction.
 
  Remind that the axiom of regularity states $\in$ is well-founded over $V$. Therefore, we have
 > **Corollary** ($\in$-induction) If $(\forall y\in x \phi(y))\to \phi(x)$ holds for all $x$, then $\phi(x)$ holds for all $x$.
@@ -92,30 +92,30 @@ Since $\prec$ is well-founded, the set $\{x\in X \mid \lnot\phi(x)\}$ has a $\pr
 We sometimes define a function on natural numbers and ordinals *recursively*. The nature of recursion of them heavily relies on the induction principle over $\mathbb{N}$ and ordinals.
 Since well-founded relations allows its own induction, we might expect it allows recursion, and this is true. I will state it without any proof:
 
-> **Theorem.** (Well-founded recursion) Let $G:V\to V$ be a class function and $(X,\prec)$ be a well-founded class such that $\operatorname{ext}_\prec(x)=\{y\in X : y\prec x\}$ is always a set for $x\in X$.
+> **Theorem.** (Well-founded recursion) Let $G:V\to V$ be a class function and $(X,\prec)$ be a well-founded class such that $\operatorname{ext}_\prec(x)=\\{y\in X : y\prec x\\}$ is always a set for $x\in X$.
 > Then there is a function $F:X\to V$ such that $F(x) := G(F\upharpoonright \operatorname{ext}_\prec(x))$.
 
 Some readers might wonder the meaning of $F\upharpoonright \operatorname{ext}_\prec(x))$. Reminding set-theoretic definition of function might be helpful to get its meaning: $F\upharpoonright \operatorname{ext}_\prec(x))$ is a set of all pairings $\langle y, F(y)\rangle$ for all predessors $y$ of $x$. Therefore, we can say $F(x)$ is defined from the value of predecessors of $x$ under $F$.
 
 <!-- Set-theoretic hierarchy -->
 One of important consequence of the axiom of regularity is it provides a hierarchical structure of $V$:
-define the collection $\langle V_\alpha\mid \alpha\in\mathrm{Ord}$ recursively as follows:
+define the collection $\langle V_\alpha\mid \alpha\in\mathrm{Ord}\rangle$ recursively as follows:
 
 * $V_0=\varnothing$,
 * $V_{\alpha+1} = \mathcal{P}(V_\alpha)$ (where $\mathcal{P}(X)$ is a power set of $X$.)
 * $V_\delta = \bigcup_{\alpha<\delta} V_\alpha$ for limit $\delta$.
 
-It is easy to see that $\langle V_\alpha\mid \alpha\in\mathrm{Ord}$ is an increasing family of sets.
+It is easy to see that $\langle V_\alpha\mid \alpha\in\mathrm{Ord}\rangle$ is an increasing family of sets.
 
-We call the union of all $V_\alpha$s a *collection of all pure sets*: elements of the class are called "pure sets" because they are constructed from the empty set, not involving with any peculiar sets (like Quine atoms -- sets satisfying $x=\{x\})$) or urelements -- objects that could be elements but not sets.
+We call the union of all $V_\alpha$s a *collection of all pure sets*: elements of the class are called "pure sets" because they are constructed from the empty set, not involving with any peculiar sets (like Quine atoms -- sets satisfying $x=\\{x\\})$) or urelements -- objects that could be elements but not sets.
 
 Since the axiom of regularity gets rid of these peculiar sets, we may expect the axiom of regularity proves every set is a pure set: that is, $V=\bigcup_{\alpha\in\mathrm{Ord}} V_\alpha$:
 
 > **Theorem.** $V=\bigcup_{\alpha\in\mathrm{Ord}} V_\alpha$. That is, every set is a pure set.
 
 *Proof.* We will prove it by using $\in$-induction we have proved. Assume that every element of $x$ is a member of some $V_\alpha$. For each $y\in x$, associate the ordinal $\alpha_y$ satisfying $y\in V_{\alpha_y}$. It is like to require the axiom of choice in the first glance, but in fact, we can in fact define $\alpha_y$ in a canonical way by letting
-\\[\alpha_y=\min \{\alpha\mid y\in V_\alpha\}.\\]
-Now take $\alpha=\sup\{\alpha_y\mid y\in x\}$. I will claim that $x\in V_{\alpha+1}$: by definition of $\alpha_y$, we have $x\subseteq \bigcup_{y\in x} V_{\alpha_y}\subseteq V_\alpha$. That is, we have $x\subseteq V_\alpha$, and $x\in V_{\alpha+1}$ follows from the definition of $V_{\alpha+1}$.
+\\[\alpha_y=\min \\{\alpha\mid y\in V_\alpha\\}.\\]
+Now take $\alpha=\sup\\{\alpha_y\mid y\in x\\}$. I will claim that $x\in V_{\alpha+1}$: by definition of $\alpha_y$, we have $x\subseteq \bigcup_{y\in x} V_{\alpha_y}\subseteq V_\alpha$. That is, we have $x\subseteq V_\alpha$, and $x\in V_{\alpha+1}$ follows from the definition of $V_{\alpha+1}$.
 
 <!-- Rank of sets -->
 The hierarchical structure of $V$ allows us to impose a *rank* of sets: every set appears in some $V_\alpha$ as the hierarchy grows up, and some sets do not appear before to develop the hierarchy enough. This "how much" can be used to measure the complexity of sets.
@@ -126,18 +126,18 @@ It is not hard to check that $\operatorname{rank} \alpha=\alpha$ for all ordinal
 <!-- Axiom of collection -->
 We can make use of the hierarchical aspects of the universe to strenghten the axiom of replacement: 
 
-> **Theorem.** Let $C(x)$ be a class indexed by $x\in A$ for some set $A$. If $C(x)$ is not empty for each $x\in X$, then there is a  family of non-empty sets $\{\hat{C}(x) \mid x\in X\}$ such that $\hat{C}(x)\subseteq C(x)$.
+> **Theorem.** Let $C(x)$ be a class indexed by $x\in A$ for some set $A$. If $C(x)$ is not empty for each $x\in X$, then there is a  family of non-empty sets $\\{\hat{C}(x) \mid x\in X\\}$ such that $\hat{C}(x)\subseteq C(x)$.
 
 *Proof.* For each $x\in X$, define $\alpha_x$ by
-\\[\alpha_x := \min \{\alpha \mid C(x)\cap V_\alpha\neq\varnothing\}.\\]
-Now define $\hat{C}(x):= V_{\alpha_x}\cap C(x)$. We can see that $\{\hat{C}(x)\mid x\in X\}$ is a desired family of sets.
+\\[\alpha_x := \min \\{\alpha \mid C(x)\cap V_\alpha\neq\varnothing\\}.\\]
+Now define $\hat{C}(x):= V_{\alpha_x}\cap C(x)$. We can see that $\\{\hat{C}(x)\mid x\in X\\}$ is a desired family of sets.
 
 The technique used in the theorem -- collecting elements of $C(x)$ of least available rank -- is called *Scott's trick*: we apply it to reduce collection of classes to a collection of sets.
  For example, consider the Russellian definition of cardinals: define $a\sim b$ if and only if there is a bijection between $a$ and $b$. Hence we define cardinals as members of $V/\sim$; that is, cardinals are equivalence class up to the equipotency relation $\sim$.
 Unfortunately, $V/\sim$ is ill-formed: each "member" of $V/\sim$ is a proper class, so we cannot collect all of them into a single class. 
 
 Hopefully, we can resolve the problem by applying Scott's trick. Collect the following sets for each $x\in V$ instead of collecting the full equivalence classes:
-\\[[x]_\sim := \{y \mid x\sim y \text{ and if $x\sim z$ then $\operatorname{rank} z\le \operatorname{rank} y$}\}.\\]
+\\[[x]_\sim := \\{y \mid x\sim y \text{ and if $x\sim z$ then $\operatorname{rank} z\le \operatorname{rank} y$}\\}.\\]
 
 By the same argument used in the previous proof, we can see that $[x]_\sim$ is a set for each set $x$. Moreover, every member of $[x]_\sim$ has the same size with $x$, so we can say $[x]_\sim$ "represents" the cardinal of $x$.
 
