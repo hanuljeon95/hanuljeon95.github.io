@@ -100,7 +100,7 @@ Some readers might wonder the meaning of $F\upharpoonright \operatorname{ext}\_\
 
 ----
 <!-- Set-theoretic hierarchy -->
-One of important consequence of the axiom of regularity is it provides a hierarchical structure of $V$:
+One of an important consequence of the axiom of regularity is it provides a hierarchical structure of $V$:
 define the collection $\langle V_\alpha\mid \alpha\in\mathrm{Ord}\rangle$ recursively as follows:
 
 * $V_0=\varnothing$,
