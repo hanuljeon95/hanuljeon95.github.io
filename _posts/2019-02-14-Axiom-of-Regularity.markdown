@@ -138,6 +138,7 @@ Unfortunately, $V/\sim$ is ill-formed: each "member" of $V/\sim$ is a proper cla
 
 Hopefully, we can resolve the problem by applying Scott's trick. Collect the following sets for each $x\in V$ instead of collecting the full equivalence classes:
 $$[x]_\sim := \{y \mid x\sim y \text{ and if $x\sim z$ then $\operatorname{rank} z\le \operatorname{rank} y$}\}.$$
+
 By the same argument used in the previous proof, we can see that $[x]_\sim$ is a set for each set $x$. Moreover, every member of $[x]_\sim$ has the same size with $x$, so we can say $[x]_\sim$ "represents" the cardinal of $x$.
 
 Russellian definition of cardinals is useful in choiceless set theory: the usual definition of cardinals -- defining it as initial ordinals -- breaks down if we do not have the axiom of choice. We do not know every set is equipotent with an initial ordinal, so there might be sets whose cardinal is not represented by initial ordinals.
@@ -165,7 +166,7 @@ Von Neumann introduced an axiom in 1925 to exclude some ill-founded sets, but th
 
 [2] Penelope Maddy, *Believing the axioms I*.
 
-[3] Adam Rieger, *Paradox, ZF, and the Axiom of Foundation∗
+[3] Adam Rieger, *Paradox, ZF, and the Axiom of Foundation∗.
 
 
 <!-- [4] Asaf's answer -->
