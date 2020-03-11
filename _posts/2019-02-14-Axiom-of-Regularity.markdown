@@ -170,5 +170,5 @@ Von Neumann introduced an axiom in 1925 to exclude some ill-founded sets, but th
 
 [3] Adam Rieger, *Paradox, ZF, and the Axiom of Foundation.*
 
-[4] Harry Altman, *How can one prove the axiom of collection in ZFC without using the axiom of foundation?*
+[4] Harry Altman, *How can one prove the axiom of collection in ZFC without using the axiom of foundation?* URL: https://math.stackexchange.com/q/1619182.
 (retrived: 2020-03-12 02:56 +0900)
