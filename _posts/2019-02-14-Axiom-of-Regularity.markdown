@@ -15,7 +15,6 @@ published: true
 > For each non-empty set $x$, there is $y\in x$ such that $x\cap y=\varnothing$.
 
 Most of the readers -- especially those who have not learned axiomatic set theory -- have not seen this strange axiom. It has no non-trivial application to usual mathematics. Moreover, the usual mathematics seems like neutral to this axiom: accepting or denying the axiom does not change almost all of the usual mathematics.
-
  As a result, this unfortunate axiom is fallen into an abyss of oblivion as Blass mentioned in [1] by
 > (...) the axiom of regularity has suffered an even worse fate than the axiom of choice; people don't deny the axiom of regularity, they just ignore it.
 
