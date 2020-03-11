@@ -165,8 +165,8 @@ Von Neumann introduced an axiom in 1925 to exclude some ill-founded sets, but th
 
 [2] Penelope Maddy, *Believing the axioms I*.
 
-[3] Paradox, ZF, and the Axiom of Foundation∗
-Adam Rieger
+[3] Adam Rieger, *Paradox, ZF, and the Axiom of Foundation∗
+
 
 <!-- [4] Asaf's answer -->
 
