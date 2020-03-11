@@ -48,7 +48,6 @@ Most of the readers ― especially those who have not learned axiomatic set theo
 
 *Proof.* Take any $x\in C$ and consider $y=\\{z\in x\mid z\in C\\}$. If $y$ is empty, then $x$ is $\in$-minimal element of $C$. If not, then $y$ is not empty and $y$ has a $\in$-minimal element, namely $w$. We can see be definition that $w$ is $\in$-minimal element of $C$.
 
-----
 <!-- Consequence : set induction and rank of sets -->
  We formulated well-foundedness by mimicing well-orderedness. Therefore, we could expect well-foundedness resembles well-orderedness. For example, no well-ordered set allows infinitely decreasing chains. We can say the same thing for well-founded sets:
 > **Theorem** Let $\prec$ be a well-founded relation over a set $X$. Then there is no infinite $\prec$-decreasing sequence over $X$; that is, no sequence $\langle x_n\mid n\in\omega\rangle$ over $X$ satisfies $x_0\succ x_1\succ x_2\succ\cdots$.
@@ -126,7 +125,6 @@ The hierarchical structure of $V$ allows us to impose a *rank* of sets: every se
 
 It is not hard to check that $\operatorname{rank} \alpha=\alpha$ for all ordinal $\alpha$.
 
-----
 <!-- Axiom of collection -->
 We can make use of the hierarchical aspects of the universe to strenghten the axiom of replacement: 
 
