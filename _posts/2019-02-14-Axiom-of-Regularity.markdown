@@ -94,9 +94,9 @@ Since well-founded relations allows its own induction, we might expect it allows
 
 > **Theorem.** (Well-founded recursion) Let $G:V\to V$ be a class function and $(X,\prec)$ be a well-founded class such that
 $\operatorname{ext}\_\prec(x)=\\{y\in X : y\prec x\\}$ is always a set for $x\in X$.
-Then there is a function $F:X\to V$ such that $F(x) := G(F\upharpoonright \operatorname{ext}\_\prec(x))$.
+Then there is a function $F:X\to V$ such that $F(x) := G(F\upharpoonright \operatorname{ext}\_\prec(x)$.
 
-Some readers might wonder the meaning of $F\upharpoonright \operatorname{ext}\_\prec(x))$. Reminding set-theoretic definition of function might be helpful to get its meaning: $F\upharpoonright \operatorname{ext}\_\prec(x))$ is a set of all pairings $\langle y, F(y)\rangle$ for all predessors $y$ of $x$. Therefore, we can say $F(x)$ is defined from the value of predecessors of $x$ under $F$.
+Some readers might wonder the meaning of $F\upharpoonright \operatorname{ext}\_\prec(x)$. Reminding set-theoretic definition of function might be helpful to get its meaning: $F\upharpoonright \operatorname{ext}\_\prec(x)$ is a set of all pairings $\langle y, F(y)\rangle$ for all predessors $y$ of $x$. Therefore, we can say $F(x)$ is defined from the value of predecessors of $x$ under $F$.
 
 <!-- Set-theoretic hierarchy -->
 One of important consequence of the axiom of regularity is it provides a hierarchical structure of $V$:
