@@ -67,7 +67,7 @@ Most of the readers ― especially those who have not learned axiomatic set theo
 > **Theorem** (Well-founded induction)
 > 
 > Let $(X,\prec)$ be a set with a well-founded relation $\prec$ and assume that
-> $$\forall x\in X [\forall y\in X: y\prec x\to \phi(y)]\to \phi(x)$$
+> \\[\forall x\in X [\forall y\in X: y\prec x\to \phi(y)]\to \phi(x)\\]
 > holds for a formula $\phi(x)$. Then $\phi(x)$ holds for all $x\in X$.
 
 (Remark: $X$ need not be a set; hence $X$ can be a proper class. We need to modify the proof slightly, however, to not to assume $X$ be a set. I will leave this modification to the readers.)
@@ -80,7 +80,7 @@ Since $\prec$ is well-founded, the set $\{x\in X \mid \lnot\phi(x)\}$ has a $\pr
 
  What is the meaning of the well-founded induction? Let me remind the transfinite induction for ordinals. Its statement is as follows:
 > Assume that
-> $$\forall \alpha\in\mathrm{Ord} [\forall \beta\in\mathrm{Ord}: \beta<\alpha\to \phi(\beta)]\to \phi(\alpha)$$
+> \\[\forall \alpha\in\mathrm{Ord} [\forall \beta\in\mathrm{Ord}: \beta<\alpha\to \phi(\beta)]\to \phi(\alpha)\\]
 > holds for a formula $\phi(\alpha)$. Then $\phi(\alpha)$ holds for all ordinal $\alpha$.
 
  Here $\mathrm{Ord}$ be the class of all ordinals. The assumption in the statement means "if $\phi$ holds for all ordinals less than $\alpha$, then $\phi(\alpha)$ holds". Therefore, a less formal description of the transfinite induction is
@@ -114,7 +114,7 @@ Since the axiom of regularity gets rid of these peculiar sets, we may expect the
 > **Theorem.** $V=\bigcup_{\alpha\in\mathrm{Ord}} V_\alpha$. That is, every set is a pure set.
 
 *Proof.* We will prove it by using $\in$-induction we have proved. Assume that every element of $x$ is a member of some $V_\alpha$. For each $y\in x$, associate the ordinal $\alpha_y$ satisfying $y\in V_{\alpha_y}$. It is like to require the axiom of choice in the first glance, but in fact, we can in fact define $\alpha_y$ in a canonical way by letting
-$$\alpha_y=\min \{\alpha\mid y\in V_\alpha\}.$$
+\\[\alpha_y=\min \{\alpha\mid y\in V_\alpha\}.\\]
 Now take $\alpha=\sup\{\alpha_y\mid y\in x\}$. I will claim that $x\in V_{\alpha+1}$: by definition of $\alpha_y$, we have $x\subseteq \bigcup_{y\in x} V_{\alpha_y}\subseteq V_\alpha$. That is, we have $x\subseteq V_\alpha$, and $x\in V_{\alpha+1}$ follows from the definition of $V_{\alpha+1}$.
 
 <!-- Rank of sets -->
@@ -129,7 +129,7 @@ We can make use of the hierarchical aspects of the universe to strenghten the ax
 > **Theorem.** Let $C(x)$ be a class indexed by $x\in A$ for some set $A$. If $C(x)$ is not empty for each $x\in X$, then there is a  family of non-empty sets $\{\hat{C}(x) \mid x\in X\}$ such that $\hat{C}(x)\subseteq C(x)$.
 
 *Proof.* For each $x\in X$, define $\alpha_x$ by
-$$\alpha_x := \min \{\alpha \mid C(x)\cap V_\alpha\not\varnothing\}.$$
+\\[\alpha_x := \min \{\alpha \mid C(x)\cap V_\alpha\neq\varnothing\}.\\]
 Now define $\hat{C}(x):= V_{\alpha_x}\cap C(x)$. We can see that $\{\hat{C}(x)\mid x\in X\}$ is a desired family of sets.
 
 The technique used in the theorem -- collecting elements of $C(x)$ of least available rank -- is called *Scott's trick*: we apply it to reduce collection of classes to a collection of sets.
@@ -137,7 +137,7 @@ The technique used in the theorem -- collecting elements of $C(x)$ of least avai
 Unfortunately, $V/\sim$ is ill-formed: each "member" of $V/\sim$ is a proper class, so we cannot collect all of them into a single class. 
 
 Hopefully, we can resolve the problem by applying Scott's trick. Collect the following sets for each $x\in V$ instead of collecting the full equivalence classes:
-$$[x]_\sim := \{y \mid x\sim y \text{ and if $x\sim z$ then $\operatorname{rank} z\le \operatorname{rank} y$}\}.$$
+\\[[x]_\sim := \{y \mid x\sim y \text{ and if $x\sim z$ then $\operatorname{rank} z\le \operatorname{rank} y$}\}.\\]
 
 By the same argument used in the previous proof, we can see that $[x]_\sim$ is a set for each set $x$. Moreover, every member of $[x]_\sim$ has the same size with $x$, so we can say $[x]_\sim$ "represents" the cardinal of $x$.
 
