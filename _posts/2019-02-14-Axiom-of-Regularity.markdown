@@ -162,11 +162,11 @@ Von Neumann introduced an axiom in 1925 to exclude some ill-founded sets, but th
 
 **References**
 
-[1] Andreas Blass, *The interaction between Category theory and Set theory*. 
+[1] Andreas Blass, *The interaction between Category theory and Set theory.*.
 
-[2] Penelope Maddy, *Believing the axioms I*.
+[2] Penelope Maddy, *Believing the axioms I.*
 
-[3] Adam Rieger, *Paradox, ZF, and the Axiom of Foundation∗.
+[3] Adam Rieger, *Paradox, ZF, and the Axiom of Foundation.*
 
 
 <!-- [4] Asaf's answer -->
