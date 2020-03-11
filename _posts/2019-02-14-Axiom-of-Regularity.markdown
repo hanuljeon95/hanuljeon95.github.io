@@ -13,7 +13,8 @@ published: true
 
  However, Axiom of Regularity has an unclear statement in a first glance:
 > For each non-empty set $x$, there is $y\in x$ such that $x\cap y=\varnothing$.
-Most of the readers ― especially those who have not learned axiomatic set theory ― have not seen this strange axiom. It has no non-trivial application to usual mathematics. Moreover, the usual mathematics seems like neutral to this axiom: accepting or denying the axiom does not change almost all of the usual mathematics.
+
+Most of the readers -- especially those who have not learned axiomatic set theory -- have not seen this strange axiom. It has no non-trivial application to usual mathematics. Moreover, the usual mathematics seems like neutral to this axiom: accepting or denying the axiom does not change almost all of the usual mathematics.
 
  As a result, this unfortunate axiom is fallen into an abyss of oblivion as Blass mentioned in [1] by
 > (...) the axiom of regularity has suffered an even worse fate than the axiom of choice; people don't deny the axiom of regularity, they just ignore it.
@@ -150,7 +151,7 @@ The Russellian definition does not involve initial ordinals and the axiom of cho
 I have not seen any application of collection outside of logic: in fact, the usual mathematics hardly uses the full power of ZFC.
 However, the Axiom of Collection is important to do set theory: for example, set theorists construct various models of ZFC via forcing or inner model. The construction includes verifying axioms of ZFC over the models, and checking the validity of Collection is sometimes easier than that of the Replacement.
 
-Let me digress a little from the main topic of this article: the readers might ask whether the axiom of collection can be proven without the axiom of regularity. The answer seems negative: [Karagila](https://math.stackexchange.com/a/1619246/53976) described how to construct a model of $\mathsf{ZFC}$ without regularity and collection, by using permutation model. 
+Let me digress a little from the main topic of this article: the readers might ask whether the axiom of collection can be proven without the axiom of regularity. The answer seems negative: [Karagila](https://math.stackexchange.com/a/1619246/53976) described how to construct a model of ZFC without regularity and collection, by using permutation model. 
 
 ----
 <!-- Historical Account -->
