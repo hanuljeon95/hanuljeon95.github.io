@@ -137,10 +137,10 @@ The technique used in the theorem -- collecting elements of $C(x)$ of least avai
 Unfortunately, $V/\sim$ is ill-formed: each "member" of $V/\sim$ is a proper class, so we cannot collect all of them into a single class. 
 
 Hopefully, we can resolve the problem by applying Scott's trick. Collect the following sets for each $x\in V$ instead of collecting the full equivalence classes:
-\\[ [x]_\sim := \\{y \mid x\sim y \text{ and if $x\sim z$ then $\operatorname{rank} z\le \operatorname{rank} y$ }\\}.\\] $$
+\\[[x]_\sim := \\{y \mid x\sim y \text{ and if $x\sim z$ then $\operatorname{rank} z\le \operatorname{rank} y$ }\\}.\\]
 
-By the same argument used in the previous proof, we can see that $[x]_\sim$ is a set for each set $x$.
-Moreover, every member of $[x]_\sim$ has the same size with $x$, so we can say $[x]_\sim$ "represents" the cardinal of $x$.
+By the same argument used in the previous proof, we can see that $[x]\_\sim$ is a set for each set $x$.
+Moreover, every member of $[x]\_\sim$ has the same size with $x$, so we can say $[x]\_\sim$ "represents" the cardinal of $x$.
 
 Russellian definition of cardinals is useful in choiceless set theory: the usual definition of cardinals -- defining it as initial ordinals -- breaks down if we do not have the axiom of choice. We do not know every set is equipotent with an initial ordinal, so there might be sets whose cardinal is not represented by initial ordinals.
 The Russellian definition does not involve initial ordinals and the axiom of choice, and it forms cardinals from sets directly. Thus this definition works even if we do not have the axiom of choice.
