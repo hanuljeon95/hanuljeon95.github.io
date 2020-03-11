@@ -60,6 +60,7 @@ Most of the readers ― especially those who have not learned axiomatic set theo
 
  This corollary excludes *ill-founded* sets (i.e. sets that make $\in$ not well-founded) from the universe $V$ of all sets. Especially, no set $x$ can satisfy $x\in x$.  
 
+----
 <!-- induction and recursion -->
 
  Well-orderedness has useful consequences: for example, every well-ordered set allows transfinite induction and transfinite recursion. The same holds for general well-founded relations, not only for well-ordered sets:
@@ -98,6 +99,7 @@ Then there is a function $F:X\to V$ such that $F(x) := G(F\upharpoonright \opera
 
 Some readers might wonder the meaning of $F\upharpoonright \operatorname{ext}\_\prec(x)$. Reminding set-theoretic definition of function might be helpful to get its meaning: $F\upharpoonright \operatorname{ext}\_\prec(x)$ is a set of all pairings $\langle y, F(y)\rangle$ for all predessors $y$ of $x$. Therefore, we can say $F(x)$ is defined from the value of predecessors of $x$ under $F$.
 
+----
 <!-- Set-theoretic hierarchy -->
 One of important consequence of the axiom of regularity is it provides a hierarchical structure of $V$:
 define the collection $\langle V_\alpha\mid \alpha\in\mathrm{Ord}\rangle$ recursively as follows:
@@ -124,6 +126,7 @@ The hierarchical structure of $V$ allows us to impose a *rank* of sets: every se
 
 It is not hard to check that $\operatorname{rank} \alpha=\alpha$ for all ordinal $\alpha$.
 
+----
 <!-- Axiom of collection -->
 We can make use of the hierarchical aspects of the universe to strenghten the axiom of replacement: 
 
@@ -151,6 +154,7 @@ However, the Axiom of Collection is important to do set theory: for example, set
 
 Let me digress a little from the main topic of this article: the readers might ask whether the axiom of collection can be proven without the axiom of regularity. The answer seems negative: [Karagila](https://math.stackexchange.com/a/1619246/53976) described how to construct a model of $\mathsf{ZFC}$ without regularity and collection, by using permutation model. 
 
+----
 <!-- Historical Account -->
 I will finish this post by mentioning the historical aspect of the main character: the axiom of regularity. 
 The following explanation is mainly due to [2] and [3].
