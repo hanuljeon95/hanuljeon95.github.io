@@ -4,7 +4,8 @@ mathjax: true
 comments: true
 title:  "Axiom of Regularity ― an introduction"
 date:   2020-03-12 02:30:00 +0900
-categories: [set-theory]
+categories: posts
+tags: [set theory]
 published: true
 ---
 
