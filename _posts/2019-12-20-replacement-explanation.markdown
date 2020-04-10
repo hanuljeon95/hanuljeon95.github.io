@@ -4,8 +4,8 @@ mathjax: true
 comments: true
 title:  "치환공리"
 date:   2019-12-20 04:54:00 +0900
-categories: posts
-tags: [set theory]
+categories: posts set-theory
+tags: set-theory
 ---
 *(Brief summary in English: This post is for explaining what Replacement is. First, I will review some descriptions of the axiom of replacement written in Korean. Then, I will explain the meaning of the axiom of replacement, its consequences and its equivalent forms.)*
 
