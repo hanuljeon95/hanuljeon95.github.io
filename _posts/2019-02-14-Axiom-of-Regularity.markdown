@@ -4,7 +4,7 @@ mathjax: true
 comments: true
 title:  "Axiom of Regularity ― an introduction"
 date:   2020-03-12 02:30:00 +0900
-categories: Set theory, 집합론
+categories: [set-theory]
 published: true
 ---
 
