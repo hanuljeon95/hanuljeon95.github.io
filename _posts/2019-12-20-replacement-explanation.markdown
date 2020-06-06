@@ -87,7 +87,7 @@ Collection을 이용하면 치환공리를 증명할 수 있다. 증명 자체�
 
 Reference
 ---
-[1] T. Jech. **Set theory**, Springer Science & Business Media, 2013.
+[1] T. Jech. *Set theory*, Springer Science & Business Media, 2013.
 
 
 
