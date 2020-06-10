@@ -28,7 +28,7 @@ twitter_username: hanuljeon95
 # github_username: 
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
