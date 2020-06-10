@@ -28,11 +28,7 @@ twitter_username: hanuljeon95
 # github_username: 
 
 # Build settings
-<<<<<<< HEAD
 theme: jekyll-theme-caymen
-=======
-theme: jekyll-theme-cayman
->>>>>>> 3ce60845aa7637292fc1c089ba613f7e68b57211
 plugins:
   - jekyll-feed
 
