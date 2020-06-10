@@ -7,7 +7,7 @@ date:   2020-06-11 03:33:00 +0900
 categories: posts set-theory
 tags: 
   - set-theory
-published: false
+published: true
 ---
 
 *Summary in English: I will briefly explain the history of set theory, especially for the continuum hypothesis. Cantor's continuum hypothesis bears various topics like descriptive set theory, inner model theory, and forcing, and introduces a variety of viewpoints on the set-theoretic universe. I will briefly explain how they formed from the continuum hypothesis.*
