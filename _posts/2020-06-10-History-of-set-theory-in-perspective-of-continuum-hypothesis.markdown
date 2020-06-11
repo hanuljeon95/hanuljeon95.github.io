@@ -129,7 +129,7 @@ published: true
 
  $V=L$은 연속체 가설을 함의하므로, $V=L$을 연속체 가설을 강화한 정리라고 볼 수도 있다. $V=L$은 가측 기수의 존재성으로 반증되므로, 좀 더 강력한 거대 기수 공리를 가져 오면 연속체 가설도 반증할 수 있지 않을까 생각할 수 있을 것이다. 아이러니하게도 코언의 강제법은 괴델이 희망을 걸었던 거대 기수가 연속체 가설을 결정하기에 적당하지 않은 도구라는 사실 또한 드러냈다. 가령, 1967년에 아즈리엘 레비(Azriel Levy)와 솔로베이는 가측 기수를 이용해서 연속체 가설을 결정할 수 없다는 것을 보였다.
 
-> **정리.** (Levy and Solovay) $\kappa$가 가측 기수이고 $P$가 $|P|<\kappa$를 만족하는 강제법 순서집합이라 하자. 만약 $G$가 $P$-범용 필터라면 $V[G]$ 위에서 $\kappa$는 여전히 가측 기수이다.
+> **정리.** (Levy and Solovay) $\kappa$가 가측 기수이고 $P$가 $\vert P \vert <\kappa$를 만족하는 강제법 순서집합이라 하자. 만약 $G$가 $P$-범용 필터라면 $V[G]$ 위에서 $\kappa$는 여전히 가측 기수이다.
 
  여기서 '가측 기수'란 단어를 다른 거대 기수로 바꿔도 여전히 성립하고, 특히 $P$를 $\omega$에서 $2^{\aleph_0}$보다 작은 기수로 가는 **전사 함수**를 추가하는 강제법 순서집합으로 잡을 수 있다. 그 경우 $V$에서 $2^{\aleph_0}$보다 작은 기수들은 $V[G]$ 위에서 기수가 아니게 될 것이고, $V[G]$ 위에서 $2^{\aleph_0}=\aleph_1$이 될 것이다.
 
@@ -193,26 +193,26 @@ published: true
 
 [4] Maddy, Penelope. "Believing the axioms. II." *The Journal of Symbolic Logic* 53.3 (1988): 736-764.
 
-[5] Ferreirós, José, "The Early Development of Set Theory", *The Stanford Encyclopedia of Philosophy* (Summer 2019 Edition), Edward N. Zalta (ed.), https://plato.stanford.edu/archives/sum2019/entries/settheory-early. Accessed 11 June 2020.
+[5] Ferreirós, José, "The Early Development of Set Theory", *The Stanford Encyclopedia of Philosophy* (Summer 2019 Edition), Edward N. Zalta (ed.), [https://plato.stanford.edu/archives/sum2019/entries/settheory-early}(https://plato.stanford.edu/archives/sum2019/entries/settheory-early). Accessed 11 June 2020.
 
-[6] Irvine, Andrew David and Deutsch, Harry, "Russell's Paradox", *The Stanford Encyclopedia of Philosophy* (Winter 2016 Edition), Edward N. Zalta (ed.), https://plato.stanford.edu/archives/win2016/entries/russell-paradox. Accessed 11 June 2020.
+[6] Irvine, Andrew David and Deutsch, Harry, "Russell's Paradox", *The Stanford Encyclopedia of Philosophy* (Winter 2016 Edition), Edward N. Zalta (ed.), [https://plato.stanford.edu/archives/win2016/entries/russell-paradox](https://plato.stanford.edu/archives/win2016/entries/russell-paradox). Accessed 11 June 2020.
 
 [7] Gödel, Kurt. "What is Cantor's continuum problem?." *The American Mathematical Monthly* 54.9 (1947): 515-525.
 
 [8] Rittberg, Colin J. "How Woodin changed his mind: new thoughts on the Continuum Hypothesis." *Archive for History of Exact Sciences* 69.2 (2015): 125-151.
 
-[9] Shelah, Saharon. "Logical dreams." *arXiv preprint math/0211398* (2002).
+[9] Shelah, Saharon. "Logical dreams." *arXiv preprint [math/0211398](https://arxiv.org/abs/math/0211398)* (2002).
 
-[10] Shelah, Saharon. "The future of set theory." *arXiv preprint math/0211397* (2002).
+[10] Shelah, Saharon. "The future of set theory." *arXiv preprint [math/0211397](https://arxiv.org/abs/math/0211397)* (2002).
 
 [11] Antos, Carolin, et al. "Multiverse conceptions in set theory." *Synthese* 192.8 (2015): 2463-2488.
 
 [12] Nik, Weaver. *Forcing for mathematicians*. World Scientific, 2014.
 
-[13] Andrés E. Caicedo, "Why is the continuum hypothesis believed to be false by the majority of modern set theorists?", https://math.stackexchange.com/q/499947. Accessed 11 June 2020.
+[13] Andrés E. Caicedo, "Why is the continuum hypothesis believed to be false by the majority of modern set theorists?", [https://math.stackexchange.com/q/499947](https://math.stackexchange.com/q/499947). Accessed 11 June 2020.
 
-[14] Wolchover, Natalie. "To Settle Infinity Question, a New Law of Mathematics." *Quanta Magazine*, www.quantamagazine.org/to-settle-infinity-question-a-new-law-of-mathematics-20131126. Accessed 11 June 2020.
+[14] Wolchover, Natalie. "To Settle Infinity Question, a New Law of Mathematics." *Quanta Magazine*, [https://www.quantamagazine.org/to-settle-infinity-question-a-new-law-of-mathematics-20131126](https://www.quantamagazine.org/to-settle-infinity-question-a-new-law-of-mathematics-20131126). Accessed 11 June 2020.
 
-[15] Todorcevic, Stevo. "The power-set of ω1 and the continuum problem." *Talk given at the Harvard EFI Project in the Spring of 2012*. logic.harvard.edu/Todorcevic_Structure4.pdf Accessed 11 June 2020.
+[15] Todorcevic, Stevo. "The power-set of ω1 and the continuum problem." *Talk given at the Harvard EFI Project in the Spring of 2012*. [https://logic.harvard.edu/Todorcevic_Structure4.pdf](https://logic.harvard.edu/Todorcevic_Structure4.pdf) Accessed 11 June 2020.
 
 [16] Hamkins, Joel David. "The set-theoretic multiverse." *The Review of Symbolic Logic* 5.3 (2012): 416-449.
