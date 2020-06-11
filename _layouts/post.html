@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<body>
 <article>
   {% include meta.html post=page %}
   {{ content }}
@@ -13,6 +14,7 @@ layout: default
     <noscript>Please enable JavaScript to view comments.</noscript>
   {% endif %}
 </article>
+</body>
 
 {% if site.show_related %}
   <footer class="related">
