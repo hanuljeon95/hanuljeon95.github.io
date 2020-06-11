@@ -23,7 +23,7 @@ mathjax: true
 # Menu
 
 navigation:
-  - {file: "index.html", icon: home}
+  - {file: "index.md", icon: home}
   - {file: "research.md", icon: file-text}
   - {file: "posts.md", icon: pencil}
 
