@@ -312,7 +312,13 @@ var renderMathInElement = function renderMathInElement(elem, options) {
     left: "\\(",
     right: "\\)",
     display: false
-  }, // LaTeX uses $…$, but it ruins the display of normal `$` in text:
+  }, 
+  {
+    left: "$",
+    right: "$",
+    display: false
+  },
+  // LaTeX uses $…$, but it ruins the display of normal `$` in text:
   // {left: "$", right: "$", display: false},
   //  \[…\] must come last in this array. Otherwise, renderMathInElement
   //  will search for \[ before it searches for $$ or  \(
