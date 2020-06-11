@@ -27,15 +27,15 @@ published: true
  이 역설들을 해결하기 위해서  1908 에른스트 체르멜로(Ernst Zermelo)가 집합론의 공리를 제시했다. 체르멜로가 제시했던 공리는 다음과 같다:
 - 외연공리 (Axiom of extensionality): 두 집합이 같은 원소를 가지면 두 집합은 같다.
 - 공집합 공리 (Axiom of empty set): 공집합이 존재한다.
-- 순서쌍 공리 (Axiom of pairing): 두 집합 $a$, $b$가 있을 때 $\{a,b\}$도 집합이다.
-- 분리공리 (Axiom of separation): $a$가 집합이고 $P(x)$가 $a$의 모든 원소에 대해 명확히 주어진 성질(property)일 때 $\{x\in a\mid P(x)\}$도 집합이다.
+- 순서쌍 공리 (Axiom of pairing): 두 집합 $a$, $b$가 있을 때 $\\{a,b\\}$도 집합이다.
+- 분리공리 (Axiom of separation): $a$가 집합이고 $P(x)$가 $a$의 모든 원소에 대해 명확히 주어진 성질(property)일 때 $\\{x\in a\mid P(x)\\}$도 집합이다.
 - 멱집합 공리 (Axiom of power set): 집합 $a$가 있을 때 그 부분집합들의 집합 $\mathcal{P}(a)$도 집합이다.
 - 합집합 공리 (Axiom of union): 집합 $a$의 모든 원소들의 합집합 $\bigcup a$도 집합이다.
 - 선택공리 (Axiom of choice): 쌍마다 서로소인 집합들을 원소로 갖는 집합 $a$에 대해 어떤 집합 $b$가 있어 임의의 $c\in a$에 대해 $c\cap b$는 단원집합(singleton)이다.
 - 무한공리 (Axiom of infintiy): 무한집합이 존재한다.
 
  하지만 위에서 '명확히 주어진 성질'이 무엇인가는 애매한 상태로 남아있었을 뿐 아니라, 해당 체계를 가지고는 가령 $\omega+\omega$의 존재성조차 보일 수 없었다. 1922년에 토랄프 스콜렘(Thoralf Skolem)과  아브라함 프렌켈(Abraham Fraenkel)이 '명확히 주어진 성질'을 '1차 논리로 표현되는 논리식'으로 정할 것을 제안했고, 추가적으로 다음 공리를 제안했다:
-- 치환공리 (Axiom of replacement): $F$가 1차 술어 논리로 정의되는 함수 관계라 하자. 이 때 임의의 집합 $a$에 대해 $\{F(x) \mid x\in a\}$도 집합이다.
+- 치환공리 (Axiom of replacement): $F$가 1차 술어 논리로 정의되는 함수 관계라 하자. 이 때 임의의 집합 $a$에 대해 $\\{F(x) \mid x\in a\\}$도 집합이다.
 
  이렇게 제시된 공리계를 체르멜로-프렌켈 집합론(ZFC)라 부르며, 이후에 정칙공리(Axiom of regularity)를 추가한 공리계가 표준적인 집합론 체계로 받아들여지고 있다.
 
@@ -68,19 +68,19 @@ published: true
 > 2. $\langle A_i\mid i<\omega\rangle$이 쌍마다 서로소인 가산 부분집합들의 열일 때 $\mu\left(\bigcup_iA_i\right)=\sum_i\mu(A_i)$이다.
 > 3. 임의의 부분집합 $A$와 실수 $r$에 대해 $\mu(A) = \mu(A+r)$이다.
 
- 스테판 바나흐(Stefan Banach)는 세 번째 조건을 $\mu(\{a\})=0$으로 약화시켰을 때 나머지 조건을 모두 만족하는 측도가 존재하느냐는 문제를 제기했다. 이 문제에서 $\mathbb{R}$을 다른 집합으로 쉽게 일반화시킬 수 있었고, 바나흐의 제자인 스타니스와프 울람(Stanislaw Ulam)이 1930년에 이 문제가 거대 기수와 연관지어져 있단 사실을 밝힌다: 특정 조건들을 만족하는 측도를 갖는 집합이 존재한다면, 그 집합의 기수는 약한 도달 불가능 기수여야 한단 것입니다. 또한 그 집합의 기수는 실수 집합의 크기 $\mathfrak{c}$ 이하이거나, 가측 기수라 불리우는 매우 거대 기수여야 한단 사실 또한 알아냈다:
+ 스테판 바나흐(Stefan Banach)는 세 번째 조건을 $\mu(\\{a\\})=0$으로 약화시켰을 때 나머지 조건을 모두 만족하는 측도가 존재하느냐는 문제를 제기했다. 이 문제에서 $\mathbb{R}$을 다른 집합으로 쉽게 일반화시킬 수 있었고, 바나흐의 제자인 스타니스와프 울람(Stanislaw Ulam)이 1930년에 이 문제가 거대 기수와 연관지어져 있단 사실을 밝힌다: 특정 조건들을 만족하는 측도를 갖는 집합이 존재한다면, 그 집합의 기수는 약한 도달 불가능 기수여야 한단 것입니다. 또한 그 집합의 기수는 실수 집합의 크기 $\mathfrak{c}$ 이하이거나, 가측 기수라 불리우는 매우 거대 기수여야 한단 사실 또한 알아냈다:
 
 > **정리.** $\kappa$의 부분집합에 대해 다음 조건을 만족하는 측도 $\mu$가 존재한다고 하자:
 >
 > 1. $\mu\neq 0$,
 > 2. $\langle A_i\mid i<\omega\rangle$이 쌍마다 서로소인 가산 부분집합들의 열일 때 $\mu\left(\bigcup_iA_i\right)=\sum_i\mu(A_i)$이다.
-> 3. 임의의 $\xi\in\kappa$에 대해 $\mu(\{\xi\})=0$이다.
+> 3. 임의의 $\xi\in\kappa$에 대해 $\mu(\\{\xi\\})=0$이다.
 > 
 > 그러면 $\kappa\le\mathfrak{c}$이거나 $\kappa$는 **가측 기수**이다. 즉, $\kappa$는 다음 조건을 만족하는 측도 $\mu$를 갖는다:
 >
 > 1. $\mu\neq 0$,
 > 2. $\langle A_\xi\mid \xi<\gamma\rangle$이 쌍마다 서로소인 $\gamma<\kappa$개의 부분집합들의 열일 때 $\mu\left(\bigcup_{\xi<\gamma}A_\xi\right)=\sum_\xi\mu(A_\xi)$이다.
-> 3. 임의의 $\xi\in\kappa$에 대해 $\mu(\{\xi\})=0$이다.
+> 3. 임의의 $\xi\in\kappa$에 대해 $\mu(\\{\xi\\})=0$이다.
 
 이후에 설명하겠지만, 가측 기수를 비롯한 거대 기수 역시 연속체 가설과 엮이게 된다.
 
@@ -137,7 +137,7 @@ published: true
 
  하지만 괴델의 예측이 아주 틀린 것도 아니였다. 루진의 해석집합을 좀 더 확장해서, 다음과 같이 주어지는 사영집합계층(Projective hierarchy)를 생각해보자:
 - $\mathbf{\Sigma}^1_1$은 모든 해석집합들의 집합이다.
-- $\mathbf{\Pi}^1_n = \{ A\subseteq\mathbb{R} \mid \mathbb{R}\setminus A \in \mathbf{\Sigma}^1_1\}$이다.
+- $\mathbf{\Pi}^1_n = \\{ A\subseteq\mathbb{R} \mid \mathbb{R}\setminus A \in \mathbf{\Sigma}^1_1\\}$이다.
 - $\mathbf{\Sigma}^1_{n+1}$은 어떤 $\mathbf{\Pi}^1_n$ 집합의 연속함수에 의한 상으로 주어진다.
 
  어떤 집합이 사영집합(Projective set)이란 것은 어떤 $n$에 대해 $A\in \mathbf{\Sigma}^1_n$이라는 것이다.
@@ -148,7 +148,7 @@ published: true
 
  그리고 1969년에는 도널드 마틴(Donald Martin)과 솔로베이가 가측 기수가 존재하면 $\mathbf{\Sigma}^1_3$-집합에 대해서 연속체 가설이 성립함을 보인다. 캘리포니아를 근거지로 둔 카발(Cabal) 학파는 마틴과 솔로베이의 논의를 계속 연장했다. 이윽고 1984년에 휴 우딘(Hugh Woodin)이 I0라고 알려진 굉장히 강력한 거대 기수 가정 하에서 사영결정공리(Axiom of projective determinacy)를 증명해낸다. 그리고 사영결정공리에 따르면, 모든 사영집합에 대해 연속체 가설이 성립한다. (다만 이후에 I0라는 전제는 약화된다.) 사실, 우딘은 좀 더 강력한 결과를 증명했다. 이를 알아보기 전에 다음 정의를 보자:
 
-- $L_0(\mathbb{R}) = \mathbb{R}\cup\{\mathbb{R}\}$,
+- $L_0(\mathbb{R}) = \mathbb{R}\cup\\{\mathbb{R}\\}$,
 - $L_{\alpha+1}(\mathbb{R}) = \operatorname{Def}(L_\alpha(\mathbb{R}))$,
 - $L_\delta(\mathbb{R}) = \bigcup_{\alpha<\delta} L_\alpha(\mathbb{R})$ ($\delta$가 극한서수일 때.)
 

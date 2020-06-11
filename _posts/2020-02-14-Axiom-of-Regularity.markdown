@@ -10,7 +10,7 @@ tags:
 published: true
 ---
 
- Beginners of axiomatic set theory encounter a list of ten axioms of Zermelo-Fraenkel set theory (in fact, infinitely many axioms: Separation and Replacement are in fact not merely a single axiom, but a schema of axioms depending on a formula parameter, but it does not matter in this post.) Most of the axioms have a clear meaning, so not hard to accept: for example, Axiom of Pairing states we can find an unordered pair $\{a,b\}$ of $a$ and $b$, and Axiom of Union states we can find a union $\bigcup A$ of a set of sets $A$.
+ Beginners of axiomatic set theory encounter a list of ten axioms of Zermelo-Fraenkel set theory (in fact, infinitely many axioms: Separation and Replacement are in fact not merely a single axiom, but a schema of axioms depending on a formula parameter, but it does not matter in this post.) Most of the axioms have a clear meaning, so not hard to accept: for example, Axiom of Pairing states we can find an unordered pair $\\{a,b\\}$ of $a$ and $b$, and Axiom of Union states we can find a union $\bigcup A$ of a set of sets $A$.
  Axiom of Choice might be a bit unclear and has a long historical debate whether this axiom should be accepted or not. However, we can find various applications of Axiom of Choice, and they provide a practical reason why we believe in Axiom of Choice, though there might be philosophical opposition which I will not cover.
 
  However, Axiom of Regularity has an unclear statement in a first glance:

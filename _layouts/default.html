@@ -21,6 +21,9 @@
 {% if page.mathjax or site.mathjax %}
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
+  CommonHTML: {
+    styles: {".mjx-ex-box-test": {overflow: "hidden"}}
+  }
   tex2jax: {
     inlineMath: [['$','$'], ['\\(','\\)']],
     processEscapes: true
