@@ -5,7 +5,6 @@ permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
-mathjax: true
 
 # Layout
 
@@ -19,12 +18,15 @@ show_title: false            # always keep the site title visible
 
 dark_header: false           # always keep the header dark
 minimal: false               # use simpler style
+mathjax: true
 
 # Menu
 
 navigation:
   - {file: "index.html", icon: home}
-  - {file: "README.md", icon: address-card}
+  - {file: "about.md", icon: address-card}
+  - {file: "research.md", icon: file-text}
+  - {file: "posts.md", icon: pencil}
 
 external:                    # see http://fontawesome.com/icons
 #  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
