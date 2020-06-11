@@ -185,15 +185,15 @@ published: true
 -----
 참고문헌
 
-[1] Amir D. Aczel, 무한의 신비. 신현용, 승영조 역. 승산, 2002
-.
+[1] Amir D. Aczel, 무한의 신비. 신현용, 승영조 역. 승산, 2002.
+
 [2] Kanamori, Akihiro. *The higher infinite: large cardinals in set theory from their beginnings.* Springer Science & Business Media, 2008.
 
 [3] Maddy, Penelope. "Believing the axioms. I." *The Journal of Symbolic Logic* 53.2 (1988): 481-511.
 
 [4] Maddy, Penelope. "Believing the axioms. II." *The Journal of Symbolic Logic* 53.3 (1988): 736-764.
 
-[5] Ferreirós, José, "The Early Development of Set Theory", *The Stanford Encyclopedia of Philosophy* (Summer 2019 Edition), Edward N. Zalta (ed.), [https://plato.stanford.edu/archives/sum2019/entries/settheory-early}(https://plato.stanford.edu/archives/sum2019/entries/settheory-early). Accessed 11 June 2020.
+[5] Ferreirós, José, "The Early Development of Set Theory", *The Stanford Encyclopedia of Philosophy* (Summer 2019 Edition), Edward N. Zalta (ed.), [https://plato.stanford.edu/archives/sum2019/entries/settheory-early](https://plato.stanford.edu/archives/sum2019/entries/settheory-early). Accessed 11 June 2020.
 
 [6] Irvine, Andrew David and Deutsch, Harry, "Russell's Paradox", *The Stanford Encyclopedia of Philosophy* (Winter 2016 Edition), Edward N. Zalta (ed.), [https://plato.stanford.edu/archives/win2016/entries/russell-paradox](https://plato.stanford.edu/archives/win2016/entries/russell-paradox). Accessed 11 June 2020.
 
