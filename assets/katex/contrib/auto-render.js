@@ -312,8 +312,7 @@ var renderMathInElement = function renderMathInElement(elem, options) {
     left: "\\(",
     right: "\\)",
     display: false
-  }, 
-  {
+  }, {
     left: "$",
     right: "$",
     display: false
