@@ -24,7 +24,6 @@ mathjax: true
 
 navigation:
   - {file: "index.html", icon: home}
-  - {file: "about.md", icon: address-card}
   - {file: "research.md", icon: file-text}
   - {file: "posts.md", icon: pencil}
 
