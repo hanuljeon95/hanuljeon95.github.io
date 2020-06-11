@@ -1,7 +1,6 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: default
+title: About me
 ---
 
 My name is Hanul Jeon. I am currently a master's student in Mathematics at Seoul National University. I am interested in logic, especially set theory and constructive mathematics.
