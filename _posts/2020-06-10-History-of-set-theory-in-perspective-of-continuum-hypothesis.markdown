@@ -68,7 +68,7 @@ published: true
 > 2. $\langle A_i\mid i<\omega\rangle$이 쌍마다 서로소인 가산 부분집합들의 열일 때 $\mu\left(\bigcup_iA_i\right)=\sum_i\mu(A_i)$이다.
 > 3. 임의의 부분집합 $A$와 실수 $r$에 대해 $\mu(A) = \mu(A+r)$이다.
 
- 스테판 바나흐(Stefan Banach)는 세 번째 조건을 $\mu(\\{a\\})=0$으로 약화시켰을 때 나머지 조건을 모두 만족하는 측도가 존재하느냐는 문제를 제기했다. 이 문제에서 $\mathbb{R}$을 다른 집합으로 쉽게 일반화시킬 수 있었고, 바나흐의 제자인 스타니스와프 울람(Stanislaw Ulam)이 1930년에 이 문제가 거대 기수와 연관지어져 있단 사실을 밝힌다: 특정 조건들을 만족하는 측도를 갖는 집합이 존재한다면, 그 집합의 기수는 약한 도달 불가능 기수여야 한단 것입니다. 또한 그 집합의 기수는 실수 집합의 크기 $\mathfrak{c}$ 이하이거나, 가측 기수라 불리우는 매우 거대 기수여야 한단 사실 또한 알아냈다:
+ 스테판 바나흐(Stefan Banach)는 세 번째 조건을 $\mu(\\{a\\})=0$으로 약화시켰을 때 나머지 조건을 모두 만족하는 측도가 존재하느냐는 문제를 제기했다. 이 문제에서 $\mathbb{R}$을 다른 집합으로 쉽게 일반화시킬 수 있었고, 바나흐의 제자인 스타니스와프 울람(Stanislaw Ulam)이 1930년에 이 문제가 거대 기수와 연관지어져 있단 사실을 밝힌다: 특정 조건들을 만족하는 측도를 갖는 집합이 존재한다면, 그 집합의 기수는 약한 도달 불가능 기수여야 한단 것이다. 또한 그 집합의 기수는 실수 집합의 크기 $\mathfrak{c}$ 이하이거나, 가측 기수라 불리우는 매우 거대 기수여야 한단 사실 또한 알아냈다:
 
 > **정리.** $\kappa$의 부분집합에 대해 다음 조건을 만족하는 측도 $\mu$가 존재한다고 하자:
 >
@@ -173,7 +173,7 @@ published: true
 >
 > My mental picture is that we have many possible set theories, all conforming to ZFC. I do not feel “a universe of ZFC” is like “the sun”, it is rather like “a human being” or “a human being of some fixed nationality” (...) You may think “does CH, i.e., $2^{\aleph_0} = \aleph_1$ hold?” being like “can a typical American be Catholic”.
 
- 2012년에 조엘 데이비드 햄킨스(Joel David Hamkins)는 2012년에 좀 더 극단적인 주장을 내놓았다. (자세한 논의는 [12]의 마지막 장이나 [16]을 참고할 것.) 비단 ZFC뿐 아니라 그보다 더 약한 집합론에 상응하는 집합론적 우주도 존재하며, 비록 집합론자들이 특정 모형을 편애할 수는 있을지언정 그 특정 모형이 다른 모형보다 더 집합론적이여야 할 이유는 없다고 주장했다.
+ 2012년에 조엘 데이비드 햄킨스(Joel David Hamkins)는 좀 더 극단적인 주장을 내놓았다. (자세한 논의는 [12]의 마지막 장이나 [16]을 참고할 것.) 비단 ZFC뿐 아니라 그보다 더 약한 집합론에 상응하는 집합론적 우주도 존재하며, 비록 집합론자들이 특정 모형을 편애할 수는 있을지언정 그 특정 모형이 다른 모형보다 더 집합론적이여야 할 이유는 없다고 주장했다.
 
 -----
 
