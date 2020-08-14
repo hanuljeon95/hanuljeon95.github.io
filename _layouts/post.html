@@ -9,9 +9,15 @@ layout: default
     <hr>
     {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
     {% if site.comments.disqus_shortname %}
-    <div id="disqus_thread">
-    
-    </div>
+    <div id="disqus_thread"></div>
+    <script>
+        (function() { 
+        var d = document, s = d.createElement('script');
+        s.src = 'https://hanuljeon95.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
     {% endif %}
     <noscript>Please enable JavaScript to view comments.</noscript>
   {% endif %}
