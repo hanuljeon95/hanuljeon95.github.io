@@ -1,5 +1,5 @@
 ---
-title: "List of Publications"
+title: "Papers"
 permalink: "/papers/"
 layout: page
 ---
