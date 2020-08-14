@@ -34,6 +34,7 @@ external:                    # see http://fontawesome.com/icons
 
 comments:
 disqus_shortname: "hanuljeon95"      # see https://disqus.com/
+disqus_domain: "hanuljeon95.github.io"
 #  isso_domain: ""           # see https://posativ.org/isso/
 
 
