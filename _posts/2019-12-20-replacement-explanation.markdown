@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-comments: true
+comments: false
 title:  "치환공리"
 date:   2019-12-20 04:54:00 +0900
 categories: posts set-theory
