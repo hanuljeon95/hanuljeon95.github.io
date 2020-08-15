@@ -28,7 +28,7 @@ How can we add the desired set, however? Brian [2] studied well about how to add
 (Here $\mathrm{WF}$ is the class of all well-founded sets, a.k.a., pure sets.)
 
 Assume that we have an ordered Mostowski set $(J,<)$ in the ground model. Consider the good system $\theta:A\to \mathrm{WF}[J]$ given by
-\\[ \theta(x)=\{y\in J \mid y<x\} \\]
+\\[ \theta(x)=\\{y\in J \mid y<x\\} \\]
 Let $(M_\theta,\epsilon)$ be the model given by Brian's theorem. Then $x<y$ iff $x\in y$. Therefore $(J,\in)$ is a counterexample of the axiom of regularity.
 
 It remains to show the following fact:
@@ -56,7 +56,7 @@ Fix a regular cardinal $\kappa$ and start from the permutation model given by Th
 * It satisfies $\mathsf{AC}_\lambda$ for all $\lambda<\kappa$, and
 * $(J,<)$ has no infinite branch.
 
-Consider a good system $\theta$ defined by $\theta(x)=\{y\in J\mid y>x\}$ and a model $(M_\theta,\epsilon)$ given by $\theta$. Then $x\epsilon y$ iff $x>y$. By the same argument described above, the resulting model has no $\in$-decreasing sequences.
+Consider a good system $\theta$ defined by $\theta(x)=\\{y\in J\mid y>x\\}$ and a model $(M_\theta,\epsilon)$ given by $\theta$. Then $x\epsilon y$ iff $x>y$. By the same argument described above, the resulting model has no $\in$-decreasing sequences.
 
 References
 -----
