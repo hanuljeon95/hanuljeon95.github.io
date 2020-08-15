@@ -25,7 +25,7 @@ How can we add the desired set, however? Brian [2] studied well about how to add
 > \\[ x\epsilon y\iff V[J]\models x\in \theta(y) \\]
 > for all $x,y\in J$.
 >
-> Moreover, if the model satisfies $\mathsf{AC}_\kappa$ or $\mathsf{DC}_\kappa$, then so does $M_\theta$.
+> Moreover, if the model satisfies \\(\mathsf{AC}_\kappa\\) or \\(\mathsf{DC}_\kappa\\), then so does \\(M_\theta\\).
 
 (Here $\mathrm{WF}$ is the class of all well-founded sets, a.k.a., pure sets.)
 
