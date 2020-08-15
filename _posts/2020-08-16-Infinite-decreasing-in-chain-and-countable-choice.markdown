@@ -38,7 +38,7 @@ The following internal recursion theorem, which is also established by Brian, is
 > **Lemma.** Let $F:M_\theta\times M_\theta\to M_\theta$ and $F':J\to M_\theta$ be an internal class function. Then there is a unique $G:M_\theta\to M_\theta$, which is definable in $M_\theta$, such that $G(x)=F'(x)$ for all $x\in J$ and $G(x)=F(x, G\upharpoonright x)$ for all $x\in M_\theta\setminus J$.
 
 We will define an internal rank function as follows: $\rho(x)=0$ for $x\in J$, and
-\\[ \rho(x) = \sup\{\rho(y)+1\mid y\epsilon x\} \\]
+\\[ \rho(x) = \sup\\{\rho(y)+1\mid y\epsilon x\\} \\]
 for other sets $x\in M_\theta\setminus J$. Then $\rho(x)$ is always an ordinal. Moreover, we have
 
 > **Lemma.** If $x\epsilon y$ then either $x,y\in J$ or $\rho(x)<\rho(y)$.
