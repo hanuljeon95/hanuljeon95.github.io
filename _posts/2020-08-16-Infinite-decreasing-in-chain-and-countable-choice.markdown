@@ -65,5 +65,5 @@ References
 -----
 
 1. Mendelson, E. "The Axiom of Fundierung and the Axiom of Choice." *Archiv für math. Logik und Grundlagenfors* 4 (1958), 67-70.
-1. Brian, Will. "Non-well-founded extensions of V." *Mathematical Logic Quarterly* 159, 3 (2013), 167-176.
+1. Brian, William R. "Non-well-founded extensions of V." *Mathematical Logic Quarterly* 159, 3 (2013), 167-176.
 1. Jech, Thomas J. *The axiom of choice*. Courier Corporation, 2008.
