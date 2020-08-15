@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title:  "Infinite decreasing $\in$-chains and the axiom of coutable choice"
+title:  "Infinite decreasing $\\in$-chains and the axiom of coutable choice"
 date:   2020-08-16 03:15:00 +0900
 categories: posts set-theory
 tags: 
