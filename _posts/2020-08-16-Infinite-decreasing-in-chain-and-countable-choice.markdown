@@ -21,10 +21,12 @@ We want to construct a model which invalidates the axiom of regularity, while it
 There are various examples of non-choice sets, like amorphous sets. We will choose ordered Mostowski model because the model contains a linearly orderable set $(J,<)$ that does not contain any countable increasing or decreasing sequences. Hence we will add an ill-founded set $X$ such that $(X,\in)$ is *isomorphic to* $(J,<)$.
 
 How can we add the desired set, however? Brian [2] studied well about how to add an ill-founded set into a universe. His paper concentrates on the models of $\mathsf{ZFC}$ except for foundation, but his method can be extended to choiceless settings. The main ingredient we need is the following theorem that is effectively given by Brian:
+
 > **Theorem.** (Brian) Working over ZF with a proper class of atoms, let $J$ be a collection of atoms. Assume that $\theta: J \to \mathrm{WF}[J]$ is a *good system*, that is, $\theta$ is injective and $\theta(x)=S_x\cup J_x$ for some pure set $S_x\in \mathrm{WF}$ and $J_x\subseteq J$. Then there is a model $(M_\theta,\epsilon)$ of ZF without foundation, that contains a copy of $V$ and $J$, such that 
 > \\[ x\epsilon y\iff V[J]\models x\in \theta(y) \\]
 > for all $x,y\in J$.
-> Moreover, if the model satisfies \\(\mathsf{AC}_{\kappa}\\) or \\(\mathsf{DC}_{\kappa}\\), then so does \\(M_\theta\\).
+> 
+> Moreover, if the model satisfies \\(\mathsf{AC}_{\kappa}\\), then so does \\(M_\theta\\).
 
 (Here $\mathrm{WF}$ is the class of all well-founded sets, a.k.a., pure sets.)
 
