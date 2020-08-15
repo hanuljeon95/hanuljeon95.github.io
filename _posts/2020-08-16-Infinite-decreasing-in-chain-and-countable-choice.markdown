@@ -24,8 +24,7 @@ How can we add the desired set, however? Brian [2] studied well about how to add
 > **Theorem.** (Brian) Working over ZF with a proper class of atoms, let $J$ be a collection of atoms. Assume that $\theta: J \to \mathrm{WF}[J]$ is a *good system*, that is, $\theta$ is injective and $\theta(x)=S_x\cup J_x$ for some pure set $S_x\in \mathrm{WF}$ and $J_x\subseteq J$. Then there is a model $(M_\theta,\epsilon)$ of ZF without foundation, that contains a copy of $V$ and $J$, such that 
 > \\[ x\epsilon y\iff V[J]\models x\in \theta(y) \\]
 > for all $x,y\in J$.
->
-> Moreover, if the model satisfies \\(\mathsf{AC}_\kappa\\) or \\(\mathsf{DC}_\kappa\\), then so does \\(M_\theta\\).
+> Moreover, if the model satisfies \\(\mathsf{AC}_{\kappa}\\) or \\(\mathsf{DC}_{\kappa}\\), then so does \\(M_\theta\\).
 
 (Here $\mathrm{WF}$ is the class of all well-founded sets, a.k.a., pure sets.)
 
