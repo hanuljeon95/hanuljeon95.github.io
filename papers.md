@@ -15,7 +15,7 @@ Publications
 Notes
 ------------
 
-1. [**The axiom of complement and its opposites**](../files/doublecomplement_draft.pdf), In preparation. (First draft.) 
+1. [**The axiom of double complement and its opposites**](../files/doublecomplement_draft.pdf), In preparation. (First draft.) 
 1. **Goodstein's theorem** (Korean) *Manuscript for Madmathematics seminar.* (Oct 2016).
 1. **What is forcing?** (Korean) *Manuscript for Madmathematics seminar.* (Nov 2015).
 1. **A Short introduction to mathematical logic** (Korean) *Manuscript for Madmathematics seminar.* (Jan 2014).
