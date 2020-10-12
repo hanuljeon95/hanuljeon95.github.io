@@ -11,6 +11,11 @@ Publications
 
 1. **Comparison between the Wiener index and the Zagreb indices and the eccentric connectivity index for trees.** (with Kinkar Chandra Das and Nenad Trinajstić), Discrete Applied Mathematics (2014).
 
+Preprints
+------------
+
+1. **Constructive Ackermann's interpretation**. arXiv preprint [arXiv:2010.04270](http://arxiv.org/abs/2010.04270).
+
 
 Notes
 ------------
