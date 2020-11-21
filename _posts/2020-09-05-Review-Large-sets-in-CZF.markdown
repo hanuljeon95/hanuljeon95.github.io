@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title:  "Review: *Large sets in Constructive set theory* by Albert Ziegler"
+title:  "Review: *Large sets in Constructive set theory* by Albert Ziegler, I"
 date:   2020-08-16 03:15:00 +0900
 categories: posts set-theory
 tags: 
@@ -10,7 +10,7 @@ tags:
   - constructive-mathematics
   - large-set-axiom
   - large-cardinal
-published: off
+published: false
 ---
 
 Large set axiom is a constructive analogue of large cardinals in classical set theory. It is known that ordinals are ill-behaved constructively, and this is the reason why we impose 'large cardinal properties' into sets directly and handle them. This is not even unusual for classical set theoriests, because many properties of large cardinals are intertwined with the property of $V_\kappa$ or $H_\kappa$ for $\kappa$.
@@ -36,12 +36,14 @@ As its name suggests, it is a type of reflection scheme. It is not known that $\
 Behavior of large sets
 ------
 
-Chapter 3 is short, but interesting chapter. We know that large cardinals are ordered linearly. This is never true constructively: we will see later that there are inaccessible sets $I$ and $J$ such that neither $I\subseteq J$ nor $J\subseteq I$.
+Chapter 3 is short, but interesting chapter. We know that large cardinals are ordered linearly. This is never true constructively: we will see later that there are inaccessible sets $I$ and $J$ such that neither $I\subseteq J$ nor $J\subseteq I$. However, if $I\cap V_2=J\cap V_2$, then $I$ and $J$ are the same. The proof uses coding sets into truth values (which is just a subset of $1=\{0\}$.) Let me describe how the technique of 'coding into truth values' works and the brief description of Zeigler's proof.
 
 
-Section 4.1 explains when the large set axioms are preserved. It is well-known that small forcing preserves most large cardinal axioms, and this is what Chapter 4 is showing. It uses unfamilar notion called *applicative topology*, but we will not use the full structure of it. The definition of applicative topology looks like a mere combination of realizability and formal topology, and the thesis just uses realizability to derive metatheoretic results.
 
-Section 4.2 is 
+
+Section 4.1 explains when the large set axioms are preserved. It is well-known that small forcing preserves most large cardinal axioms, and this is what Section 4.1 shows. It uses unfamilar notion called *applicative topology*, but we will not use the full structure of it. The definition of applicative topology looks like a mere combination of realizability and formal topology, and the thesis just uses realizability to derive metatheoretic results.
+
+Section 4.2 discusses about the disjunction and existence properties of large set axioms. 
 
 Further behavior of large sets
 ------
