@@ -2,8 +2,8 @@
 layout: post
 mathjax: true
 comments: true
-title:  "A useful lemma for multivalued functions over $\mathsf{CZF}$"
-date:   2020-08-30 03:15:00 +0900
+title:  "A useful lemma for multivalued functions over $\\mathsf{CZF}$"
+date:   2020-11-21 15:51:30 +0900
 categories: posts constructive-mathematics set-theory
 tags: 
   - constructive-mathematics
