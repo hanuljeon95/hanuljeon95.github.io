@@ -15,7 +15,7 @@ published: true
 The following lemma is frequently used when tackling Strong collection or Subset collection, but curiously, it is not formulated in a concrete way. I found this is useful, so I formulated a separate lemma in [1]. I post it as a separate post for availability:
 
 > **Lemma.** Let $R: A\rightrightarrows B$ be a multi-valued function. Define $\mathcal{A}(R) : A\rightrightarrows A\times B$ by
-> \\[\mathcal{A}(R) = \{\langle a,\langle a,b\rangle\rangle \mid \langle a,b\rangle \in R\},\\]
+> \\[\mathcal{A}(R) = \\{\langle a,\langle a,b\rangle\rangle \mid \langle a,b\rangle \in R\\},\\]
 > then the following holds:
 > 
 > 1. $\mathcal{A}(R) : A\rightrightarrows S\iff R\cap S:A\rightrightarrows B$,
