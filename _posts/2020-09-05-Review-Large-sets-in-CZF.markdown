@@ -48,6 +48,8 @@ Section 4.2 discusses about the disjunction and existence properties of large se
 Further behavior of large sets
 ------
 
+
+
 ------
 
 [^1] The formal statement is as follows: for every class $A$ and $R\subseteq A\times A$, if $\forall x\in A\exists y\in A (x,y)\in R$ and $a_0\in A$, then we can find a set function $f:\omega\to A$ such that $f(0)=a_0$ and $(f(n),f(n+1))\in R$ for all $n\in\omega$. $\mathsf{RDC}$ is a theorem of $\mathsf{ZF+DC}$ (and possibly $\mathsf{IZF+DC}$), but there is no reason to believe the implication holds over $\mathsf{CZF}$.
