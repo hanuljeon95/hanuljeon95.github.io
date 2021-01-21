@@ -14,6 +14,7 @@ Publications
 Preprints
 ------------
 
+1. **How strong is a Reinhardt set over extensions of CZF? **. arXiv preprint [arXiv:2101.07455](https://arxiv.org/abs/2101.07455).
 1. **Constructive Ackermann's interpretation**. arXiv preprint [arXiv:2010.04270](http://arxiv.org/abs/2010.04270).
 
 
