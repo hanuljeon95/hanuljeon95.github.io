@@ -26,6 +26,8 @@ navigation:
   - {file: "index.md", icon: home}
   - {file: "papers.md", icon: file-text}
   - {file: "posts.md", icon: pencil}
+  - {file: "Korean.md", icon: address-card}
+
 
 external:                    # see http://fontawesome.com/icons
 #  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
