@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "어떻게 집합론을 공부할 것인가"
-date:   2021-03-02 00:00:00 +0900
+date:   2021-03-02 18:00:00 +0900
 categories: posts  set-theory
 tags: 
   - set-theory
@@ -38,15 +38,15 @@ published: false
 
 1. *[Open Logic Project](http://builds.openlogicproject.org/)*
 
-   몇몇 논리학자들이 온라인상 배포되는 논리 입문서를 쓰는 프로젝트의 일환으로 나온 책인데, 제법 방대한 수준의 introductory level의 논리학 내용을 풀어뒀습니다. 모든 책의 모든 챕터를 다 읽을 필요는 없고, 집합론에 관심이 있다면 *Set Theory: An Open Introduction*에 집중하는 것이 좋습니다. (수리논리도 벌충해야겠다 싶으면 *Sets, Logic, Computation*도 읽어볼 만 합니다. 다만 역시 다 읽을 필요는 없고, 증명론에 관심이 없다면 8-9장을, 비표준 논리에 관심이 없다면 11장을 건너뛰면 됩니다.)
-
-  해당 프로젝트 하에 있는 집합론 책은 Jech/Hrbacek보다 약간 쉬운 수준에서 내용을 다루고 있습니다. 이 정도라도 상위 집합론 내용을 배우기 위한 중간 징검다리 역할은 충분히 할 수 있습니다. 논조가 어느 정도 철학과를 위해 쓰여졌단 면도 고려해야겠지만, 그래봐야 책 내의 몇 개의 절이 수학적인 집합론과 다소 무관하단 정도로만 반영되어 있습니다.
+    몇몇 논리학자들이 온라인상 배포되는 논리 입문서를 쓰는 프로젝트의 일환으로 나온 책인데, 제법 방대한 수준의 introductory level의 논리학 내용을 풀어뒀습니다. 모든 책의 모든 챕터를 다 읽을 필요는 없고, 집합론에 관심이 있다면 *Set Theory: An Open Introduction*에 집중하는 것이 좋습니다. (수리논리도 벌충해야겠다 싶으면 *Sets, Logic, Computation*도 읽어볼 만 합니다. 다만 역시 다 읽을 필요는 없고, 증명론에 관심이 없다면 8-9장을, 비표준 논리에 관심이 없다면 11장을 건너뛰면 됩니다.)
+    
+    해당 프로젝트 하에 있는 집합론 책은 Jech/Hrbacek보다 약간 쉬운 수준에서 내용을 다루고 있습니다. 이 정도라도 상위 집합론 내용을 배우기 위한 중간 징검다리 역할은 충분히 할 수 있습니다. 논조가 어느 정도 철학과를 위해 쓰여졌단 면도 고려해야겠지만, 그래봐야 책 내의 몇 개의 절이 수학적인 집합론과 다소 무관하단 정도로만 반영되어 있습니다.
 
 1. 집합론의 직관적 접근과 공리적 이론 - 앨리스.
    
    맛있는 해석학을 쓴 앨리스가 쓴 책이 맞습니다. 원래 앨리스 (현재는 이슬비) 씨가 쓰려던 책은 총 4부작으로, 1부작이 고등학교 수학 리뷰, 3부작은 기초 집합론, 5부작이 맛있는 해석학, 7부작이 실해석학과 복소해석을 다루도록 계획되어 있었습니다. (홀수 번호로 매겼으므로 번호는 맞습니다.) 하지만 현재는 5부작인 맛있는 해석학만 남았고, 나머지 책은 검색해도 잘 나오지 않는 것 같습니다.
-
-  전체적인 내용은 Pinter와 비슷했던 것 같습니다. 하지만 해당 책은 서수를 다루지 않습니다. 한국어로 된 무료 교재라는 이점은 있겠지만 현재는 배포하지 않으니 도움될 지는 모르겠습니다.
+    
+    전체적인 내용은 Pinter와 비슷했던 것 같습니다. 하지만 해당 책은 서수를 다루지 않습니다. 한국어로 된 무료 교재라는 이점은 있겠지만 현재는 배포하지 않으니 도움될 지는 모르겠습니다.
 
 그 외의 교재를 알아보고 싶다면 Peter Smith의 [Teach Yourself Logic](https://www.logicmatters.net/tyl/)을 확인해보기를 추천합니다. 해당 글에서는 논리학 전 분야에 대한 입문 교재 리뷰를 하고 있으므로 문외한인 논리학 분야를 공부해보겠다고 하면 생각보다 참고할 만합니다.
 
@@ -130,28 +130,28 @@ published: false
 해당 부분은 제 편향된 주관과 부족한 경험에 따라 쓰였기 때문에, 수시로 바뀔 수도 있고 모든 사람에 대해 정확히 적용되지 않을 여지가 큽니다. 그럼에도 책 목록만 딱 던져 주고 알아서 하면 잘 된다고 쓰는 것도 무책임한 것 같기 때문에 조금이나마 어떻게 공부할 지 적어보려고 합니다.
 
 1. 일단 시간을 들여서 공부합시다.
-
+     
    모든 공부에 적용되는 말입니다. 여기서 좀 더 중요한 점은, 수학 어느 분야나 마찬가지겠지만, 단시간에 엄청난 성과가 나진 않을 것입니다. 따라서 중도 포기나 절망하기 쉬울 텐데, 진짜 이해가 하고 싶다면 그 단계에서 접고 넘어가면 안 됩니다. 어떻게든 이해하려고 시도하고, 최대한 직관을 머릿속에서 그려보고, 연습문제를 풀어보고, 증명을 재현하면서 복습해봅시다. 단순무식한 방법이 모두 능사는 아니고, 좀 더 좋은 길이 있으면 이를 따라가는 게 좋겠지만, 이는 다른 사람이 알려주지 않는 한 알기 쉽지 않다는 문제가 있습니다. 누구한테 물어볼 엄두가 안 나면 일단 단순하게 나가는 수밖에 없습니다.
-
+     
     다만 시간을 들이라는 것이 한 책만 뚫어져라 보라는 것은 아닙니다. 저조차 그러고 있다는 문제점이 있지만, 그렇게 하는 것은 보통 집중력이 흐트려져서 공부에 집중하지 못 하는 결론으로 이어지기 쉽습니다. 특히 공부하다 자주 막히면 그렇습니다. 그 경우엔 질문을 하거나, 공부해야 할 다른 분야를 보면서 관심을 잠깐 돌리거나, 과거의 문답을 참고하면서 전체적인 이미지를 그리는 등의 다른 일을 해 보기를 권합니다.
-
+      
    원래 수학은 쉽지 않고, 공부해서 성과를 보려면 시간이 걸립니다. 1-2주 안에 이해가 안 된다고 절망하는 것은 보통 이릅니다.
 
 1. 질문을 할 수 있으면 많이 합시다.
-
+    
   아쉽게도 한국어를 가지고 그런 여건을 누릴 수 있는 사람은 거의 없습니다. 필수적으로 다른 외국어 (특히 영어)에 의존해야 할 것입니다. 그런 여건을 누리는 데 쓸 수 있는 언어로는 일단 유럽 내의 메이저 언어들과 히브리어, 페르시아어, 일본어, 중국어가 있습니다. 다른 언어권은 잘 모르겠습니다. 여하튼 한국어는 아직은 아닙니다. 그 탓에 구두로 질문할 여건은 잘 안 나므로, 이를 대체할 방법을 궁리해봅시다.
-
+     
    Mathematics Stack Exchange와 Mathoverflow에 제법 많은 수준의 질문이 축적되어 있습니다. 다른 분야는 어떤 지 모르겠지만, 집합론의 경우에는 몇몇 분들이 열심히 활약해서 누적된 답변이 많습니다. (K모 씨라거나 C모 교수님, H모 교수님이나 B모 교수님, S모 씨 답변을 제일 많이 보게 될 겁니다. 좀 올라가면 더 보이겠지만 이하 생략. 여튼 생각보다 답변 다는 사람이 한정되어 있습니다.) 그 중에서는 제법 informal한 수준에서 motivation을 설명하는 경우도 많고, 막히는 detail을 설명하는 경우도 있습니다. 집합론의 추상성 안에서 길을 잃거나 엉뚱한 짓을 하고 싶지 않다면 informal한 답변을 많이 읽어 보는 것을 추천합니다. 이 분야가 뭘 하는 분야인지 대충 감을 잡을 수 있을 것입니다. 영어로 되어 있어서 읽기 힘들다고 생각할 수 있겠지만, 정 안 되면 번역기라도 사용하거나, 영어 공부를 좀 더 해서 영어 실력을 늘리는 수밖에 없습니다.
-
+    
   직접 Mathematics Stack Exchange와 Mathoverflow에 질문을 할 수도 있을 것입니다. 그런데 이런 점은 주의하시기 바랍니다:
    * 질문만 딱 던지면 질문이 닫히거나 삭제되기 좋습니다. (충분히 어려운 질문이 아닌 한.) 그러니 왜 이해가 안 되고, 어디가 안 되는 지 충분히 서술하는 게 좋습니다. 영어가 부족해서 힘들다고 생각할 수 있지만, 특히 수학을 전공하겠다고 하면 질문을 쓰는 과정도 공부의 일종입니다.
    * Mathoverflow는 연구 수준의 질문을 하는 곳입니다. Enderton 읽다가 안 풀리는 문제가 생기면 질문 올리는 그런 데는 아닙니다. 그 구분을 잘 하는 게 좋은데, 자신이 없으면 Mathematics Stack Exchange에 우선 올리는 것도 방안입니다. Upvote만 잔뜩 찍히고 답변이 없다면 Mathoverflow에 cross-post하는 걸 고려해볼 수 있습니다.
    * 자신의 답변이 이미 답변된 질문은 아닌 지 충분히 검색해보시기 바랍니다. Stackexchange 자체 검색 엔진은 안 좋으므로 구글에 site:(사이트 주소)를 붙인 다음에 적절한 키워드를 넣어서 검색해보기를 추천합니다.
-
+     
    한국어 사이트에 질문하는 것은 추천하지 않습니다. (수리논리 전반에 대해 그렇게 말하고 싶습니다.) 애초부터 수리논리 하는 사람이 너무 적어서 한국어 커뮤니티에서 그런 사람을 찾을 거라 기대하기 힘들고, 이미 있는 사람도 보통 철학이나 컴퓨터 과학을 하던 사람들일 겁니다.
 
 1. 조금이라도 있는 기반을 최대한 활용합시다.
-
+     
    이 부분에 대해서 구체적으로 쓰는 것은 저와 주변 분들에게 민폐일 수도 있을 것 같아서 삼가려고 합니다. 하지만 충분히 생각해보고 의지가 강하다면 무슨 뜻인지 알 수 있을 것이라 생각합니다.
 
 
@@ -177,10 +177,10 @@ published: false
 
 ### Some references about set theory and logic in Korean
 1. Joan Bagaria, *집합론*, at *The Princeton Companion to Mathematics*. Timothy Gowers, J. Barrow-Green, I. Leader (eds.) (Translated by 금종해, 정경훈, 권혜승.) 승산.
-1. 기하서, *괴델과 집합론*, at *Gӧdel탄생백주년기념학술대회: 왜 괴델인가?* Available at [http://web.yonsei.ac.kr/bkim/preprints/%EC%99%9C%EA%B4%B4%EB%8D%B8.hwp](http://web.yonsei.ac.kr/bkim/preprints/%EC%99%9C%EA%B4%B4%EB%8D%B8.hwp)
-1. 김병한, *괴델과 그의 불완전성 정리*, at *Gӧdel탄생백주년기념학술대회: 왜 괴델인가?* Available at [http://web.yonsei.ac.kr/bkim/preprints/%EC%99%9C%EA%B4%B4%EB%8D%B8.hwp](http://web.yonsei.ac.kr/bkim/preprints/%EC%99%9C%EA%B4%B4%EB%8D%B8.hwp)
+1. 기하서, *괴델과 집합론*, at *Gӧdel탄생백주년기념학술대회: 왜 괴델인가?* Available on [http://web.yonsei.ac.kr/bkim/preprints/%EC%99%9C%EA%B4%B4%EB%8D%B8.hwp](http://web.yonsei.ac.kr/bkim/preprints/%EC%99%9C%EA%B4%B4%EB%8D%B8.hwp)
+1. 김병한, *괴델과 그의 불완전성 정리*, at *Gӧdel탄생백주년기념학술대회: 왜 괴델인가?* Available on [http://web.yonsei.ac.kr/bkim/preprints/%EC%99%9C%EA%B4%B4%EB%8D%B8.hwp](http://web.yonsei.ac.kr/bkim/preprints/%EC%99%9C%EA%B4%B4%EB%8D%B8.hwp)
 
 
 ## Acknowledgment
 
-Many people helped me and suggested various materials for this article. I would like to thank for Iian Smythe, Ivan Di Liberti, Mirna Džamonja, Jason Zesheng Chen, Burak Emir, Toby Meadows and many others for their help. 
+Many people helped me and suggested various materials for this article. I would like to thank Iian Smythe, Ivan Di Liberti, Mirna Džamonja, Jason Zesheng Chen, Burak Emir, Toby Meadows, and many others for their help. 
