@@ -240,4 +240,4 @@ published: true
 
 ## Acknowledgment
 
-Many people helped me and suggested various materials for this article. I would like to thank Iian Smythe, Ivan Di Liberti, Mirna Džamonja, Jason Zesheng Chen, Burak Emir, Toby Meadows, and many others for their help. I am also thankful for Daebeom Choi for suggesting adding the description of topics of set theory.
+Many people helped me and suggested various materials for this article. I would like to thank Iian Smythe, Ivan Di Liberti, Mirna Džamonja, Jason Zesheng Chen, Burak Emir, Toby Meadows, and many others for their help.
