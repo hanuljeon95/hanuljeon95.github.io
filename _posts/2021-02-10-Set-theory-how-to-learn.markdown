@@ -8,7 +8,7 @@ categories: posts  set-theory
 tags: 
   - set-theory
   - education
-published: false
+published: true
 ---
 
 *Summary in English: I will introduce references about set theory, and explain my experiences on how to study set theory.*
