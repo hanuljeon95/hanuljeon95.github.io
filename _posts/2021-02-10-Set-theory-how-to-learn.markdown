@@ -104,6 +104,7 @@ published: true
       > **정리.** $\kappa$가 비가산 공종도(cofinality)를 가지는 특이기수(singular cardinal)이라 하자. 만약 $\lambda<\kappa$인 모든 기수 $\lambda$에 대해 $2^\lambda=\lambda^+$이면 $2^\kappa=\kappa^+$이다.
       
      현재 연구되는 기수 연산이라 하면 특이기수와 뭔가 연관되어 있다고 생각하면 될 것 같습니다. 그리고 그 중 Shelah가 창시한 pcf 이론을 언급하지 않고 넘어가기는 힘들 것 같습니다. 이를 대략 설명하자면, $\mathsf{ZFC}$ 범위 내에서 통제 가능한 기수 연산을 다룬다고 보면 될 것 같습니다. pcf theory의 맥락에서 Shelah가 증명한 다음 결과는 꽤 유명합니다:
+    
     > **정리.** 만약 $\aleph_\omega$가 강극한기수이면 $2^{\aleph_\omega}\le \aleph_{\omega_4}$이다.
      
      뒤의 $\aleph_{\omega_4}$를 $\aleph_{\omega_1}$까지 줄일 수 있을 것이라고 추측하고 있지만 아직 증명되지 않았습니다.
