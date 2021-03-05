@@ -85,7 +85,7 @@ published: true
 
 * 거대 기수 (Large cardinals): 거대 기수는 거의 집합론의 역사와 같이 등장한 개념입니다. 거대 기수의 명확한 정의는 존재하지 않지만, 대략적으로 '$\mathsf{ZFC}$ 내에서는 그 존재성을 증명할 수 없고 있다고 가정할 시 $\mathsf{ZFC}$의 무모순성을 증명해내는 기수' 정도로 통용되며, 적지 않은 거대 기수는 반영 원리 (reflection principle)에 따라 정의되거나 그와 동치인 서술을 가집니다. 거대 기수 역시 독립성 증명을 할 때 많이 쓰이는데, 강제법과 달리 무모순성 강도 (consistency strength)를 끌어올린다는 특징이 있습니다. 거대 기수는 보통 무모순성 강도에 따라 선형적으로 나열되어 있다고 간주되며, 대략 $0^\sharp$의 존재성을 이끌어내느냐를 기준으로 small large cardinal과 large large cardinal으로 나눕니다. 보통 small large cardinal은 reflection principle을 이용한 서술을 가지고, large large cardinal은 elementary embedding이나 ultrapower를 이용한 기술을 많이 사용합니다. 한편으로 Reinhardt가 도입한 Reinhardt cardinal이라는 것이 있는데, Kunen이 선택공리를 가정하면 이가 존재할 수 없음을 보였습니다:
       
-     > **정리.** (Kunen's inconsistency theorem, $\mathsf{ZFC})$) $j:V\prec V$인 elementary embedding $j$는 존재할 수 없다.
+     > **정리.** (Kunen's inconsistency theorem, $\mathsf{ZFC}$) $j:V\prec V$인 elementary embedding $j$는 존재할 수 없다.
      
     거대 기수 자체를 연구하는 기류도 여전히 존재합니다. 특히 최근에는, Gabriel Goldberg와 Farmer Schultzenberg를 위시해서 Reinhardt cardinal 같은 choiceless large cardinal이 연구되고 있습니다.
 
