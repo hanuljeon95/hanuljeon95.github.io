@@ -112,8 +112,8 @@ published: false
 * Cardinal characteristic of the continuum: 역시 Shelah에 의해서 강하게 동력을 받았으며, Wien 대학에서 학파를 이뤄서 연구하는 것으로 압니다. 무한 조합론 혹은 다른 유관 분야에서 나올 법한 조합론적 기수들을 특성짓고, 그 기수들 간의 부등식과 등식이 $\mathsf{ZFC}$ 내에서 증명 가능할 지를 연구하는 분야라는 인상이 강합니다. (물론 이런 기수들은 연속체 가설을 가정하면 다 같아집니다. 하지만 이렇게 재미없는 경우는 상상하고 싶지 않겠죠.) 이 쪽 분야의 응용을 하나 제시해보라고 하면 여섯 명이 쓴 [The Rearrangement Number](https://arxiv.org/abs/1612.07830)가 있을 것 같은데, 대충 소개하자면 '무한히 많은 조건부 수렴 급수를 어떤 전단사함수들의 집합 $\mathcal{F}$에 따라 재정렬했을 때, 해당 급수들이 전부 수렴하게끔 하는 $\mathcal{F}$의 최소 크기는 얼마인가'를 묻는 내용으로 시적하는 것으로 압니다.
 
 * 기술집합론 (Descriptive set theory): 보렐 집합 및 사영집합(Projective set)들의 복잡도를 분류한다는 인상이 강한 분야입니다. 통상적인 '순수 집합론'과 달리 해석학이나 일반위상에 더 가까운 느낌이 나고, 의외로 역사가 꽤 오래된 분야입니다. 당장 칸토어가 집합론을 시작한 계기도 푸리에 급수가 수렴하는 집합을 알아보는 것이였으니 기술집합론적 계기가 큽니다.
-      
-      이 쪽도 작은 분야가 아니라서 한 단어로 뭉뚱그리는 게 실례일 정도이지만, 제가 잘 몰라서 어쩔 수 없습니다. Effective descriptive set theory같은 세부분야는 아예 computability theory를 하는 사람들이 역수학(reverse mathematics)와 같이 연구한다는 인상이 강하고, determinacy와 sharp과 관련된 주제는 inner model theory를 하는 사람들이 연구하며, 그 응용은 집합론 밖을 벗어나서 동역학계나 측도론 등과 닿아 있는 것으로 압니다.
+     
+     이 쪽도 작은 분야가 아니라서 한 단어로 뭉뚱그리는 게 실례일 정도이지만, 제가 잘 몰라서 어쩔 수 없습니다. Effective descriptive set theory같은 세부분야는 아예 computability theory를 하는 사람들이 역수학(reverse mathematics)와 같이 연구한다는 인상이 강하고, determinacy와 sharp과 관련된 주제는 inner model theory를 하는 사람들이 연구하며, 그 응용은 집합론 밖을 벗어나서 동역학계나 측도론 등과 닿아 있는 것으로 압니다.
 
 * Borel equivalence relations: 현재 제일 크게 팽창하고 있는 기술집합론 내의 분야일 것 같습니다. 말 그대로 동치관계 중 Borel set인 것을 연구하는데, 그런 동치관계의 복잡도를 분류하고, 다른 분야에서 자연스레 등장하는 보렐 동치관계를 연구하는 데 초점을 맞추고 있습니다.
 
