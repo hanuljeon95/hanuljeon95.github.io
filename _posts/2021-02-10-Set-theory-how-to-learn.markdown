@@ -119,7 +119,7 @@ published: true
      
      이 쪽도 작은 분야가 아니라서 한 단어로 뭉뚱그리는 게 실례일 정도이지만, 제가 잘 몰라서 어쩔 수 없습니다. Effective descriptive set theory같은 세부분야는 아예 computability theory를 하는 사람들이 역수학(reverse mathematics)과 같이 연구한다는 인상이 강하고, determinacy와 sharp과 관련된 주제는 inner model theory를 하는 사람들이 연구하며, 그 응용은 집합론 밖을 벗어나서 동역학계나 측도론 등과 닿아 있는 것으로 압니다.
 
-* Borel equivalence relations: 현재 제일 크게 팽창하고 있는 기술집합론 내의 분야일 것 같습니다. 말 그대로 동치관계 중 Borel set인 것을 연구하는데, 그런 동치관계의 복잡도를 분류하고, 다른 분야에서 자연스레 등장하는 보렐 동치관계를 연구하는 데 초점을 맞추고 있습니다.
+* Borel equivalence relations: 현재 제일 크게 팽창하고 있는 기술집합론 내의 분야일 것 같습니다. 말 그대로 동치관계 중 Borel set인 것을 연구하는데, 그런 동치관계의 복잡도를 분류하고, 다른 분야에서 자연스레 등장하는 보렐 동치관계를 연구하는 데 초점을 맞추고 있습니다. 이에 대해서는 [Matthew Foreman 교수님의 글을 인용하는 것으로](https://www.ams.org/journals/notices/201810/rnoti-p1263.pdf) 설명을 대신하려고 합니다.
 
 
 ## 자주 참고되는 집합론 교재들
