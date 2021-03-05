@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "어떻게 집합론을 공부할 것인가"
-date:   2021-03-06 18:00:00 +0900
+date:   2021-03-05 16:00:00 +0900
 categories: posts  set-theory
 tags: 
   - set-theory
