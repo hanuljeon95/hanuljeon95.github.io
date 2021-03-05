@@ -15,9 +15,12 @@ published: false
 
 -------
 
-인터넷을 가끔 돌아다니다 보면 집합론에 눈독들여서 공부하는 사람들을 보게 됩니다. 아쉽게도 한국에서는 집합론을 공부하는 사람이 없기 때문에, 한국어로는 원하는 정보를 찾기 힘든 경우가 대다수입니다. 따라서 부족하게나마 제가 아는 선에서 관련된 정보를 정리해보고자 합니다. (참고: 해당 글은 불시에 업데이트될 수도 있습니다.)
+인터넷을 가끔 돌아다니다 보면 집합론에 눈독들여서 공부하는 사람들을 보게 됩니다. 아쉽게도 한국에서는 집합론을 공부하는 사람이 없기 때문에, 한국어로는 원하는 정보를 찾기 힘든 경우가 대다수입니다. 따라서 부족하게나마 제가 아는 선에서 관련된 정보를 정리해보고자 합니다. 
+
+참고: 해당 글은 불시에 업데이트될 수도 있습니다. 따라서 최신 내용의 반영을 위해 해당 글을 퍼갈 때는 링크만 걸어두기를 추천합니다.
 
 **주의: 해당 글은 비록 몇몇 유관 분야에 대한 설명을 포함할 수 있으나 주로 집합론에 대해서 다룹니다. 즉, 집합론 외의 다른 분야에 대해서는 불충분하거나 설명이 전혀 없을 수 있습니다.**
+
 
 ## 기초적인 집합론
 보통 이 레벨은 수학과가 있는 학부라면 과목이 개설될 것입니다. 하지만 서수나 선택공리에 대해서 제대로 다루지 않을 수도 있습니다. 유료로 파는 교재라면 다음을 생각해볼 수 있습니다:
@@ -113,7 +116,7 @@ published: false
 
 * 기술집합론 (Descriptive set theory): 보렐 집합 및 사영집합(Projective set)들의 복잡도를 분류한다는 인상이 강한 분야입니다. 통상적인 '순수 집합론'과 달리 해석학이나 일반위상에 더 가까운 느낌이 나고, 의외로 역사가 꽤 오래된 분야입니다. 당장 칸토어가 집합론을 시작한 계기도 푸리에 급수가 수렴하는 집합을 알아보는 것이였으니 기술집합론적 계기가 큽니다.
      
-     이 쪽도 작은 분야가 아니라서 한 단어로 뭉뚱그리는 게 실례일 정도이지만, 제가 잘 몰라서 어쩔 수 없습니다. Effective descriptive set theory같은 세부분야는 아예 computability theory를 하는 사람들이 역수학(reverse mathematics)와 같이 연구한다는 인상이 강하고, determinacy와 sharp과 관련된 주제는 inner model theory를 하는 사람들이 연구하며, 그 응용은 집합론 밖을 벗어나서 동역학계나 측도론 등과 닿아 있는 것으로 압니다.
+     이 쪽도 작은 분야가 아니라서 한 단어로 뭉뚱그리는 게 실례일 정도이지만, 제가 잘 몰라서 어쩔 수 없습니다. Effective descriptive set theory같은 세부분야는 아예 computability theory를 하는 사람들이 역수학(reverse mathematics)과 같이 연구한다는 인상이 강하고, determinacy와 sharp과 관련된 주제는 inner model theory를 하는 사람들이 연구하며, 그 응용은 집합론 밖을 벗어나서 동역학계나 측도론 등과 닿아 있는 것으로 압니다.
 
 * Borel equivalence relations: 현재 제일 크게 팽창하고 있는 기술집합론 내의 분야일 것 같습니다. 말 그대로 동치관계 중 Borel set인 것을 연구하는데, 그런 동치관계의 복잡도를 분류하고, 다른 분야에서 자연스레 등장하는 보렐 동치관계를 연구하는 데 초점을 맞추고 있습니다.
 
@@ -236,4 +239,4 @@ published: false
 
 ## Acknowledgment
 
-Many people helped me and suggested various materials for this article. I would like to thank Iian Smythe, Ivan Di Liberti, Mirna Džamonja, Jason Zesheng Chen, Burak Emir, Toby Meadows, and many others for their help. 
+Many people helped me and suggested various materials for this article. I would like to thank Iian Smythe, Ivan Di Liberti, Mirna Džamonja, Jason Zesheng Chen, Burak Emir, Toby Meadows, and many others for their help. I am also thankful for Daebeom Choi for suggesting adding the description of topics of set theory.
