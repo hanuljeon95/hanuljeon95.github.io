@@ -224,7 +224,7 @@ published: true
 
 컴퓨터 과학 쪽으로의 설명이 부족하단 문제는 있지만 관련 분야 전반을 잘 review한 글이 이것 외에는 거의 없단 것이 현실인 것 같습니다. 또한 기초적인 개념에 대해서는 자체적인 설명도 하고 있으니 참고할 만합니다.
 
-1. Peter Smith, *Teaching Yourself Logic*. Available at https://www.logicmatters.net/tyl/
+1. Peter Smith, *Teaching Yourself Logic*. Available at [https://www.logicmatters.net/tyl/](https://www.logicmatters.net/tyl/)
 
 ### Some online resourses about the outline of set theory
 

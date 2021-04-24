@@ -3,7 +3,7 @@ title: "About"
 layout: page
 ---
 
-My name is Hanul Jeon (pronounciation: /hanul.dʑʌn/). I graduated from Seoul National University in February 2021. I am interested in logic, especially set theory and constructive mathematics.
+My name is Hanul Jeon (pronounciation: /hanul.dʑʌn/). I graduated from Seoul National University in February 2021 and will start a doctoral program at Cornell in Fall 2021. I am interested in logic, especially set theory and constructive mathematics.
 
 I have accounts on [Mathematics stachexchange](https://math.stackexchange.com/users/53976), [Mathoverflow](https://mathoverflow.net/users/48041) and [Twitter](https://twitter.com/hanuljeon95). If you want ask to me, please contact me via my [e-mail](mailto:hanuljeon95@gmail.com) or my Twitter account.
 
