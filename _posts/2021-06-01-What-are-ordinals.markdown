@@ -401,7 +401,6 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 [^8]: 사전에서 단어를 찾을 때, 첫 문자의 알파벳 순서에 따라 먼저 찾은 후 그 다음 문자의 알파벳 순서에 따라 단어를 찾습니다.
 
 [^9]: 그럼에도 궁금해 할 분이 있을까봐, 지수 연산의 다른 정의를 소개합니다: $\alpha$와 $\beta$가 서수일 때 $\alpha^\beta$는 다음과 같이 주어지는 순서집합 $(X,<)$와 순서동형입니다:
-   
    1. $X=\\{f:\beta\to\alpha \mid f(\xi)=0 \text{ for all but finitely many }\xi\in\beta\\}$
    
    2. $f<g$일 필요충분조건은 $f$가 $g$가 사전식 순서 하에 작은 것이다. 즉, $\xi=\min\\{\eta\in\beta\mid f(\eta)\neq g(\eta)\\}$에 대해 $f(\eta)<g(\eta)$인 것이다.
