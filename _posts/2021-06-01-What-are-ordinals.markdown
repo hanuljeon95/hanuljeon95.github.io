@@ -280,7 +280,7 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 위에서 서수에 대한 설명을 할 때 덧셈을 "이어붙이는" 것으로 이해했습니다. 일반적인 서수의 덧셈도 그렇게 정의됩니다. 좀 형식적으로 적으면 다음과 같습니다:
 > **정의.** (서수의 덧셈) $\alpha$와 $\beta$가 서수라 하자. 이 때 $\alpha+\beta$는 다음 순서집합 $(X,<)$과 순서동형인 서수로 주어진다:
 > 
-> * $X = \\{(\xi,0) : \xi\in\alpha\}\cup \{(\eta,1) : \eta\in\beta\\}$,
+> * $X = \\{(\xi,0) : \xi\in\alpha\\}\cup \\{(\eta,1) : \eta\in\beta\\}$,
 > * $(\xi,i)<(\eta,j)$일 필요충분조건은 둘 중 하나가 성립하는 것이다:
 >    1. $i=j$이고 $\xi<\eta$, 혹은
 >    2. $i=0$이고 $j=1$인 것.
@@ -406,5 +406,7 @@ Acknowledgment: Some of my explanations originated from my previous introductory
    
    2. $f<g$일 필요충분조건은 $f$가 $g$가 사전식 순서 하에 작은 것이다. 즉, $\xi=\min\\{\eta\in\beta\mid f(\eta)\neq g(\eta)\\}$에 대해 $f(\eta)<g(\eta)$인 것이다.
 
+
+------
 
 <img class="marginauto" src="../files/20210531.png" alt="centered image" height="400", width="400" />
