@@ -8,7 +8,7 @@ categories: posts  set-theory
 tags: 
   - set-theory
   - ordinal
-published: false
+published: true
 ---
 
 *Summary in English: This series of posts, which will comprise two posts, aims to explain the notion of ordinal and cardinal, which is the basic concept of set theory. This post, the first post of the series, will explain about the basic concept of ordinals. I will try to give an intuitive explanation as possible.*
@@ -407,6 +407,7 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 2. $f<g$일 필요충분조건은 $f$가 $g$가 사전식 순서 하에 작은 것이다. 즉, $\xi=\min\{\eta\in\beta\mid f(\eta)\neq g(\eta)\}$에 대해 $f(\eta)<g(\eta)$인 것이다.
 
 
-<div>
-  <img class="marginauto" src="../files/20210531.png" alt="centered image" height="400", width="400" />
-</div>
+<p align="center">
+    <img class="marginauto" src="../files/20210531.png" alt="centered image" height="400", width="400" />
+    Time flies like an arrow, and June comes too soon.
+</p>
