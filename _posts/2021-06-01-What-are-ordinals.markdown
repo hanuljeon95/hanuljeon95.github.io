@@ -384,7 +384,6 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 
 <img align="center" width="400" height="400" src="../files/20210531.png">
 
-------
 
 [^1]: 나머지 하나는 기술집합론(descriptive set theory)에 영향을 크게 줬을 일반위상과 측도론일 것 같습니다. 하지만 기술집합론에서도 서수가 안 나온다는 것은 아닙니다. 논리학 전반에서, 무한서수와 무한기수, 혹은 그와 유사한 개념의 등장은 불가피한 것 같습니다.
 
