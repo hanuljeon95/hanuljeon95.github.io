@@ -204,11 +204,11 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 > 
 > 모든 자연수 $n$에 대해 $P(n)$이 성립한다.
 
-> **정리.** (원시적 재귀, Primitive recursion) $f:\mathbb{N}\to\mathbb{N}$, $g:\mathbb{N}\times\mathbb{N}\times\mathbb{N}\to\mathbb{N}$이라 하자. 그러면 어떤 $h:\mathbb{N}\times \mathbb{N}\to\mathbb{N}$이 있어
+> **정리.** (원시적 재귀, Primitive recursion) $a\in\mathbb{N}$, $g:\mathbb{N}\times\mathbb{N}\to\mathbb{N}$이라 하자. 그러면 어떤 $h:\mathbb{N}\times \mathbb{N}\to\mathbb{N}$이 있어
 > 
-> 1. $h(0,m) = f(m)$,
+> 1. $h(0) = a$,
 > 
-> 2. $h(n+1,m) = g(h(n,m),n,m)$
+> 2. $h(n+1) = g(h(n,m),n)$
 >
 >을 만족한다.
 
@@ -385,7 +385,7 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 <p align="center">
    <img width="400" height="400" src="../files/20210531.png">
 
-   시간 참 빠르게 흐르는 것 같습니다.
+   그나저나, 시간 참 빠르게 흐르는 것 같습니다.
 </p>
 
 
