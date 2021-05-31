@@ -383,8 +383,8 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 서수 자체에 대해서 할 이야기는 아직도 많이 남아 있지만, 이 정도면 서수에 대한 기초적인 설명은 다 했다고 생각합니다. 다음 글에서는 기수와 알레프 수에 대해서 이야기해보려고 합니다.
 
 <p align="center">
-
    <img width="400" height="400" src="../files/20210531.png">
+
    시간 참 빠르게 흐르는 것 같습니다.
 </p>
 
