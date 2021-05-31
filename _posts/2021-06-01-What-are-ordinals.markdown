@@ -382,6 +382,8 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 
 서수 자체에 대해서 할 이야기는 아직도 많이 남아 있지만, 이 정도면 서수에 대한 기초적인 설명은 다 했다고 생각합니다. 다음 글에서는 기수와 알레프 수에 대해서 이야기해보려고 합니다.
 
+<img align="center" width="400" height="400" src="../files/20210531.png">
+
 ------
 
 [^1]: 나머지 하나는 기술집합론(descriptive set theory)에 영향을 크게 줬을 일반위상과 측도론일 것 같습니다. 하지만 기술집합론에서도 서수가 안 나온다는 것은 아닙니다. 논리학 전반에서, 무한서수와 무한기수, 혹은 그와 유사한 개념의 등장은 불가피한 것 같습니다.
@@ -401,8 +403,3 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 [^8]: 사전에서 단어를 찾을 때, 첫 문자의 알파벳 순서에 따라 먼저 찾은 후 그 다음 문자의 알파벳 순서에 따라 단어를 찾습니다.
 
 [^9]: 그럼에도 궁금해 할 분이 있을까봐, 지수 연산의 다른 정의를 소개합니다: $\alpha$와 $\beta$가 서수일 때 $\alpha^\beta$는 다음과 같이 주어지는 순서집합 $(X,<)$와 순서동형입니다: $X=\\{f:\beta\to\alpha \mid f(\xi)=0 \text{ for all but finitely many }\xi\in\beta\\}$이고, $f<g$일 필요충분조건은 $f$가 $g$가 사전식 순서 하에 작은 것이다. 즉, $\xi=\min\\{\eta\in\beta\mid f(\eta)\neq g(\eta)\\}$에 대해 $f(\eta)<g(\eta)$인 것이다.
-
-
-------
-
-<img class="marginauto" src="../files/20210531.png" alt="centered image" height="400", width="400" />
