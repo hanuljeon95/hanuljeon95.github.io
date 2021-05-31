@@ -124,7 +124,7 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 
 와 같이 이어지는 순서형은 $\omega\cdot 3$과 같이 쓸 수 있을 것입니다. 내친 김에 더 나아가 봅시다.
 
-\\[0 < 1 < 2 < 3 < \cdots< \omega < \omega+1 < \omega+2 < \cdots < \omega\cdot 2 < \omega\cdot 2+1 < \cdots < \\ \omega\cdot 3 < \omega\cdot 3+ 1 < \cdots \omega\cdot 4 < \cdots < \omega\cdot 5 < \cdots \\]
+\\[\begin{multline}0 < 1 < 2 < 3 < \cdots< \omega < \omega+1 < \omega+2 < \cdots < \omega\cdot 2 < \omega\cdot 2+1 < \cdots < \\ \omega\cdot 3 < \omega\cdot 3+ 1 < \cdots \omega\cdot 4 < \cdots < \omega\cdot 5 < \cdots \end{multline}\\]
 
 과 같이 이어지는 열은 어떻게 표현해야 할까요? 어떻게 보면, 이러한 열은 $\omega$, $\omega\cdot 2$, $\omega\cdot 3$, $\cdots$ 등을 '합집합하면' 얻어지는 열과 같음을 알 수 있습니다. 이 수열의 이름을 어떻게 붙일 지 고민하기 전에, 이전에 봤던 열들에 대한 관찰을 좀 더 해 봅시다. 가령,
 
