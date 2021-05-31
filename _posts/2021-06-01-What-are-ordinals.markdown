@@ -44,7 +44,7 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 > 
 > 우리는 $a<b$를 $(a\le b)\land (a\neq b)$로 정의한다. 그리고 이를 **강한 순서** (strict order)라 부를 것이다. 때때로 우리들은 보통 순서 대신 강순서를 이용해서 순서집합을 정의할 것이다. 특히, 강순서는 다음 조건들을 만족한다:
 >
-> 1. 모든 $x\in X$에 대해 $x\notlt x$.
+> 1. 모든 $x\in X$에 대해 $x\nless x$.
 >
 > 2. (추이성) 모든 $x,y,z\in X$에 대해 $x<y$이고 $y<z$이면 $x<z$.
 
@@ -382,8 +382,12 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 
 서수 자체에 대해서 할 이야기는 아직도 많이 남아 있지만, 이 정도면 서수에 대한 기초적인 설명은 다 했다고 생각합니다. 다음 글에서는 기수와 알레프 수에 대해서 이야기해보려고 합니다.
 
-<img align="center" width="400" height="400" src="../files/20210531.png">
+<p align="center">
+<width="400" height="400" src="../files/20210531.png">
 
+
+시간 참 빠르게 흐르는 것 같습니다.
+</p>
 
 [^1]: 나머지 하나는 기술집합론(descriptive set theory)에 영향을 크게 줬을 일반위상과 측도론일 것 같습니다. 하지만 기술집합론에서도 서수가 안 나온다는 것은 아닙니다. 논리학 전반에서, 무한서수와 무한기수, 혹은 그와 유사한 개념의 등장은 불가피한 것 같습니다.
 
