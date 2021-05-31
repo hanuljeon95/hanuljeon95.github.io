@@ -280,7 +280,7 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 위에서 서수에 대한 설명을 할 때 덧셈을 "이어붙이는" 것으로 이해했습니다. 일반적인 서수의 덧셈도 그렇게 정의됩니다. 좀 형식적으로 적으면 다음과 같습니다:
 > **정의.** (서수의 덧셈) $\alpha$와 $\beta$가 서수라 하자. 이 때 $\alpha+\beta$는 다음 순서집합 $(X,<)$과 순서동형인 서수로 주어진다:
 > 
-> * $X = \{(\xi,0) : \xi\in\alpha\}\cup \{(\eta,1) : \eta\in\beta\}$,
+> * $X = \\{(\xi,0) : \xi\in\alpha\}\cup \{(\eta,1) : \eta\in\beta\\}$,
 > * $(\xi,i)<(\eta,j)$일 필요충분조건은 둘 중 하나가 성립하는 것이다:
 >    1. $i=j$이고 $\xi<\eta$, 혹은
 >    2. $i=0$이고 $j=1$인 것.
@@ -307,7 +307,7 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 
 > **정의.** (서수의 곱셈) $\alpha$와 $\beta$가 서수라 하자. 이 때 $\alpha\cdot\beta$는 다음 순서집합 $(X,<)$과 순서동형인 서수로 주어진다:
 > 
-> * $X =\alpha\times\beta = \{(\xi,\eta) : \xi\in\alpha,\, \eta\in\beta\}$,
+> * $X =\alpha\times\beta = \\{(\xi,\eta) : \xi\in\alpha,\, \eta\in\beta\\}$,
 > * $(\xi,\eta)<(\xi',\eta')$일 필요충분조건은 둘 중 하나가 성립하는 것이다:
 >    1. $\xi<\xi'$이거나
 >    2. $\xi=\xi'$이고 $\eta<\eta'$인 것이다.
