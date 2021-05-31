@@ -8,7 +8,7 @@ categories: posts  set-theory
 tags: 
   - set-theory
   - ordinal
-published: true
+published: false
 ---
 
 *Summary in English: This series of posts, which will comprise two posts, aims to explain the notion of ordinal and cardinal, which is the basic concept of set theory. This post, the first post of the series, will explain about the basic concept of ordinals. I will try to give an intuitive explanation as possible.*
