@@ -2,17 +2,18 @@
 layout: post
 mathjax: true
 comments: true
-title:  "서수와 기수"
-date:   2021-06-02 16:00:00 +0900
+title:  "서수란 무엇인가"
+date:   2021-06-01 13:00:00 +0900
 categories: posts  set-theory
 tags: 
   - set-theory
   - ordinal
-  - cardinal
 published: false
 ---
 
-*Summary in English: This series of posts, which will comprise two posts, aims to explain the notion of ordinal and cardinal, which is the basic concept of set theory. I will try to give an intuitive explanation as possible. This post, the first post of the series, explains about ordinals, and the second post I would upload will talk about cardinals.*
+*Summary in English: This series of posts, which will comprise two posts, aims to explain the notion of ordinal and cardinal, which is the basic concept of set theory. This post, the first post of the series, will explain about the basic concept of ordinals. I will try to give an intuitive explanation as possible.*
+
+Acknowledgment: Some of my explanations originated from my previous introductory paper about the Goodstein theorem. Hansol Jeon pointed out some errors in this paper for which I am thankful.
 
 -------
 
@@ -57,7 +58,7 @@ published: false
 > 
 > 3. (정렬가능성) 만약 $A\subseteq\alpha$가 공집합이 아닌 $\alpha$의 부분집합이면, 어떤 $\beta\in A$가 있어 $\beta$는 $A$의 최소원이다. 즉, 임의의 $\xi\in A$에 대해 $\beta=\xi$ 혹은 $\beta\in \xi$가 성립한다.
 
-제가 아는 한, 정렬순서집합의 정의는 칸토어 때까지 거슬러 올라가고, 위의 형태의 서수의 정의는 폰 노이만에 의해 주어졌습니다. 수학에서 비형식적 개념과 형식적 정의 간에 거리가 있는 일은 흔히 있지만, 이 차이를 이해하는 건 쉬운 일이 아닙니다. 폰 노이만이 준 정의니 인간이 이해할 수 없는 것이라 포기하는 대신, 왜 위의 정의여야 하는 지 보고자 합니다.
+제가 아는 한, 정렬순서집합의 정의는 칸토어 때까지 거슬러 올라가고, 위의 형태의 서수의 정의는 폰 노이만에 의해 주어졌습니다. 수학에서 비형식적 개념과 형식적 정의 간에 거리가 있는 일은 흔히 있지만, 이 차이를 이해하는 것은 종종 쉬운 일이 아닙니다. 폰 노이만이 준 정의니 인간이 이해할 수 없는 것이라 포기하는 대신, 왜 위의 정의여야 하는 지 보고자 합니다.
 
 ------
 
@@ -173,7 +174,7 @@ published: false
 
 ------
 
-그런데 이게 어떻게 최소원 원리와 연관지어질 수 있을까요? 집합론에서 많이 등장하는 사고법 중 하나로 함수를 집합으로 바꾸는 것이 있습니다. 이는 연구 분야로서의 집합론에 들어갈 때도 사람의 이해를 종종 괴롭히는 부분인데, 한편 이러한 작업을 통해 다루는 대상을 함수에서 집합으로 단순화시킬 수 있다는 이점도 지닙니다. 집합론 수업을 들어서 집합론에서 함수를 순서쌍들의 집합으로 정의한다는 것을 안다면, 순서쌍들의 집합보다 그 치역이 좀 더 간단한 집합일 것이라는 사실에는 동의할 수 있을 것이라 생각합니다.
+그런데 위의 서술이 어떻게 정렬가능성과 연관지어질 수 있을까요? 집합론에서 많이 등장하는 사고법 중 하나로 함수를 집합으로 바꾸는 것이 있습니다. 이는 연구 분야로서의 집합론에 들어갈 때도 사람의 이해를 종종 괴롭히는 부분인데, 한편 이러한 작업을 통해 다루는 대상을 함수에서 집합으로 단순화시킬 수 있다는 이점도 지닙니다. 집합론 수업을 들어서 집합론에서 함수를 순서쌍들의 집합으로 정의한다는 것을 안다면, 순서쌍들의 집합보다 그 치역이 좀 더 간단한 집합일 것이라는 사실에는 동의할 수 있을 것이라 생각합니다.
 
 상술했듯, 무한히 감소하는 서수열은 없습니다. 이 말인즉슨, 약하게 감소하는 서수열 $\alpha_0\ge \alpha_1\ge\alpha_2\ge\cdots$가 있으면 이 서수열은 언젠가 상수로 멈출 것이란 뜻이기도 합니다: 그렇지 않고 계속 감소하면 '상수로 정체된 구간'은 건너뛰는 방식으로 무한히 감소하는 서수열을 얻을 수 있기 때문입니다. 이를 수열이 아니라 집합 $\{\alpha_0,\alpha_1\cdots\}$의 관점에서 본다면, 해당 집합이 유한집합이고 **제일 작은 원소를 갖는다**는 말이 됩니다.
 
@@ -215,16 +216,171 @@ published: false
 
 > **정리.** (자연수에 대한 재귀) $V$를 모든 집합들의 모임이라 하자. 그리고 $F:V\to V$를 함수라 하자.[^4] 이 때 어떤 함수 $G:\mathbb{N}\to V$가 있어 $G(n) = F(G\upharpoonright n)$을 만족한다.
 
-여기서 $G\upharpoonright n$은 함수 $G$의 정의역을 $n$으로 제한한 것입니다. Jech 같은 교재에서 위의 형태의 재귀 정리를 다룹니다.[^5] 
+여기서 $G\upharpoonright n$은 함수 $G$의 정의역을 $n$으로 제한한 것입니다. Jech 같은 교재에서 위의 형태의 재귀 정리를 다룹니다.[^5] 정의의 형태가 왜 이렇게 이상한 지는 초한재귀법을 설명하면서 같이 설명하려고 합니다.
+
+위에서 상술한 귀납법과 재귀적 정의는, 자연수 집합이 정렬되었다는 데에서 따라나옵니다. 재귀적 정의가 가능하단 정리는 증명하려면 조금 고통스럽기 때문에 그렇다고 하고, 귀납법에 대해서만 증명해봅시다:
+
+> **증명.** $P$가 $P(0)$과, 모든 $n$에 대해 $P(n)\to P(n+1)$를 만족한다고 하자. 이제 집합
+> \\[X = \{n\in\mathbb{N} \mid P(n)\} \\]
+> 을 생각하자. 우리들은 $X=\mathbb{N}$임을 보일 것이다. 만약 그렇지 않다면, $\mathbb{N}\setminus X$는 공집합이 아니고, 따라서 최소원 $n$을 갖는다. 특히, $n$은 $\lnot P(n)$을 만족한다. 따라서 $n$은 $0$일 수 없다. ($0$은 $P(0)$을 만족하므로.) 만약 $n=m+1$이면, $n$이 $\lnot P(n)$을 민족하는 제일 작은 자연수라는 데서 $P(m)$이 성립해야 한다. (그렇지 않으면 $m$이 $\lnot P(m)$을 만족하는, $n$보다 작은 자연수가 되므로.) 그런데 $P(m)$은 $P(m+1)$을 이끌어내고, 이는 $P(n)$이다. 따라서 $n$은 $0$일 수도 없고 $m+1$꼴일 수도 없다. 이는 모순이다.
+> 따라서 $X=\mathbb{N}$이다.
+
+한편, 자연수에 대한 귀납법은 다음과 같은 형태로도 쓰일 수 있습니다:
+> **정리.** (귀납법, 다른 형태) 다음이 성립한다고 가정하자: 모든 자연수 $n$에 대해, $\forall k<n P(k)$가 $P(n)$을 이끌어낸다고 하자. 그러면 모든 자연수 $n$에 대해 $P(n)$이 성립한다.
+
+그리고 서수 역시 정렬순서입니다. 따라서 서수에 대해서도 귀납법과 재귀적 정의가 가능할 것이라 생각해볼 수 있습니다.
+
+> **정리.** (서수 위에서의 귀납법) $\alpha$를 서수라 하자. 그리고 다음이 성립한다고 가정하자: 모든 서수 $\xi<\alpha$에 대해, $\forall \eta<\xi P(\eta)$가 $P(\xi)$을 이끌어낸다고 하자. 그러면 모든 서수 $\xi<\alpha$에 대해 $P(\xi)$가 성립한다.
+
+그리고 위의 귀납법은 **모든** 서수에 대해서도 일반화될 수 있습니다:
+
+> **정리.** (초한귀납법) 다음이 성립한다고 가정하자: 모든 서수 $\xi$에 대해, $\forall \eta<\xi P(\eta)$가 $P(\xi)$을 이끌어낸다고 하자. 그러면 모든 서수 $\xi$에 대해 $P(\xi)$가 성립한다.
+
+마찬가지로, 재귀적 정의 역시 모든 서수에 대해 일반화할 수 있습니다:
+> **정리.** (초한재귀)  $V$를 모든 집합들의 모임이라 하자. 그리고 $F:V\to V$를 함수라 하자.[^4] 이 때 어떤 함수 $G:\mathrm{Ord}\to V$가 있어 $G(\alpha) = F(G\upharpoonright \alpha)$을 만족한다.
+
+여기서 $\mathrm{Ord}$는 모든 서수들의 모임(class)입니다. 그런데, 위 정리에서 $G(\alpha) = F(G\upharpoonright \alpha)$가 뜻하는 게 안 보일 수도 있습니다. 이걸 설명하기 전에, 자연수에 대한 재귀적 정의를 다시 한 번 봅시다.
+
+재귀적 정의는, 이전에 등장한 값을 이용해서 새로운 값을 정의하는 과정입니다. 가령, 다음과 같은 정의는 어떤 수열을 재귀적으로 정의하겠죠:
+\\[ a_0 = 1, a_n = a_0+a_1+\cdots + a_{n-1}.\\]
+조금 일반적인 경우를 적어 보자면, 다음과 같은 형태의 정의는 어떤 수열을 재귀적으로 정의할 것입니다:
+\\[ a_0 = a, a_n = f(a_0,a_1,\cdots, a_{n-1}).\\]
+그런데, 위의 형태에는 한 가지 문제가 있습니다: $n$에 따라 $f$가 받는 인자의 갯수가 늘어난다는 것입니다. 하지만 분명 $f$는 고정된 정의역을 가진 함수입니다. 이 문제를 해소하기 위해서, $f$가 여러 개의 수를 받는 대신 유한한 길이의 열 $\langle a_0,\cdots, a_{n-1}\rangle$을 인자로 받는다고 생각해봅시다.
+\\[ a_0 = a, a_n = f(\langle a_0,a_1,\cdots, a_{n-1}\rangle).\\]
+그런데, 유한열 $\langle a_0,a_1,\cdots, a_{n-1}\rangle$을 함수로 생각할 수 있습니다: 보다 정확히는, 정의역이 $n=\{0,1,\cdots,n-1\}$이고 $g(k)=a_k$로 주어지는 함수 $g$로 생각할 수 있습니다. 그런데 여기서, $g$의 정의역을 $n$으로 한정할 이유가 없어 보이지는 않나요? 만약 $g(n)=a_n$으로 정의한다면, $\langle a_0,a_1,\cdots, a_{n-1}\$은 함수 $g$의 정의역을 $n=\{0,1,\cdots,n-1\}$으로 제한한 함수가 될 것입니다. 그리고 위의 정의는
+\\[ g(0) = a , g(n) = f(g\upharpoonright n).\\]
+의 형태가 될 것입니다. 여기서 $f(\varnothing)=a$라면[^6], $g$가 $g(n)=f(g\upharpoonright n)$와 같이 정의된다는 주장을 할 수 있을 것입니다. 위에서 제시한 초한재귀 역시 비슷한 구조로, '주어진 서수 인자보다 더 작은 서수에 대한 값을 참조해서' 함수를 정의한다는 의미로 비슷한 형태의 정의를 따라간다고 이해할 수 있습니다.
 
 
+하지만, 자연수에 대한 귀납법이나 재귀적 정의는 두 가지 형태가 있습니다. 그리고 우리는 그 중 한 형태 -- $\forall k<n P(k)$로부터 $P(n)$을 이끌어내는 형태 -- 만 서수에 대한 명제 형태로 바꿨습니다. 나머지 형태 -- $P(n)$으로부터 $P(n+1)$을 이끌어내는 것 -- 에 대응하는 초한귀납법이나 초한재귀가 있을까요? 무한서수는 자연수와 다르게, 항상 '바로 전 서수'라는 게 존재한다는 보장이 없습니다. $\alpha+1$꼴의 서수라면 (**따름서수**라 부릅니다) $\alpha$가 바로 전 서수가 되겠지만, $\omega$나 $\omega\cdot 2$같은 **극한서수**는 대응하는 바로 전 서수가 없습니다. 그러면 그 경우에 한해서만, 기존에 취한 귀납법 형태를 따라가봅시다. 그러면 다음과 같은 서수에 대한 초한귀납법을 얻을 수 있습니다:
 
+> **정리.** (초한귀납법, 다른 형태) 다음이 성립한다고 가정하자.
+> * $P(0)$이다.
+>
+> * 모든 서수 $\alpha$에 대해 $P(\alpha)$이면 $P(\alpha+1)$이 성립한다.
+> 
+> * $\delta$가 극한서수일 때, 모든 $\alpha<\delta$에 대해 $P(\alpha)$이면 $P(\delta)$이다.
+>
+> 그러면 모든 서수 $\alpha$에 대해 $P(\alpha)$가 성립한다.
+
+초한 재귀 역시 위와 같이 따름서수, 극한서수로 나눠서 다룰 수 있습니다.
+
+> **정리.** (초한 재귀, 다른 형태) 집합 $a$와 함수 $F:V\times V\to V$와 $G:V\to V$가 주어져 있을 때 다음을 만족하는 $H$가 존재한다:
+> 
+> * $H(0)=a$,
+> 
+> * $H(\alpha+1) = F(\alpha, H(\alpha))$,
+> 
+> * $\delta$가 극한서수일 때 $H(\delta)=G(H\upharpoonright \delta)$.
 
 ------
 
-이 글을 마무리하기 전에, 서수의 연산에 대해 설명하려고 합니다.
+이 글을 마무리하기 전에, 서수의 연산에 대해 설명하려고 합니다. 자연수와 마찬가지로, 서수 역시 덧셈, 곱셈, 지수 연산을 지닙니다. 하지만 자연수의 경우와 달리 만족하는 연산 법칙은 판이하게 다릅니다.
+
+위에서 서수에 대한 설명을 할 때 덧셈을 "이어붙이는" 것으로 이해했습니다. 일반적인 서수의 덧셈도 그렇게 정의됩니다. 좀 형식적으로 적으면 다음과 같습니다:
+> **정의.** (서수의 덧셈) $\alpha$와 $\beta$가 서수라 하자. 이 때 $\alpha+\beta$는 다음 순서집합 $(X,<)$과 순서동형인 서수로 주어진다:
+> 
+> * $X = \{(\xi,0) : \xi\in\alpha\}\cup \{(\eta,1) : \eta\in\beta\}$,
+> * $(\xi,i)<(\eta,j)$일 필요충분조건은 둘 중 하나가 성립하는 것이다:
+>    1. $i=j$이고 $\xi<\eta$, 혹은
+>    2. $i=0$이고 $j=1$인 것.
+
+텍스트로만 적으면 바로 감이 안 올 수도 있지만, 위와 같이 주어진 순서는 $\alpha$ 바로 뒤에 $\beta$를 붙여서 얻어진 순서와 같습니다. 위의 순서집합이 정렬순서임을 보이는 것은 어렵지 않고, 모든 정렬순서는 어떤 서수와 동형이라는 사실이 알려져 있기 때문에[^7] 위의 순서와 동형인 서수가 존재한다고 보장할 수 있습니다.
+
+위의 정의에 따라 서수 덧셈을 하나 계산해봅시다. 처음 서수를 설명할 때, 위의 정의대로 $\omega+\omega$가 무엇인지 설명한 바 있습니다. 가령, 한 번 위 정의에 따라서 $1+\omega$를 계산해봅시다. 우선 $1+\omega$는 다음과 같은 순서집합과 동형인 서수일 것입니다:
+\\[(0,0) < (1,0) < (1,1) < (1,2) < (1,3) < \cdots \\]
+이를 다시 순서매겨보면, $0<1<2<3<\cdots$가 나옵니다. 이는 $\omega$와 같고, 따라서 $1+\omega=\omega$입니다. 그런데 $\omega+1$은 $\omega$가 아니므로 $1+\omega \neq \omega+1$임을 알 수 있습니다. 즉, 서수에 대한 덧셈의 교환법칙은 성립하지 않습니다.
+
+한편으로, 서수의 덧셈은 초한재귀를 사용해서 정의할 수도 있습니다:
+
+> **정의.** (초한 재귀를 사용한 서수의 덧셈) 서수의 덧셈은 다음과 같이 재귀적으로 주어진다:
+>
+> * $\alpha+0 = \alpha$,
+> 
+> * $\alpha+(\beta+1) = (\alpha+\beta)+1$,
+>
+> * $\delta$가 극한서수이면 $\alpha+\delta = \bigcup_{\beta<\delta}(\alpha+\beta)$.
+
+초한귀납법을 사용하면 이전에 소개한 정의와 초한재귀를 사용한 정의가 같은 함수라는 사실을 보일 수 있습니다.
+
+이제 덧셈을 정의했으니 곱셈을 정의해봅시다. 곱셈은 사전식 순서를 이용해서 정의합니다.[^8]
+
+> **정의.** (서수의 곱셈) $\alpha$와 $\beta$가 서수라 하자. 이 때 $\alpha\cdot\beta$는 다음 순서집합 $(X,<)$과 순서동형인 서수로 주어진다:
+> 
+> * $X =\alpha\times\beta = \{(\xi,\eta) : \xi\in\alpha,\, \eta\in\beta\}$,
+> * $(\xi,\eta)<(\xi',\eta')$일 필요충분조건은 둘 중 하나가 성립하는 것이다:
+>    1. $\xi<\xi'$이거나
+>    2. $\xi=\xi'$이고 $\eta<\eta'$인 것이다.
+
+역시, 위 정의를 이용해서 곱셈을 계산해보는 것이 이해에 도움이 될 수 있습니다. 가령, $2\cdot \omega$를 계산해봅시다. $2\cdot\omega$는 다음과 같은 순서집합의 순서형입니다:
+
+\\[(0,0) < (0,1) < (1,0) < (1,1) < (2,0) < (2,1) < \cdots \\]
+
+이 역시 $\omega$의 순서형이고, 따라서 $2\cdot\omega=\omega$입니다. 하지만 $\omega\cdot 2\neq \omega$이고, 따라서 $\omega\cdot 2\neq2\cdot\omega$입니다. 즉, 서수의 곱셈 또한 교환법칙을 만족시키지 않습니다.
+
+서수의 곱셈 역시 초한재귀를 이용해서 정의할 수 있습니다:
+
+> **정의.** (초한 재귀를 사용한 서수의 곱셈) 서수의 곱셈은 다음과 같이 재귀적으로 주어진다:
+>
+> * $\alpha\cdot0 = 0$,
+> 
+> * $\alpha\cdot(\beta+1) = (\alpha\cdot\beta)+\alpha$,
+>
+> * $\delta$가 극한서수이면 $\alpha\cdot\delta = \bigcup_{\beta<\delta}(\alpha\cdot\beta)$.
+
+지수 연산의 경우에도 덧셈과 곱셈처럼 순서형을 조작하는 식으로 줄 수 있습니다. 하지만 덧셈이나 곱셈과 달리, 뭔가 특별한 통찰을 주는 형태의 정의가 아닙니다.[^9] 지수 연산의 경우에는 다음과 같이 재귀적으로 정의하는 편이 더 낫습니다:
+> **정의.** (서수의 지수 연산) 서수의 지수 연산은 다음과 같이 재귀적으로 주어진다:
+>
+> * $\alpha^0 = 1$,
+> 
+> * $\alpha^{\beta+1} = (\alpha^\beta)\cdot\alpha$,
+>
+> * $\delta$가 극한서수이면 $\alpha^\delta = \bigcup_{\beta<\delta}(\alpha^\beta)$.
 
 
+이제 서수 연산들의 성질을 알아봅시다. 우선, 다음이 성립한단 것이 알려져 있습니다:
+
+> **정리.** 다음이 성립한다:
+> 
+> 1. (덧셈의 결합법칙) $(\alpha+\beta)+\gamma = \alpha+(\beta+\gamma)$
+> 
+> 2. (덧셈의 좌소거법칙) $\alpha+\beta=\alpha+\gamma$이면 $\beta=\gamma$이다.
+> 
+> 3. (곱셈의 결합법칙) $(\alpha\cdot\beta)\cdot\gamma = \alpha\cdot(\beta\cdot\gamma)$
+> 
+> 4. (곱셈의 좌소거법칙) $\alpha\ge 1$이고 $\alpha\cdot\beta=\alpha\cdot\gamma$이면 $\beta=\gamma$이다.
+> 5. (좌분배법칙) $\alpha\cdot(\beta+\gamma) = (\alpha\cdot\beta) + (\alpha\cdot\gamma)$
+> 
+> 6. (지수 연산의 밑 소거법칙) $\alpha\ge 2$이고 $\alpha^\beta=\alpha^\gamma$이면 $\beta=\gamma$이다.
+>
+> 7. $\alpha^{\beta+\gamma} = \alpha^\beta\cdot\alpha^\gamma$
+>
+> 8. $\alpha^{\beta\cdot\gamma} = (\alpha^\beta)^\gamma$
+>
+> 9. $\gamma\le\alpha$일 때 어떤 $\rho<\beta$와 $\delta$가 있어 $\alpha=\gamma\cdot\gamma+\rho$이다.
+> 
+
+> **정리.** 다음이 성립한다: $\alpha<\beta$일 때
+> 
+> 1. $\alpha+\gamma < \beta+\gamma$,
+>
+> 2. $\alpha\cdot\gamma < \beta\cdot\gamma$,
+> 
+> 3. $\gamma^\alpha < \gamma^\beta$.
+>
+> 또한, 다음이 성립한다: $\alpha\le\beta$일 때
+> 
+> 1. $\gamma+\alpha \le \gamma+\beta$,
+>
+> 2. $\gamma\cdot\alpha \le \gamma\cdot\beta$,
+> 
+> 3. $\alpha^\gamma \le \beta^\gamma$.
+
+하지만, 위에 적힌 것들 외에는 꼭 성립한단 보장이 없습니다. 위에서 봤듯이 교환법칙은 성립하지 않고, 덧셈의 우소거법칙도 성립하지 않습니다: 가령, $0+\omega=1+\omega=\omega$이지만 $0=1$은 아닙니다.
+
+------
+
+서수 자체에 대해서 할 이야기는 아직도 많이 남아 있지만, 이 정도면 서수에 대한 기초적인 설명은 다 했다고 생각합니다. 다음 글에서는 기수와 알레프 수에 대해서 이야기해보려고 합니다.
 
 ------
 
@@ -233,7 +389,16 @@ published: false
 [^3] 참고로, 이 둘이 동치라는 증명은 선택공리를 사용합니다.
 [^4] 여기서 $F$는 집합일 수 없습니다. 따라서 "함수"라는 단어를, 특정한 조건을 만족하는 집합으로 보아서는 안 됩니다. 차라리, 함수의 정의 -- 순서쌍의 모임 중 $(x,y),(x,z)\in f$일 때 $y=z$인 $f$ -- 를 만족하는 진모임(proper class), 혹은 $P(x,y)$이고 $P(x,z)$일 때 $y=z$를 만족하는 논리식 $P$로 이해해야 할 것입니다.
 [^5] Jech/Hrbacek의 경우에는 $F$의 정의역이 $V$ 대신 어떤 집합 위의 유한한 열들의 집합이라는 차이는 있습니다. 하지만 큰 차이는 아닙니다.
+[^6] 여기서 공집합은 $g$를 $0=\varnothing$ 위로 제한해서 나타난 것입니다.
+[^7] 사실 서수라는 개념을 처음 도입하게 된 제일 큰 동기이기도 합니다. 서수는 정렬순서의 순서를 대표하는 집합이며, 칸토어는 서수를 정렬집합들의 모임을 동형관계에 대해 나눈 동치류로 보았습니다.
+[^8] 사전에서 단어를 찾을 때, 첫 문자의 알파벳 순서에 따라 먼저 찾은 후 그 다음 문자의 알파벳 순서에 따라 단어를 찾습니다.
+[^9] 그럼에도 궁금해 할 분이 있을까봐, 지수 연산의 다른 정의를 소개합니다: $\alpha$와 $\beta$가 서수일 때 $\alpha^\beta$는 다음과 같이 주어지는 순서집합 $(X,<)$와 순서동형입니다:
 
-## Acknowledgment
+1. $X=\{f:\beta\to\alpha \mid f(\xi)=0 \text{ for all but finitely many }\xi\in\beta\}$
 
-Some of my explanations originated from my previous introductory paper about the Goodstein theorem. Hansol Jeon pointed out some errors in this paper for which I am thankful.
+2. $f<g$일 필요충분조건은 $f$가 $g$가 사전식 순서 하에 작은 것이다. 즉, $\xi=\min\{\eta\in\beta\mid f(\eta)\neq g(\eta)\}$에 대해 $f(\eta)<g(\eta)$인 것이다.
+
+
+<div>
+  <img class="marginauto" src="../files/20210531.png" alt="centered image" height="400", width="400" />
+</div>
