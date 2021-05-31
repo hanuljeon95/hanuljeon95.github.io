@@ -384,10 +384,9 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 
 <p align="center">
    <img width="400" height="400" src="../files/20210531.png">
-
-   그나저나, 시간 참 빠르게 흐르는 것 같습니다.
 </p>
 
+그나저나, 시간 참 빠르게 흐르는 것 같습니다.
 
 ------
 
