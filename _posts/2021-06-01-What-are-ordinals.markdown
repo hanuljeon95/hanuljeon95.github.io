@@ -133,7 +133,7 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 라는 수열은 $0 < 1 < 2 < 3 < \cdots$이라는 열에 $0 < 1 < 2 < 3 < \cdots$이란 열을 "이어붙인" 것으로 생각할 수 있습니다. 달리 쓰면, $\omega\cdot 2$는 $\omega$에 $\omega$를 이어붙인 것, 즉 $\omega\cdot 2 = \omega+\omega$로 이해할 수 있습니다. 마찬가지로, $\omega\cdot 3$은 $\omega\cdot 2$에 $\omega$를 이어붙인 것, 즉 $\omega\cdot 3=\omega\cdot2+\omega$라고 생각할 수 있습니다. 일반적으로 모든 $\omega\cdot n$에 대해서도 마찬가지 관찰을 할 수 있을 것입니다. 즉, $\omega\cdot n$은 $\omega$를 $n$번 붙인 것으로 생각할 수 있습니다.
 
 그러면 
-\\[0 < 1 < 2 < 3 < \cdots< \omega < \omega+1 < \omega+2 < \cdots < \omega\cdot 2 < \omega\cdot 2+1 < \cdots < \\ \omega\cdot 3 < \omega\cdot 3+ 1 < \cdots \omega\cdot 4 < \cdots < \omega\cdot 5 < \cdots \\]
+\\[\begin{multline}0 < 1 < 2 < 3 < \cdots< \omega < \omega+1 < \omega+2 < \cdots < \omega\cdot 2 < \omega\cdot 2+1 < \cdots  \\\\ < \omega\cdot 3 < \omega\cdot 3+ 1 < \cdots < \omega\cdot 4 < \cdots < \omega\cdot 5 < \cdots \end{multline}\\]
 는 $\omega$를 $\omega$번 붙인 거라 생각할 수 있지 않을까요? 따라서 이를 $\omega\cdot \omega=\omega^2$으로 나타냅시다. 이보다 더 큰 서수에 대한 표현으로 나아갈 수 있겠지만, 여기서부터는 서수에 대한 연산을 정의하고 나서 체계적으로 설명하는 게 나으니 뒤로 미루겠습니다.
 
 ------
@@ -387,6 +387,10 @@ Acknowledgment: Some of my explanations originated from my previous introductory
    <img width="400" height="400" src="../files/20210531.png">
    시간 참 빠르게 흐르는 것 같습니다.
 </p>
+
+
+------
+
 
 [^1]: 나머지 하나는 기술집합론(descriptive set theory)에 영향을 크게 줬을 일반위상과 측도론일 것 같습니다. 하지만 기술집합론에서도 서수가 안 나온다는 것은 아닙니다. 논리학 전반에서, 무한서수와 무한기수, 혹은 그와 유사한 개념의 등장은 불가피한 것 같습니다.
 
