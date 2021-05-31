@@ -383,10 +383,9 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 서수 자체에 대해서 할 이야기는 아직도 많이 남아 있지만, 이 정도면 서수에 대한 기초적인 설명은 다 했다고 생각합니다. 다음 글에서는 기수와 알레프 수에 대해서 이야기해보려고 합니다.
 
 <p align="center">
-<width="400" height="400" src="../files/20210531.png">
 
-
-시간 참 빠르게 흐르는 것 같습니다.
+   <img width="400" height="400" src="../files/20210531.png">
+   시간 참 빠르게 흐르는 것 같습니다.
 </p>
 
 [^1]: 나머지 하나는 기술집합론(descriptive set theory)에 영향을 크게 줬을 일반위상과 측도론일 것 같습니다. 하지만 기술집합론에서도 서수가 안 나온다는 것은 아닙니다. 논리학 전반에서, 무한서수와 무한기수, 혹은 그와 유사한 개념의 등장은 불가피한 것 같습니다.
