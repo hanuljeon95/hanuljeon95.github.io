@@ -58,12 +58,15 @@ MathJax.Hub.Config({
 {% endif %}
 
 {% if page.image %}
+<meta property="og:image" content="{{ site.url }}{{ page.image }}">
 <meta name="twitter:card"  content="summary_large_image">
 <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
 {% else %}
+<meta property="og:image" content="../files/IMG_6366.JPG" />
 <meta name="twitter:card"  content="summary">
 <meta name="twitter:image" content="../files/title.jpg">
 {% endif %}
+
 
 </header>
 
