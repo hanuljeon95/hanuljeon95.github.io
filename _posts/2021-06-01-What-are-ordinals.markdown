@@ -163,7 +163,7 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 
 \\[0 < 1 < 2 < \cdots< \omega < \omega+1 < \cdots < \omega\cdot 2 < \cdots < \omega\cdot 3 < \cdots < \omega\cdot\omega \\]
 
-이제 $\omega\cdot\omega$에서 시작해서 역순으로 세 볼 것입니다. 그런데 $\omega\cdot\omega$ "바로 전" 수는 없습니다. 따라서 그보다 작은 서수에서 시작해야겠죠. $\omega\cdot\omega$보다 작은 서수는 $\omega\cdot n + m$꼴입니다. 여기서는 가령, $\omega\cdot 7 + 65$에서 시작해봅시다. 여기서 차근차근 감소순으로 내려가다 보면, 아무리 길어도 $76$단계 안에 $\omega\cdot 7$에 도달할 겁니다. 그런데 $\omega\cdot 7$ 역시 "바로 전" 수가 없으니 그보다 작은 서수를 하나 골라와야 합니다. 한 번 $\omega\cdot 3 + 46$을 골라봅시다. 이 경우에도 역시, 아무리 길어도 $47$단계 안에 $\omega+3$에 도달할 것입니다. 이제 $\omega+3$보다 작은 서수를 하나 골라야 합니다. 한 번 $876$을 골라봅시다. 이는 자연수이므로, $876$부터 감소순으로 세면 아무리 길어도 $877$번 안에 $0$에 도달할 것입니다. 
+이제 $\omega\cdot\omega$에서 시작해서 역순으로 세 볼 것입니다. 그런데 $\omega\cdot\omega$ "바로 전" 수는 없습니다. 따라서 그보다 작은 서수에서 시작해야겠죠. $\omega\cdot\omega$보다 작은 서수는 $\omega\cdot n + m$꼴입니다. 여기서는 가령, $\omega\cdot 7 + 65$에서 시작해봅시다. 여기서 차근차근 감소순으로 내려가다 보면, 아무리 길어도 $66$단계 안에 $\omega\cdot 7$에 도달할 겁니다. 그런데 $\omega\cdot 7$ 역시 "바로 전" 수가 없으니 그보다 작은 서수를 하나 골라와야 합니다. 한 번 $\omega\cdot 3 + 46$을 골라봅시다. 이 경우에도 역시, 아무리 길어도 $47$단계 안에 $\omega+3$에 도달할 것입니다. 이제 $\omega+3$보다 작은 서수를 하나 골라야 합니다. 한 번 $876$을 골라봅시다. 이는 자연수이므로, $876$부터 감소순으로 세면 아무리 길어도 $877$번 안에 $0$에 도달할 것입니다. 
 
 위에서 생각한 감소열을 적자면 다음과 같습니다:
 
@@ -205,7 +205,7 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 > 
 > 모든 자연수 $n$에 대해 $P(n)$이 성립한다.
 
-> **정리.** (원시적 재귀, Primitive recursion) $a\in\mathbb{N}$, $g:\mathbb{N}\times\mathbb{N}\to\mathbb{N}$이라 하자. 그러면 어떤 $h:\mathbb{N}\times \mathbb{N}\to\mathbb{N}$이 있어
+> **정리.** (원시적 재귀, Primitive recursion) $a\in\mathbb{N}$, $g:\mathbb{N}\times\mathbb{N}\to\mathbb{N}$이라 하자. 그러면 어떤 $h:\mathbb{N}\to\mathbb{N}$이 있어
 > 
 > 1. $h(0) = a$,
 > 
