@@ -209,7 +209,7 @@ Acknowledgment: Some of my explanations originated from my previous introductory
 > 
 > 1. $h(0) = a$,
 > 
-> 2. $h(n+1) = g(h(n,m),n)$
+> 2. $h(n+1) = g(h(n),n)$
 >
 >을 만족한다.
 
