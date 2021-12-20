@@ -9,14 +9,13 @@ Please contact me if you need my publications that are not published or linked.
 Publications
 ------------
 
+1. **Constructive Ackermann's interpretation**. Accepted for publication in *Ann. Pure Appl. Logic*. [arXiv:2010.04270](http://arxiv.org/abs/2010.04270).
 1. **Comparison between the Wiener index and the Zagreb indices and the eccentric connectivity index for trees.** (with Kinkar Chandra Das and Nenad Trinajstić), Discrete Applied Mathematics (2014).
 
 Preprints
 ------------
 
 1. **How strong is a Reinhardt set over extensions of CZF?**. arXiv preprint [arXiv:2101.07455](https://arxiv.org/abs/2101.07455).
-1. **Constructive Ackermann's interpretation**. Submitted. [arXiv:2010.04270](http://arxiv.org/abs/2010.04270).
-
 
 Notes
 ------------

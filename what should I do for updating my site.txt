@@ -11,5 +11,9 @@
 # git commit -m 'message'
 # git push origin master
 
+# 다음 절차로 해야 할 지도 모름.
+# git remote set-url origin https://(PERSONAL TOKEN)@github.com/hanuljeon95/hanuljeon95.github.io
+
+
 # Markdown language
 # https://guides.github.com/features/mastering-markdown/
