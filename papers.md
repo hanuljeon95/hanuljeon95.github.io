@@ -9,7 +9,7 @@ Please contact me if you need my publications that are not published or linked.
 Publications
 ------------
 
-1. **Constructive Ackermann's interpretation**. Accepted for publication in *Ann. Pure Appl. Logic*. [arXiv:2010.04270](http://arxiv.org/abs/2010.04270).
+1. **Constructive Ackermann's interpretation**, *Annals of Pure and Applied Logic* (2022). [arXiv:2010.04270](http://arxiv.org/abs/2010.04270). [(Slide)](../files/Jeon_20210214_slide.pdf)
 1. **Comparison between the Wiener index and the Zagreb indices and the eccentric connectivity index for trees.** (with Kinkar Chandra Das and Nenad Trinajstić), Discrete Applied Mathematics (2014).
 
 Preprints
