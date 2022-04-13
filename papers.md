@@ -15,11 +15,19 @@ Publications
 Preprints
 ------------
 
-1. **How strong is a Reinhardt set over extensions of CZF?**. arXiv preprint [arXiv:2101.07455](https://arxiv.org/abs/2101.07455).
+1. **Very large set axioms over constructive set theories** (with Richard Matthews), arXiv preprint [arXiv:2204.05831](https://arxiv.org/abs/2204.05831). [(Slide)](../files/Presentation_LargeSetsOverConstructiveSetTheories.pdf)
+
 
 Notes
 ------------
 
+1. **How strong is a Reinhardt set over extensions of CZF?**. arXiv preprint [arXiv:2101.07455](https://arxiv.org/abs/2101.07455). (Merged into [arXiv:2204.05831](https://arxiv.org/abs/2204.05831).)
 1. [**Goodstein's theorem**](../files/Goodstein.pdf) (Korean) *Manuscript for Madmathematics seminar.* (Oct 2016, Revised: Apr 2021).
 1. **What is forcing?** (Korean) *Manuscript for Madmathematics seminar.* (Nov 2015).
 1. **A Short introduction to mathematical logic** (Korean) *Manuscript for Madmathematics seminar.* (Jan 2014).
+
+
+Slides
+------------
+
+1. **Consequences of the axiom of choice.** Olivetti seminar. March 2022. [(Slide)](../files/2022Spring_AC_Olivetti.pdf).
