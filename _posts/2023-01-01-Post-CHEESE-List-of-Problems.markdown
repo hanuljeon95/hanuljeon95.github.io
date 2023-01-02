@@ -21,14 +21,14 @@ After [CHEESE workshop](http://karagila.org/cheese/), I had a short discussion w
    
    Also, if $X$ is *any* model of second-order $\mathsf{ZF}^-$, then $X$ is well-founded, thus we can consider its Mostowski collapse instead.
 
-1. Can we find a better upper bound for the consistency strength of $\mathsf{ZF_j^-}$ with $j\colon V\to V$? How about with the cofinality of $j$? The current upper bound for $\mathsf{ZF_j^-}$ with $j\colon V\to V$ is $\mathsf{ZFC}$ with $\mathrm{I}_1$, but I believe we can derive a sharp bound in terms of $\mathsf{KM}$ with a form of Wholeness axiom. Regarding the cofinality of $j$, there is no known bound in terms of $\mathsf{ZFC}$ with large cardinals. 
+1. Can we find a better upper bound for the consistency strength of $\mathsf{ZF^-}_j$ with $j\colon V\to V$? How about with the cofinality of $j$? The current upper bound for $\mathsf{ZF^-}_j$ with $j\colon V\to V$ is $\mathsf{ZFC}$ with $\mathrm{I}_1$, but I believe we can derive a sharp bound in terms of $\mathsf{KM}$ with a form of Wholeness axiom. Regarding the cofinality of $j$, there is no known bound in terms of $\mathsf{ZFC}$ with large cardinals. 
 
 1. Does $\mathsf{Con(ZF+WA)}$ prove $\mathsf{Con(ZFC+WA)}$?
   This problem is related to how to force Choice while preserving very large cardinals, usually beyond supercompactness.
 
-1. Work over $\mathsf{ZF_j^-}$ with a cofinal elementary embedding $j\colon V\to V$ with a critical point $\kappa$. Then the successor cardinal $\lambda^+$ of $\lambda=j^\omega(\kappa)$ exists?
+1. Work over $\mathsf{ZF^-}_j$ with a cofinal elementary embedding $j\colon V\to V$ with a critical point $\kappa$. Then the successor cardinal $\lambda^+$ of $\lambda=j^\omega(\kappa)$ exists?
    
-   Matthews [M22] proves $\mathsf{ZFC_j^-}$ proves $j\colon V\to V$ cannot be cofinal if $V_\kappa$ exists. Hayut (on the last day of CHEESE) proved that the cofinal $j$ does not exist even if we do not assume the existence of $V_\kappa$.
+   Matthews [M22] proves $\mathsf{ZFC^-}_j$ proves $j\colon V\to V$ cannot be cofinal if $V_\kappa$ exists. Hayut (on the last day of CHEESE) proved that the cofinal $j$ does not exist even if we do not assume the existence of $V_\kappa$.
 
 1. Is there any good way to produce a model of $\mathsf{ZF}^-_j$ with $j\colon V\to V$ from $\mathsf{ZF}$ with a Reinhardt cardinal? Currently, there is no known way for it.
    
@@ -38,7 +38,7 @@ After [CHEESE workshop](http://karagila.org/cheese/), I had a short discussion w
 
 Here is list of my own questions:
 
-1. Which theory is stronger than the other? $\mathsf{ZF^-_j}$ with a cofinal $j\colon V\to V$, and $\mathsf{CZF}$ with a Reinhardt embedding. What makes this question interesting is that $\mathsf{CZF}$ proves a Reinhardt embedding $j\colon V\to V$ is cofinal. [Z14]
+1. Which theory is stronger than the other? $\mathsf{ZF^-}_j$ with a cofinal $j\colon V\to V$, and $\mathsf{CZF}$ with a Reinhardt embedding. What makes this question interesting is that $\mathsf{CZF}$ proves a Reinhardt embedding $j\colon V\to V$ is cofinal. [Z14]
    
    (The rough idea of the proof in [Z14] is approximating $V_\alpha$ using Subset Collection. $\mathsf{CZF}$ itself does not prove $V_\alpha$ is a set, but $\mathsf{CZF}$ can prove its set-approximation exists.)
 
