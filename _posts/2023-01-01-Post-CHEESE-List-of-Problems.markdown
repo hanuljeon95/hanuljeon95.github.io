@@ -28,7 +28,7 @@ After [CHEESE workshop](http://karagila.org/cheese/), I had a short discussion w
 
 1. Work over $\mathsf{ZF^-}_j$ with a cofinal elementary embedding $j\colon V\to V$ with a critical point $\kappa$. Then the successor cardinal $\lambda^+$ of $\lambda=j^\omega(\kappa)$ exists?
    
-   Matthews [M22] proves $\mathsf{ZFC^-}_j$ proves $j\colon V\to V$ cannot be cofinal if $V_\kappa$ exists. Hayut (on the last day of CHEESE) proved that the cofinal $j$ does not exist even if we do not assume the existence of $V_\kappa$.
+   Matthews [M22] proves $\mathsf{ZFC}^-_j$ proves $j\colon V\to V$ cannot be cofinal if $V_\kappa$ exists. Hayut (on the last day of CHEESE) proved that the cofinal $j$ does not exist even if we do not assume the existence of $V_\kappa$.
 
 1. Is there any good way to produce a model of $\mathsf{ZF}^-_j$ with $j\colon V\to V$ from $\mathsf{ZF}$ with a Reinhardt cardinal? Currently, there is no known way for it.
    
