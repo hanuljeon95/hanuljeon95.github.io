@@ -42,7 +42,7 @@ Here is list of my own questions:
    
    (The rough idea of the proof in [Z14] is approximating $V_\alpha$ using Subset Collection. $\mathsf{CZF}$ itself does not prove $V_\alpha$ is a set, but $\mathsf{CZF}$ can prove its set-approximation exists.)
 
-1. Can we define a constructive analogue of a Berkely cardinal?
+1. Can we define a constructive analogue of a Berkeley cardinal?
 
 ----
 
