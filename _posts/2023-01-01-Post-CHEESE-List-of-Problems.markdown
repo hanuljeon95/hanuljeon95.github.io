@@ -47,7 +47,7 @@ Here is list of my own questions:
 
 ----
 
-[^1] Here our definition of $H(\kappa)$ is slight different from that of [AK21].
+[^1]: Here our definition of $H(\kappa)$ is slight different from that of [AK21].
 
 ----
 
