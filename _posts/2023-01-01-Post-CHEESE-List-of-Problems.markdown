@@ -38,7 +38,7 @@ After [CHEESE workshop](http://karagila.org/cheese/), I had a short discussion w
 
 Here is list of my own questions:
 
-1. Which theory is stronger than the other? $\mathsf{ZF^-}_j$ with a cofinal $j\colon V\to V$, and $\mathsf{CZF}$ with a Reinhardt embedding. What makes this question interesting is that $\mathsf{CZF}$ proves a Reinhardt embedding $j\colon V\to V$ is cofinal. [Z14]
+1. Which theory is stronger than the other? $\mathsf{ZF}^-_j$ with a cofinal $j\colon V\to V$, and $\mathsf{CZF}$ with a Reinhardt embedding. What makes this question interesting is that $\mathsf{CZF}$ proves a Reinhardt embedding $j\colon V\to V$ is cofinal. [Z14]
    
    (The rough idea of the proof in [Z14] is approximating $V_\alpha$ using Subset Collection. $\mathsf{CZF}$ itself does not prove $V_\alpha$ is a set, but $\mathsf{CZF}$ can prove its set-approximation exists.)
 
