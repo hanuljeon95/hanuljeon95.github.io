@@ -44,11 +44,6 @@ Here is list of my own questions:
 
 1. Can we define a constructive analogue of a Berkely cardinal?
 
-
-----
-
-[^1]: Here our definition of $H(\kappa)$ is slight different from that of [AK21].
-
 ----
 
 ## References
@@ -56,3 +51,7 @@ Here is list of my own questions:
 * [AK21]  David Asperó and Asaf Karagila, **Dependent choice, properness, and generic absoluteness.** *Rev. Symb. Log.* 14 (2021), no. 1, 225–249.
 * [M22] Richard Matthews, **Taking Reinhadt's Power Away.** *J. Symb. Log.* 87 (2022), no. 4, 1643–1662.
 * [Z14] Albert Ziegler, **Large sets in constructive set theory.** PhD Thesis, University of Leeds, 2014.
+
+----
+
+[^1]: Here our definition of $H(\kappa)$ is slight different from that of [AK21].
