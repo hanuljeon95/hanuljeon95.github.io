@@ -15,7 +15,7 @@ After [CHEESE workshop](http://karagila.org/cheese/), I had a short discussion w
 
 1. Work over $\mathsf{ZF}$, suppose that $X$ is a transitive model of second-order $\mathsf{ZF}^-$, the theory obtained from the second-order $\mathsf{ZF}$ by removing Powerset and adding the second-order Collection. Then do we have $X=H(\kappa)$ for $\kappa=\mathrm{Ord}\cap X$?
    
-   Here we define $H(\kappa)$ by the set of all $x$ such that there is no surjection from $\operatorname{trcl}(x)$ to $\kappa$. $H(\kappa)$ is a set by [AK18].[^1] Note that $\kappa$ is regular:
+   Here we define $H(\kappa)$ by the set of all $x$ such that there is no surjection from $\operatorname{trcl}(x)$ to $\kappa$. $H(\kappa)$ is a set by [AK21].[^1] Note that $\kappa$ is regular:
   
    > *Proof.* Suppose that $\kappa$ is singular and $f\colon \alpha\to\kappa$ is a cofinal map such for some $\alpha<\kappa$. Then $\alpha\in X$, and by the second-order Replacement, the image of $f$ is a member of $X$. Thus $X$ thinks there is a cofinal set of $\mathrm{Ord}$, but $\mathsf{ZF^-}$ proves there is no such set. 
    
