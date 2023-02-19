@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "논리학과 집합론의 순환 참조?"
-date:   2023-01-01 23:20:00 -0500
+date:   2023-02-19 15:40:00 -0500
 categories: posts 
 tags: 
   - logic
