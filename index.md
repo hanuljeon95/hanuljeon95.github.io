@@ -10,4 +10,4 @@ I have accounts on [Mathematics stachexchange](https://math.stackexchange.com/us
 <a href="https://math.stackexchange.com/users/53976/hanul-jeon"><img src="https://math.stackexchange.com/users/flair/53976.png" width="208" height="58" alt="profile for Hanul Jeon at Mathematics Stack Exchange, Q&amp;A for people studying math at any level and professionals in related fields" title="profile for Hanul Jeon at Mathematics Stack Exchange, Q&amp;A for people studying math at any level and professionals in related fields"></a>
 <a href="https://mathoverflow.net/users/48041/hanul-jeon"><img src="https://mathoverflow.net/users/flair/48041.png" width="208" height="58" alt="profile for Hanul Jeon at MathOverflow, Q&amp;A for professional mathematicians" title="profile for Hanul Jeon at MathOverflow, Q&amp;A for professional mathematicians"></a>
 
-<a href="files/CV.pdf" target="_blank">Here is my recent curriculum vitae.</a> *(CV Updated: Jan 01, 2023.)*
+<a href="files/CV.pdf" target="_blank">Here is my recent curriculum vitae.</a> *(CV Updated: Aug 08, 2023.)*
