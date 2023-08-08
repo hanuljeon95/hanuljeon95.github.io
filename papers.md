@@ -15,6 +15,7 @@ Publications
 Preprints
 ------------
 
+1. **On Separating Wholeness axioms**, arXiv preprint [arXiv:2308.03649](https://arxiv.org/abs/2308.03649).
 1. **Very large set axioms over constructive set theories** (with Richard Matthews), arXiv preprint [arXiv:2204.05831](https://arxiv.org/abs/2204.05831). [(Slide)](../files/Presentation_LargeSetsOverConstructiveSetTheories.pdf)
 
 
