@@ -15,6 +15,8 @@ Publications
 Preprints
 ------------
 
+1. **Generalized ordinal analysis and reflection principles in set theory** (with James Walsh), arXiv preprint [arXiv:2312.12859](https://arxiv.org/abs/2312.12859)
+1. **The proof-theoretic strength of Constructive Second-order set theories**, arXiv preprint [arXiv:2312.12854](https://arxiv.org/abs/2312.12854)
 1. **On Separating Wholeness axioms**, arXiv preprint [arXiv:2308.03649](https://arxiv.org/abs/2308.03649).
 1. **Very large set axioms over constructive set theories** (with Richard Matthews), arXiv preprint [arXiv:2204.05831](https://arxiv.org/abs/2204.05831). [(Slide)](../files/Presentation_LargeSetsOverConstructiveSetTheories.pdf)
 

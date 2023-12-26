@@ -3,7 +3,7 @@ title: "About"
 layout: page
 ---
 
-My name is Hanul Jeon (pronunciation: /hanul.dʑʌn/), and currently, I am a doctoral student at Cornell University. My advisor is [Justin Moore](https://pi.math.cornell.edu/~justin/). I am interested in logic, especially set theory and constructive mathematics.
+My name is Hanul Jeon (pronunciation: /hanul.dʑʌn/), and currently, I am a doctoral student at Cornell University. My advisor is [Justin Moore](https://pi.math.cornell.edu/~justin/). I am interested in logic, including set theory, proof theory, and constructive mathematics.
 
 I have accounts on [Mathematics stachexchange](https://math.stackexchange.com/users/53976), [Mathoverflow](https://mathoverflow.net/users/48041), and [Twitter](https://twitter.com/hanuljeon95). You can contact me via e-mail (through [Gmail](mailto:hanuljeon95@gmail.com) or [Cornell mail](mailto:hj344@cornell.edu)) or my Twitter account. (You may send an e-mail to my other addresses, but the reply could be delayed.)
 
