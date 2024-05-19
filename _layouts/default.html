@@ -18,29 +18,18 @@
 {% if site.comments.disqus_shortname and page.layout == "post" %}<script src="//{{ site.comments.disqus_shortname }}.disqus.com/embed.js" async></script>{% endif %}
 {% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
 
-
+{% if page.mathjax or site.mathjax %}
 <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        displayMath: [['$$','$$'], ['\\[','\\]']],
-        processEscapes: true,
-        macros: {
-	lag: "\\langle",
-	rag: "\\rangle",
-	dom: "\\operatorname{dom}",
-	ran: "\\operatorname{ran}",
-	lr: "\\leftrightarrow",
-	lrlrarrows: "\\mathrel{\\leftleftarrows\\!\\!\\!\\!\\!\\rightrightarrows}"
-	bb: ["\\mathbb #1", 1],
-    	},
-           svg: {
-    	fontCache: 'global'
-  	},
-      }
-    });
-  </script>
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']],
+    processEscapes: true
+  }
+});
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+{% endif %}
 
 
 <header class="icons">
