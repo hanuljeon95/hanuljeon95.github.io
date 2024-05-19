@@ -18,12 +18,14 @@
 {% if site.comments.disqus_shortname and page.layout == "post" %}<script src="//{{ site.comments.disqus_shortname }}.disqus.com/embed.js" async></script>{% endif %}
 {% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
 
-<!-- inline config -->
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      macros: {
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']],
+        processEscapes: true,
+        macros: {
 	lag: "\\langle",
 	rag: "\\rangle",
 	dom: "\\operatorname{dom}",
@@ -31,18 +33,14 @@
 	lr: "\\leftrightarrow",
 	lrlrarrows: "\\mathrel{\\leftleftarrows\\!\\!\\!\\!\\!\\rightrightarrows}"
 	bb: ["\\mathbb #1", 1],
-    	}
-    },
-    svg: {
-    fontCache: 'global'
+    	},
+           svg: {
+    	fontCache: 'global'
   	},
-  };
-</script>
-
-<!-- load MathJax -->
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+      }
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
 <header class="icons">
