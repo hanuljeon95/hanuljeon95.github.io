@@ -41,8 +41,8 @@ The previous theorem hints that if there is a recursive analogue for measurable 
 
 -----
 
-[^1] An inaccessible set may not precisely be a set of the form $V_\kappa$ for an inaccessible cardinal by the choice of the definition. The definition of an inaccessible set I implicitly used in this article is "a regular set satisfying the Regular Extension Axiom." This version of an inaccessible set becomes a transitive model of $\mathsf{ZF}$ plus "there is a proper class of regulars" over $\mathsf{ZF}$. However, $\mathsf{ZF}$ does not prove $V_\kappa$ thinks there is a proper class of regular cardinals for an inaccessible $\kappa$.
+[^1]: An inaccessible set may not precisely be a set of the form $V_\kappa$ for an inaccessible cardinal by the choice of the definition. The definition of an inaccessible set I implicitly used in this article is "a regular set satisfying the Regular Extension Axiom." This version of an inaccessible set becomes a transitive model of $\mathsf{ZF}$ plus "there is a proper class of regulars" over $\mathsf{ZF}$. However, $\mathsf{ZF}$ does not prove $V_\kappa$ thinks there is a proper class of regular cardinals for an inaccessible $\kappa$.
 
-[^2] For example, "Every subset of an ordinal has the least element" implies a form of excluded middle.
+[^2]: For example, "Every subset of an ordinal has the least element" implies a form of excluded middle.
 
-[^3] The reason for choosing a $\Sigma$-elementary embedding instead of the full elementary embedding is rather technical: I once tried to generalize Passman's result on the first-order logic of $\mathsf{CZF}$ to its extension by large set axioms, and especially for critical sets. However,  the current method seems to refuse the generalization for the full elementary embedding. There might be some fine structural reason for the difficulty.
+[^3]: The reason for choosing a $\Sigma$-elementary embedding instead of the full elementary embedding is rather technical: I once tried to generalize Passman's result on the first-order logic of $\mathsf{CZF}$ to its extension by large set axioms, and especially for critical sets. However,  the current method seems to refuse the generalization for the full elementary embedding. There might be some fine structural reason for the difficulty.
