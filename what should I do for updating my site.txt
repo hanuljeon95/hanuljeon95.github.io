@@ -1,0 +1,19 @@
+# 1. cd hanuljeon95.github.io
+
+# STEP 1 (github 내용을 덮어씌움)
+# git pull https://github.com/hanuljeon95/hanuljeon95.github.io.git master
+# git init
+# git remote add origin ./hanuljeon95.github.io
+# cd hanuljeon95.github.io
+
+# STEP 2 (로컬 저장소의 내용을 github에 올림)
+# git add -A
+# git commit -m 'message'
+# git push origin master
+
+# 다음 절차로 해야 할 지도 모름.
+# git remote set-url origin https://(PERSONAL TOKEN)@github.com/hanuljeon95/hanuljeon95.github.io
+
+
+# Markdown language
+# https://guides.github.com/features/mastering-markdown/

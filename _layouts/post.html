@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article>
+  {% include meta.html post=page %}
+  {{ content }}
+  {% if page.comments %}
+    <hr>
+    <div id="disqus_thread"></div>
+    <script>
+        (function() { 
+        var d = document, s = d.createElement('script');
+        s.src = 'https://hanuljeon95.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view comments.</noscript>
+  {% endif %}
+</article>
+
+{% if site.show_related %}
+  <footer class="related">
+    <div class="previous">{% if page.previous.url %}<span>Previous Post</span><a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>{% endif %}</div>
+    <div class="next">{% if page.next.url %}<span>Next Post</span><a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>{% endif %}</div>
+  </footer>
+{% endif %}
