@@ -22,7 +22,7 @@ published: true
 > 
 > 교수가 의도한 모범 답안은 수강생 모두가 0을 적어 모두가 승리하는 것 *(현대대수학에서는 0도 자연수 취급)*그렇지만 당연히 기상천외한 답이 나와서 교수는 자연수 외에 이상한 답을 제외하고 비슷한 점수를 부여함.
 
-문제는 자연수가 0이라는 관습은 현대대수학에서 나온 게 아니란 것입니다 (애초부터 현대대수학은 교과목명에 더 가깝지 분야명이라고 하기엔 애매합니다.) 위키피디아에서는 이렇게 명시하고 있기는 합니다:
+문제는 해당 과목은 현대대수 시험이 아니란 것입니다. 그리고 현대대수 내 모든 세부분야가 0을 자연수로 취급하는 것도 아닙니다. 위키피디아에서는 이렇게 명시하고 있기는 합니다:
 > Mathematicians have noted tendencies in which definition is used, such as algebra texts including 0, number theory and analysis texts excluding 0, logic and set theory texts including 0, dictionaries excluding 0, school books (through high-school level) excluding 0, and upper-division college-level books including 0.
 >
 > 수학들은 (자연수 집합에 대한) 어떤 정의가 쓰이는 지에 대해 경향성에 대해 지적했습니다: 대수학 교재들은 보통 0을 포함, 수론 및 해석학 교재들은 보통 0을 제외, 논리 및 집합론 교재들은 0을 포함. 사전들은 0을 제외. 고교 과정까지의 교과서들은 0을 제외. 학부 수준의 책들은 0을 포함.
@@ -35,7 +35,7 @@ published: true
 
 ------
 
-### 2. "학부 수준에서 '수학적 기초론'에 빠지는 것은 **위험**하다.' (이인석 저, "선형대수와 군", p.55, 주석 22, 개정판 2쇄, 2016, 서울대학교출판문화원.)
+### 2. "학부 수준에서 '수학적 기초론'에 빠지는 것은 **위험**하다." (이인석 저, "선형대수와 군", p.55, 주석 22, 개정판 2쇄, 2016, 서울대학교출판문화원.)
 
 해당 분야를 공부하는 입장에서 할 말이 굉장히 많아지는 발언입니다만, 공개적으로 해도 괜찮은 선에서 타협해봅시다. 우선 해당 발언이 나왔을 만한 맥락에 대해 짐작해보는 것부터 합시다. 제가 이인석 교수님의 수업을 직접 들어본 것도 아니고 그 분의 생애에 대해 아는 것도 없으니 순전히 짐작밖에 할 수 없습니다만, 몇 가지 짐작해볼 만한 단서는 있습니다.
 
@@ -92,7 +92,7 @@ published: true
 ($\mathsf{PFA}$는 $\mathbb{R}$의 부분집합 중 크기가 $\aleph_1$인 것이 모두 순서동형임을 또한 증명합니다.)
 - 모든 비-린될레프 공간은 비가산 이산 부분공간을 갖는다.
 
-(참고: Justin T. Moore. **The proper forcing axiom.** Proceedings of the International Congress of Mathematicians. Volume II, 3–29.)
+(참고: Justin T. Moore. **The proper forcing axiom.** Proceedings of the International Congress of Mathematicians. Volume II, 3–29. Hindustan Book Agency, New Delhi; distributed by 2010.)
 
 따라서 진강제법 공리는 "집합론적 우주의 폭을 극대화"할뿐 아니라 "유용"하니 받아들여져야 할 공리이고, 이는 연속체 가설을 부정하므로 연속체 가설이 거짓이란 논증을 할 수 있습니다. 물론 진강제법 공리가 다른 공리들만큼 자연스러운 공리느냐는 반론 또한 가능할 것입니다.
 
@@ -100,7 +100,7 @@ published: true
 
 > **정리.** (Foreman, Woodin) 만약 $\omega_2$ 위에 $\omega_1$-dense ideal이 존재한다면 연속체 가설이 성립한다.
 
-(참고: Matthew Foreman, **Generic large cardinals: new axioms for mathematics?** Proceedings of the International Congress of Mathematicians, Vol. II (Berlin, 1998) Doc. Math.,Extra Vol. II(1998), 11–21.)
+(참고: Matthew Foreman, **Generic large cardinals: new axioms for mathematics?** Proceedings of the International Congress of Mathematicians, Vol. II (Berlin, 1998) Doc. Math., Extra Vol. II(1998), 11–21.)
 
 그 외로도 연속체 가설에 대한 여러 입장들과 논지들이 있지만, 이 글에서는 여기까지만 하려고 합니다. 다른 논지 중 일부는 [제 과거 글](../History-of-set-theory-in-perspective-of-continuum-hypothesis/)에서 찾아볼 수 있습니다. 그리고 이런 논지들 중 일부는 공리의 유용성에만 의존하지 않는다는 데서, 두 번째 문항에 대해서도 답이 될 것 같습니다.
 
