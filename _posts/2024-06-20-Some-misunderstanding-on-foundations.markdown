@@ -98,7 +98,7 @@ published: true
 
 그 외로, Matthew Foreman 등은 작은 기수가 거대 기수 성질을 가진다는 가정 하에서 연속체 가설이 결정될 수 있다는 것을 발견합니다. Generic large cardinals이라고 불리는 이 성질들은 아이디얼 (ideal)의 saturation, denseness 등으로도 기술되는데, 이와 관련된 명제를 몇 적자면 이러합니다:
 
-> **정리.** (Foreman, Woodin) 만약 $\omega_1$ 위에 $\omega_1$-dense ideal이 존재한다면 연속체 가설이 성립한다.
+> **정리.** (Foreman, Woodin) 만약 $\omega_2$ 위에 $\omega_1$-dense ideal이 존재한다면 연속체 가설이 성립한다.
 
 (참고: Matthew Foreman, **Generic large cardinals: new axioms for mathematics?** Proceedings of the International Congress of Mathematicians, Vol. II (Berlin, 1998) Doc. Math.,Extra Vol. II(1998), 11–21.)
 
