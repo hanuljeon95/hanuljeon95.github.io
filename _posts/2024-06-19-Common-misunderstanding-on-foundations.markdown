@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "수학기초론에 대한 몇몇 오해"
-date:   2024-06-19 16:00:00 +0900
+date:   2024-06-20 14:47:00 +0900
 categories: posts 
 tags: 
   - foundation of mathematics
@@ -102,7 +102,7 @@ published: true
 
 (참고: Matthew Foreman, **Generic large cardinals: new axioms for mathematics?** Proceedings of the International Congress of Mathematicians, Vol. II (Berlin, 1998) Doc. Math.,Extra Vol. II(1998), 11–21.)
 
-그 외로도 연속체 가설에 대한 여러 입장들과 논지들이 있지만, 이 글에서는 여기까지만 하려고 합니다. 다른 논지 중 일부는 [제 과거 글](../2020-06-10-History-of-set-theory-in-perspective-of-continuum-hypothesis)에서 찾아볼 수 있습니다. 그리고 이런 논지들 중 일부는 공리의 유용성에만 의존하지 않는다는 데서, 두 번째 문항에 대해서도 답이 될 것 같습니다.
+그 외로도 연속체 가설에 대한 여러 입장들과 논지들이 있지만, 이 글에서는 여기까지만 하려고 합니다. 다른 논지 중 일부는 [제 과거 글](../History-of-set-theory-in-perspective-of-continuum-hypothesis)에서 찾아볼 수 있습니다. 그리고 이런 논지들 중 일부는 공리의 유용성에만 의존하지 않는다는 데서, 두 번째 문항에 대해서도 답이 될 것 같습니다.
 
 ----
 
