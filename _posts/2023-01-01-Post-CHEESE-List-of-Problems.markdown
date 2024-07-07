@@ -13,7 +13,7 @@ published: true
 
 After [CHEESE workshop](http://karagila.org/cheese/), I had a short discussion with Richard Matthews, and we listed some open problems that might be interesting for future studies. I posted this list with Matthews' permission. I also added my own problems that were not mentioned during the discussion.
 
-1. Work over $\mathsf{ZF}$, suppose that $X$ is a transitive model of second-order $\mathsf{ZF}^-$, the theory obtained from the second-order $\mathsf{ZF}$ by removing Powerset and adding the second-order Collection. Then do we have $X=H(\kappa)$ for $\kappa=\mathrm{Ord}\cap X$?
+1. Working over $\mathsf{ZF}$, suppose that $X$ is a transitive model of second-order $\mathsf{ZF}^-$, the theory obtained from the second-order $\mathsf{ZF}$ by removing Powerset and adding the second-order Collection. Then do we have $X=H(\kappa)$ for $\kappa=\mathrm{Ord}\cap X$?
    
    Here we define $H(\kappa)$ by the set of all $x$ such that there is no surjection from $\operatorname{trcl}(x)$ to $\kappa$. $H(\kappa)$ is a set by [AK21].[^1] Note that $\kappa$ is regular:
   
@@ -24,11 +24,15 @@ After [CHEESE workshop](http://karagila.org/cheese/), I had a short discussion w
 1. Can we find a better upper bound for the consistency strength of $\mathsf{ZF^-}_j$ with $j\colon V\to V$? How about with the cofinality of $j$? The current upper bound for $\mathsf{ZF^-}_j$ with $j\colon V\to V$ is $\mathsf{ZFC}$ with $\mathrm{I}_1$, but I believe we can derive a sharp bound in terms of $\mathsf{KM}$ with a form of Wholeness axiom. Regarding the cofinality of $j$, there is no known bound in terms of $\mathsf{ZFC}$ with large cardinals. 
 
 1. Does $\mathsf{Con(ZF+WA)}$ prove $\mathsf{Con(ZFC+WA)}$?
-  This problem is related to how to force Choice while preserving very large cardinals, usually beyond supercompactness.
-
-1. Work over $\mathsf{ZF^-}_j$ with a cofinal elementary embedding $j\colon V\to V$ with a critical point $\kappa$. Then the successor cardinal $\lambda^+$ of $\lambda=j^\omega(\kappa)$ exists?
+   This problem is related to how to force Choice while preserving very large cardinals, usually beyond supercompactness.
    
-   Matthews [M22] proves $\mathsf{ZFC}^-\_j$ with $j\colon V\to V$ cannot be cofinal if $V_\kappa$ exists. Hayut (on the last day of CHEESE) proved that the cofinal $j$ does not exist even if we do not assume the existence of $V_\kappa$.
+   *(A comment added on 2024/06/21) I guess the answer is yes. It should follow from modifying [Goldberg's argument on the following linked MO answer.](https://mathoverflow.net/a/438413/48041)*
+
+1. Working over $\mathsf{ZF^-}_j$ with a cofinal elementary embedding $j\colon V\to V$ with a critical point $\kappa$. Then does the successor cardinal $\lambda^+$ of $\lambda=j^\omega(\kappa)$ exist?
+   
+   Matthews [M22] proves $\mathsf{ZFC}^-\_j$ with $j\colon V\to V$ cannot be cofinal if $V_\kappa$ exists. Hayut (on the last day of CHEESE, unpublished, but see [J24]) proved that the cofinal $j$ does not exist even if we do not assume the existence of $V_\kappa$.
+   
+   *(A comment added on 2024/06/21) [My recent work](https://arxiv.org/abs/2406.10698) [J24] claims the consistency of $\mathsf{ZF}^-$ with a cofinal Reinhardt embedding follows from $\mathsf{ZFC}$ with I0.*
 
 1. Is there any good way to produce a model of $\mathsf{ZF}^-_j$ with $j\colon V\to V$ from $\mathsf{ZF}$ with a Reinhardt cardinal? Currently, there is no known way for it.
    
@@ -48,7 +52,8 @@ Here is list of my own questions:
 
 ## References
 
-* [AK21]  David Asperó and Asaf Karagila, **Dependent choice, properness, and generic absoluteness.** *Rev. Symb. Log.* 14 (2021), no. 1, 225–249.
+* [AK21] David Asperó and Asaf Karagila, **Dependent choice, properness, and generic absoluteness.** *Rev. Symb. Log.* 14 (2021), no. 1, 225–249.
+* [J24] Hanul Jeon, **On a cofinal Reinhardt embedding without Powerset**, arXiv preprint [arXiv:2406.10698](https://arxiv.org/abs/2406.10698).
 * [M22] Richard Matthews, **Taking Reinhadt's Power Away.** *J. Symb. Log.* 87 (2022), no. 4, 1643–1662.
 * [Z14] Albert Ziegler, **Large sets in constructive set theory.** PhD Thesis, University of Leeds, 2014.
 
