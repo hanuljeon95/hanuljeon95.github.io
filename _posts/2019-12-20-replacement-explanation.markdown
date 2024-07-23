@@ -12,7 +12,7 @@ tags:
 
 [체르멜로-프렝켈 집합론](https://ko.wikipedia.org/wiki/%EC%B2%B4%EB%A5%B4%EB%A9%9C%EB%A1%9C-%ED%94%84%EB%A0%9D%EC%BC%88_%EC%A7%91%ED%95%A9%EB%A1%A0) (이하 ZF)을 다룰 때 언급되는 공리 중 하나로 치환공리가 있다. 치환공리의 형식적인 기술을 적자면 다음과 같다: 임의의 1차 술어식 $\phi(x,y)$에 대해 
 
-$$\forall X (\forall x\in A\exists! y \phi(x,y) \to \exists Y\forall x\in X \exists y\in Y \phi(x,y))$$
+$$\forall X (\forall x\in X\exists! y \phi(x,y) \to \exists Y\forall x\in X \exists y\in Y \phi(x,y))$$
 
 인 것이다.
 
