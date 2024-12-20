@@ -15,7 +15,7 @@ Publications
 Preprints
 ------------
 
-1. **On a cofinal Reinhardt embedding without Powerset**, arXiv preprint [arXiv:2406.10698](https://arxiv.org/abs/2406.10698) [(Slide)](../files/Presentation_Cofinal_Reinhardt_Embedding.pdf)
+1. **On a cofinal Reinhardt embedding without Powerset**, arXiv preprint [arXiv:2406.10698](https://arxiv.org/abs/2406.10698). [(Slide)](../files/Presentation_Cofinal_Reinhardt_Embedding.pdf)
 1. **The behavior of higher proof theory I: Case $\Sigma^1_2$**, arXiv preprint [arXiv:2406.03801](https://arxiv.org/abs/2406.03801)
 1. **Generalized ordinal analysis and reflection principles in set theory** (with James Walsh), arXiv preprint [arXiv:2312.12859](https://arxiv.org/abs/2312.12859)
 1. **The proof-theoretic strength of Constructive Second-order set theories**, arXiv preprint [arXiv:2312.12854](https://arxiv.org/abs/2312.12854)
@@ -26,7 +26,7 @@ Preprints
 Notes
 ------------
 
-1. **Fixed point recursive ordinal functions**. Unpublished. [(Link)](../files/Fixed_point_recursive_ordinal_functions.pdf).
+1. [**Fixed point recursive ordinal functions**](../files/Fixed_point_recursive_ordinal_functions.pdf). Unpublished.
 1. **How strong is a Reinhardt set over extensions of CZF?**. arXiv preprint [arXiv:2101.07455](https://arxiv.org/abs/2101.07455). (Merged into [arXiv:2204.05831](https://arxiv.org/abs/2204.05831).)
 1. [**Goodstein's theorem**](../files/Goodstein.pdf) (Korean) *Manuscript for Madmathematics seminar.* (Oct 2016, Revised: Apr 2021).
 1. **What is forcing?** (Korean) *Manuscript for Madmathematics seminar.* (Nov 2015).
@@ -36,5 +36,5 @@ Notes
 Slides
 ------------
 
-1. **Consequences of the axiom of choice.** Olivetti seminar. March 2022. [(Slide)](../files/2022Spring_AC_Olivetti.pdf).
+1. **Consequences of the axiom of choice.** Olivetti seminar. March 2022. [(Slide)](../files/2022Spring_AC_Olivetti.pdf)
 2. **Proof theory for higher pointclasses.** Logic and Computation Seminar at UPenn. April 2024 [(Slide)](../files/Presentation_HigherProofTheory.pdf)
