@@ -15,7 +15,8 @@ Publications
 Preprints
 ------------
 
-1. **On a cofinal Reinhardt embedding without Powerset**, arXiv preprint [arXiv:2406.10698](https://arxiv.org/abs/2406.10698). [(Slide)](../files/Presentation_Cofinal_Reinhardt_Embedding.pdf)
+1. 
+1. **On a cofinal Reinhardt embedding without Powerset**, arXiv preprint [arXiv:2406.10698](https://arxiv.org/abs/2406.10698). [(Slide)](../files/PohlersOrdinalandPTD2025KoreaLogicDay.pdf)
 1. **The behavior of higher proof theory I: Case $\Sigma^1_2$**, arXiv preprint [arXiv:2406.03801](https://arxiv.org/abs/2406.03801)
 1. **Generalized ordinal analysis and reflection principles in set theory** (with James Walsh), arXiv preprint [arXiv:2312.12859](https://arxiv.org/abs/2312.12859)
 1. **The proof-theoretic strength of Constructive Second-order set theories**, arXiv preprint [arXiv:2312.12854](https://arxiv.org/abs/2312.12854)
