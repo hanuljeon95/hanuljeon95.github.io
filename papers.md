@@ -9,8 +9,8 @@ Please contact me if you need my publications that are not published or linked.
 Publications
 ------------
 
-1. **On a cofinal Reinhardt embedding without Powerset**, To appear in: *Fundamenta Mathematicae.* arXiv preprint [arXiv:2406.10698](https://arxiv.org/abs/2406.10698). [(Slide)](../files/Presentation_Cofinal_Reinhardt_Embedding.pdf)
-1. **The proof-theoretic strength of Constructive Second-order set theories**, To appear in: *Notre Dame Journal of Formal Logic.* arXiv preprint [arXiv:2312.12854](https://arxiv.org/abs/2312.12854)
+1. **On a cofinal Reinhardt embedding without Powerset**, *Fundamenta Mathematicae* (2025) Vol. 270 (2), 177-200 arXiv preprint [arXiv:2406.10698](https://arxiv.org/abs/2406.10698). [(Slide)](../files/Presentation_Cofinal_Reinhardt_Embedding.pdf)
+1. **The proof-theoretic strength of Constructive Second-order set theories**, *Notre Dame Journal of Formal Logic.* (2025) Vol. 66 (3) pp. 413-431 arXiv preprint [arXiv:2312.12854](https://arxiv.org/abs/2312.12854)
 1. **On Separating Wholeness axioms**, To appear in: *Journal of Symbolic Logic.* arXiv preprint [arXiv:2308.03649](https://arxiv.org/abs/2308.03649). [(Slide)](../files/Wholeness_2024KoreaLogicDay.pdf)
 1. **Very large set axioms over constructive set theories** (with Richard Matthews), *Bulletin of Symbolic Logic* (2024) Vol. 30 (4) pp. 455-535. [arXiv:2204.05831](https://arxiv.org/abs/2204.05831). [(Slide)](../files/Presentation_LargeSetsOverConstructiveSetTheories.pdf)
 1. **Constructive Ackermann's interpretation**, *Annals of Pure and Applied Logic* (2022) Vol. 173 (5), 103086, 19 pages. [arXiv:2010.04270](http://arxiv.org/abs/2010.04270). [(Slide)](../files/Jeon_20210214_slide.pdf)
