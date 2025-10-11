@@ -25,12 +25,12 @@ published: true
 \\[ S <\_{\mathsf{Con}} T \iff T\vdash \mathsf{Con}(T) \\]
 
 와 같이 비교하는 것이 옳다고 할 수 있겠다.
-$<_{\mathsf{Con}}$는 꽤 "불규칙하게" 행동하지만^[1], "자연스러운" 이론들에 대해서는 $<_{\mathsf{Con}}$이 정렬순서를 이룬다고 흔히 주장되어왔다.
+$<\_{\mathsf{Con}}$는 꽤 "불규칙하게" 행동하지만^[1], "자연스러운" 이론들에 대해서는 $<\_{\mathsf{Con}}$이 정렬순서를 이룬다고 흔히 주장되어왔다.
 
 만약 "자연스러운" 이론들 간의 "세기"를 항상 비교할 수 있다면, 그 세기를 어떻게 표현할 지도 물을 수 있다. 집합의 경우, 이것이 유일한 방법은 아니긴 해도, 집합의 rank를 이용해서 얼마나 복잡한 지 잴 수 있다. 하지만 이론들의 경우에는 상황이 좀 더 복집하다. 가령 증명론적 서수를 사용해서 비교하겠다고 하면, 서로 "세기가 다른" 두 이론이 같은 증명론적 서수를 갖기도 하고^[2], 굉장히 센 이론들의 증명론적 서수는 우리들이 모르기도 하다.^[3] 그럼에도, 마치 모스 굳기계를 이용해서 다른 광물들의 상대적 굳기를 표현하듯, 특정한 이론들을 내세워서 다른 이론들의 세기를 표현할 수 있다. 집합론에서는 $\mathsf{ZFC}$에 large cardinal axiom을 더한 이론들이 그 역할을 하고, 역수학에서는 소위 big five라고 불리는 이차 산술들의 subsystem이나 그 변형들이 그 역할을 한다. 가령 이런 식으로:
 > **정리.**
 > 1. (Solovay) 만약 $\mathsf{ZFC}$ + "inaccessible cardinal이 있다"가 무모순하면, $\mathsf{ZF+DC}$ + "모든 $\mathbb{R}$의 부분집합이 르벡 가측이다" 도 무모순하다.
-> 2. (Shelah) $\mathsf{ZF+DC}$는 다음을 증명한다: 만약 모든 $\mathbf{\Sigma}^1_3$ 집합이 르벡 가측이면 $\omega_1^V$는 $L$ 위에서 inaccessible cardinal이다. 특히, $\mathsf{ZF+DC}$ + "모든 $\mathbb{R}$의 부분집합이 르벡 가측이다"가 무모순하면 $\mathsf{ZFC}$ + "inaccessible cardinal이 있다"도 무모순하다.
+> 2. (Shelah) $\mathsf{ZF+DC}$는 다음을 증명한다: 만약 모든 $\mathbf{\Sigma}^1\_3$ 집합이 르벡 가측이면 $\omega\_1^V$는 $L$ 위에서 inaccessible cardinal이다. 특히, $\mathsf{ZF+DC}$ + "모든 $\mathbb{R}$의 부분집합이 르벡 가측이다"가 무모순하면 $\mathsf{ZFC}$ + "inaccessible cardinal이 있다"도 무모순하다.
 
 여기서는, $\mathsf{ZF+DC}$ + "모든 $\mathbb{R}$의 부분집합이 르벡 가측이다" 라는 이론의 세기를 $\mathsf{ZFC}$ + "inaccessible cardinal이 있다"라는 $\mathsf{ZFC}$의 확장을 이용해서 표현하고 있다. 다만 이렇게 깔끔하게 딱 떨어지는 경우는 많지는 않고, upper bound만 아는 경우도 많다. 가령,
 
