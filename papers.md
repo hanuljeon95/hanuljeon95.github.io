@@ -42,4 +42,3 @@ Slides
 ------------
 
 1. **Consequences of the axiom of choice.** Olivetti seminar. March 2022. [(Slide)](../files/2022Spring_AC_Olivetti.pdf)
-2. **Proof theory for higher pointclasses.** Logic and Computation Seminar at UPenn. April 2024 [(Slide)](../files/Presentation_HigherProofTheory.pdf)
