@@ -28,7 +28,7 @@ Preprints
 
 Thesis
 ------------
-1. [**Proof theory for higher pointclasses**](../files/PhD_Thesis.pdf). Doctoral dissertation. 2026. [(Slide)](../files/PhD_Defense.pdf)
+1. [**Proof theory for higher pointclasses**](../files/PhD_Thesis.pdf). Doctoral dissertation. 2026. [(Slide)](../files/PhD_Defense.pdf) [(Errata)](../files/Thesis_errata.pdf)
 
 
 Notes
