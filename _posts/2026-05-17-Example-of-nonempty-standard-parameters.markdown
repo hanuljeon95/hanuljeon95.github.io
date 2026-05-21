@@ -11,11 +11,11 @@ tags:
 published: true
 ---
 
-The first projectum $\rho^{J_\alpha}\_1$ of $J_\alpha$ is the least ordinal $\rho$ such that there is $p\in \[\mathrm{Ord]^{<\omega}\]$ such that
+The first projectum $\rho^{J_\alpha}\_1$ of $J_\alpha$ is the least ordinal $\rho$ such that there is $p\in \[\mathrm{Ord}]^{<\omega}\]$ such that
 
 $$\operatorname{Th}^{J_\alpha}_{\Sigma_1}(\rho\cup \{p\}) \notin J_\alpha.$$
 
-The standard parameter $p^{J_\alpha}\_1$ of $J\_\alpha$ is the least lexicographical $p\in\[\mathrm{Ord}]^{<\omega}}\]$ satisfying the above formula with $\rho =\rho^{J\_\alpha}\_1$.
+The standard parameter $p^{J_\alpha}\_1$ of $J\_\alpha$ is the least lexicographical $p\in\[\mathrm{Ord}^{<\omega}}\]$ satisfying the above formula with $\rho =\rho^{J\_\alpha}\_1$.
 
 In many easy cases, $p^{J\_\alpha}\_1 = \varnothing$; Like, when $\alpha=\omega\_n^\mathsf{CK}$, least recursively inaccessible, recursively Mahlo, etc. Here let me present an example of $\alpha$ with $p^{J\_\alpha}_1\neq \varnothing$.
 
