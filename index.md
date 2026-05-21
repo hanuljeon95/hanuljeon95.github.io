@@ -3,7 +3,7 @@ title: "About"
 layout: page
 ---
 
-My name is Hanul Jeon (pronunciation: /hanul.dʑʌn/). I did my PhD at Cornell University from August 2021 to May 2026. My advisors were [Justin Moore](https://pi.math.cornell.edu/~justin/) and [James Walsh](https://www.jameswalsh.org/). I will begin my posdoctoral position at [TU Wien Institute of Discrete Mathematics and Geometry](https://www.tuwien.at/mg/dmg/).
+My name is Hanul Jeon (pronunciation: /hanul.dʑʌn/). I did my PhD at Cornell University from August 2021 to May 2026. My advisors were [Justin Moore](https://pi.math.cornell.edu/~justin/) and [James Walsh](https://www.jameswalsh.org/). I will begin my postdoctoral position at [TU Wien Institute of Discrete Mathematics and Geometry](https://www.tuwien.at/mg/dmg/) in September 2026.
 
 I am interested in logic, including set theory, proof theory, and constructive mathematics, and my current interest is a descriptive set-theoretic structure appearing in ordinal analysis or its higher analogues.
 
