@@ -28,4 +28,4 @@ In many easy cases, $p^{J\_\alpha}\_1 = \varnothing$; Like, when $\alpha=\omega\
 > 
 > * $J\_{\sigma\_1} = \operatorname{Hull}^{J\_{\sigma\_1}}\_{\Sigma\_1}(\sigma\_0\cup \{\sigma\_0\})$.
 >
-> We can also see that $J\_{\sigma\_1} = \operatorname{Hull}^{J\_{\sigma_1}}\_{\Sigma\_1}(\{\sigma\_0\})$, so $\rho^{J\_{\sigma\_i}}\_1 = \omega$ for $i=0,1$. We also have that $p^{J\_{\sigma\_1}}\_1\le\_\mathrm{lex} \{\sigma_0\}$. $p^{J_{\sigma_1}}_1$ cannot be smaller since if $q\subseteq \sigma_0$ is finite, then $\operatorname{Hull}^{J\_{\sigma\_1}}\_{\Sigma\_1}(\{q\}) = J\_{\sigma\_0}$.
+> We can also see that $J\_{\sigma\_1} = \operatorname{Hull}^{J\_{\sigma_1}}\_{\Sigma\_1}(\{\sigma\_0\})$, so $\rho^{J\_{\sigma\_i}}\_1 = \omega$ for $i=0,1$. We also have that $p^{J\_{\sigma\_1}}\_1\le\_\mathrm{lex} \\{\sigma_0\\}$. $p^{J_{\sigma_1}}_1$ cannot be smaller since if $q\subseteq \sigma_0$ is finite, then $\operatorname{Hull}^{J\_{\sigma\_1}}\_{\Sigma\_1}(\{q\}) = J\_{\sigma\_0}$.
