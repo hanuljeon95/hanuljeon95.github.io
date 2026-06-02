@@ -9,11 +9,11 @@ Please contact me if you need my publications that are not published or linked.
 Publications
 ------------
 
-1. **Generalized ordinal analysis and reflection principles in set theory** (with James Walsh), to appear in: *Jounral of Symbolic Logic*. [arXiv:2312.12859](https://arxiv.org/abs/2312.12859)
+1. **Generalized ordinal analysis and reflection principles in set theory** (with [James Walsh](https://www.jameswalsh.org/)), to appear in: *Jounral of Symbolic Logic*. [arXiv:2312.12859](https://arxiv.org/abs/2312.12859)
 1. **On a cofinal Reinhardt embedding without Powerset**, *Fundamenta Mathematicae* (2025) Vol. 270 (2), 177-200. arXiv preprint [arXiv:2406.10698](https://arxiv.org/abs/2406.10698). [(Slide)](../files/Presentation_Cofinal_Reinhardt_Embedding.pdf)
 1. **The proof-theoretic strength of Constructive Second-order set theories**, *Notre Dame Journal of Formal Logic.* (2025) Vol. 66 (3) pp. 413-431 arXiv preprint [arXiv:2312.12854](https://arxiv.org/abs/2312.12854)
 1. **On Separating Wholeness axioms**, *Journal of Symbolic Logic* (2026) Vol. 91 (1), 369-392. arXiv preprint [arXiv:2308.03649](https://arxiv.org/abs/2308.03649). [(Slide)](../files/Wholeness_2024KoreaLogicDay.pdf)
-1. **Very large set axioms over constructive set theories** (with Richard Matthews), *Bulletin of Symbolic Logic* (2024) Vol. 30 (4) pp. 455-535. [arXiv:2204.05831](https://arxiv.org/abs/2204.05831). [(Slide)](../files/Presentation_LargeSetsOverConstructiveSetTheories.pdf)
+1. **Very large set axioms over constructive set theories** (with [Richard Matthews](https://richardmatthewslogic.github.io/)), *Bulletin of Symbolic Logic* (2024) Vol. 30 (4) pp. 455-535. [arXiv:2204.05831](https://arxiv.org/abs/2204.05831). [(Slide)](../files/Presentation_LargeSetsOverConstructiveSetTheories.pdf)
 1. **Constructive Ackermann's interpretation**, *Annals of Pure and Applied Logic* (2022) Vol. 173 (5), 103086, 19 pages. [arXiv:2010.04270](http://arxiv.org/abs/2010.04270). [(Slide)](../files/Jeon_20210214_slide.pdf)
 1. **Comparison between the Wiener index and the Zagreb indices and the eccentric connectivity index for trees.** (with Kinkar Chandra Das and Nenad Trinajstić), *Discrete Applied Mathematics* (2014) 171: 35-41.
 
@@ -21,7 +21,8 @@ Publications
 Preprints
 ------------
 
-1. **Ranking theories via encoded $\beta$-models** (with Patrick Lutz, Fedor Pakhomov, and James Walsh), arXiv preprint [arXiv:2503.12713](https://arxiv.org/abs/2503.20470).
+1. **The Axiom of Double Complement and its opposites** (with [James E. Hanson](https://james-hanson.github.io)), arXiv preprint [arXiv:2606.00861](https://arxiv.org/abs/2606.00861).
+1. **Ranking theories via encoded $\beta$-models** (with [Patrick Lutz](https://websites.umich.edu/~pglutz/), [Fedor Pakhomov](https://homepage.mi-ras.ru/~pakhfn/), and [James Walsh](https://www.jameswalsh.org/)), arXiv preprint [arXiv:2503.12713](https://arxiv.org/abs/2503.20470).
 1. **Martin's Measurable Dilator**, arXiv preprint [arXiv:2503.12713](https://arxiv.org/abs/2503.12713).
 1. **Proof-theoretic dilator and intermediate pointclasses**, arXiv preprint [arXiv:2501.11220](https://arxiv.org/abs/2501.11220). [(Slide)](../files/PohlersOrdinalandPTD2025KoreaLogicDay.pdf)
 1. **The behavior of higher proof theory I: Case $\Sigma^1_2$**, arXiv preprint [arXiv:2406.03801](https://arxiv.org/abs/2406.03801)
