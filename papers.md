@@ -21,8 +21,9 @@ Publications
 Preprints
 ------------
 
+1. **Dilator-based analysis of $\mathsf{KP}$, arXiv preprint [arXiv:2608.29157](https://arxiv.org/abs/2608.29157).
 1. **The Axiom of Double Complement and its opposites** (with [James E. Hanson](https://james-hanson.github.io)), arXiv preprint [arXiv:2606.00861](https://arxiv.org/abs/2606.00861).
-1. **Ranking theories via encoded $\beta$-models** (with [Patrick Lutz](https://websites.umich.edu/~pglutz/), [Fedor Pakhomov](https://homepage.mi-ras.ru/~pakhfn/), and [James Walsh](https://www.jameswalsh.org/)), arXiv preprint [arXiv:2503.12713](https://arxiv.org/abs/2503.20470).
+1. **Ranking theories via encoded $\beta$-models** (with [Patrick Lutz](https://websites.umich.edu/~pglutz/), [Fedor Pakhomov](https://homepage.mi-ras.ru/~pakhfn/), and [James Walsh](https://www.jameswalsh.org/)), arXiv preprint [arXiv:2503.20470](https://arxiv.org/abs/2503.20470).
 1. **Martin's Measurable Dilator**, arXiv preprint [arXiv:2503.12713](https://arxiv.org/abs/2503.12713).
 1. **Proof-theoretic dilator and intermediate pointclasses**, arXiv preprint [arXiv:2501.11220](https://arxiv.org/abs/2501.11220). [(Slide)](../files/PohlersOrdinalandPTD2025KoreaLogicDay.pdf)
 1. **The behavior of higher proof theory I: Case $\Sigma^1_2$**, arXiv preprint [arXiv:2406.03801](https://arxiv.org/abs/2406.03801)
