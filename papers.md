@@ -21,7 +21,7 @@ Publications
 Preprints
 ------------
 
-1. **Dilator-based analysis of $\mathsf{KP}$**, arXiv preprint [arXiv:2608.29157](https://arxiv.org/abs/2608.29157).
+1. **Dilator-based analysis of $\mathsf{KP}$**, arXiv preprint [arXiv:2608.29157](https://arxiv.org/abs/2608.29157). [(Slide)](../files/KP_2026_09_Wuerzburg.pdf)
 1. **The Axiom of Double Complement and its opposites** (with [James E. Hanson](https://james-hanson.github.io)), arXiv preprint [arXiv:2606.00861](https://arxiv.org/abs/2606.00861).
 1. **Ranking theories via encoded $\beta$-models** (with [Patrick Lutz](https://websites.umich.edu/~pglutz/), [Fedor Pakhomov](https://homepage.mi-ras.ru/~pakhfn/), and [James Walsh](https://www.jameswalsh.org/)), arXiv preprint [arXiv:2503.20470](https://arxiv.org/abs/2503.20470).
 1. **Martin's Measurable Dilator**, arXiv preprint [arXiv:2503.12713](https://arxiv.org/abs/2503.12713).
@@ -31,6 +31,8 @@ Preprints
 Thesis
 ------------
 1. [**Proof theory for higher pointclasses**](../files/PhD_Thesis.pdf). Doctoral dissertation. 2026. [(Slide)](../files/PhD_Defense.pdf) [(Errata)](../files/Thesis_errata.pdf)
+
+*Note (Added 2026-07-27). I found errors in Chapters D and E. In particular, the current formulation of the cell decomposition of 2-preptykes is incorrect. The errata will be updated accordingly.*
 
 
 Notes
