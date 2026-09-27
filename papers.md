@@ -32,7 +32,7 @@ Thesis
 ------------
 1. [**Proof theory for higher pointclasses**](../files/PhD_Thesis.pdf). Doctoral dissertation. 2026. [(Slide)](../files/PhD_Defense.pdf) [(Errata)](../files/Thesis_errata.pdf)
 
-*Note (Added 2026-07-27). I found errors in Chapters D and E. In particular, the current formulation of the cell decomposition of 2-preptykes is incorrect. The errata will be updated accordingly.*
+*Note (Added 2026-09-27). I found errors in Chapters D and E. In particular, the current formulation of the cell decomposition of 2-preptykes is incorrect. The errata will be updated accordingly.*
 
 
 Notes
